@@ -1,0 +1,53 @@
+{
+  "name": "varjo.ktto.fi",
+  "version": "0.0.1",
+  "description": "KTTO ry:n varjo-opinto-opas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 🚔",
+    "start": "node index.js",
+    "start:prod": "sudo NODE_ENV=production PORT=80 node index.js",
+    "build": "npm run build:js; npm run build:css;",
+    "build:js": "browserify src/js/main.js -o public/js/all.min.js -t babelify",
+    "build:css": "node-sass src/sass/main.sass public/css/all.min.css",
+    "build:prod": "NODE_ENV=production npm run build",
+    "watch": "npm run watch:js & npm run watch:css & npm run watch:server",
+    "watch:js": "watchify src/js/main.js -vo public/js/all.min.js -t babelify",
+    "watch:css": "node-sass -w src/sass/main.sass public/css/all.min.css",
+    "watch:server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juhohei/varjo.ktto.fi.git"
+  },
+  "author": "Juho Heinisuo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juhohei/varjo.ktto.fi/issues"
+  },
+  "homepage": "https://github.com/juhohei/varjo.ktto.fi#readme",
+  "dependencies": {
+    "babel-register": "^6.18.0",
+    "baconjs": "^0.7.87",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "marked": "^0.3.6",
+    "node-fetch": "^1.6.3",
+    "ramda": "^0.22.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-mini-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "node-sass": "^3.10.1",
+    "nodemon": "^1.11.0",
+    "watchify": "^3.7.0"
+  }
+}
