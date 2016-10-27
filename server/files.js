@@ -2,6 +2,8 @@ import Bluebird  from 'bluebird'
 import R         from 'ramda'
 import {resolve} from 'path'
 
+import {normalize} from '../src/js/util'
+
 const fs          = Bluebird.promisifyAll(require('fs'))
 const {execAsync} = Bluebird.promisifyAll(require('child_process'))
 
@@ -43,10 +45,3 @@ function getFilename (course) {
   return  `${DATA_DIR}/${normalize(course)}.md`
 }
 
-function normalize (string) {
-  return kebabCase(string.normalize('NFKD').replace(/[\u0300-\u036F]/g, ''))
-}
-
-function kebabCase (string) {
-  return string.toLowerCase().replace(/\s+/g, '-')
-}

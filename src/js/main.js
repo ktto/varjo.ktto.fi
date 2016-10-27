@@ -1,15 +1,15 @@
-import React    from 'react'
-import {render} from 'react-dom'
+import React     from 'react'
+import {render}  from 'react-dom'
+import R         from 'ramda'
+import {startApp} from 'megablob'
 
-import App from './components/App'
+import appState from './megablob/state'
+import App      from './components/App'
 
-
-function update (state) {
+startApp(window.INITIAL_STATE, appState, state => {
+  console.log(state)
   render(
-    <App {...state} history={true} onState={update}/>,
+    <App {...state} history={true}/>,
     document.getElementById('app')
   )
-}
-
-update(window.INITIAL_STATE)
-
+})

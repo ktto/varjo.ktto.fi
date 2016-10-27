@@ -1,6 +1,7 @@
 [
   {
     "title": "Matemaattisen analyysin kurssi",
+    "shortTitles": ["Analyysi 1"],
     "subject": "matematiikka",
     "material": [
       {
@@ -8,5 +9,15 @@
         "url": "randomstring.pdf"
       }
     ]
+  },
+  {
+    "title": "Matemaattisen analyysin jatkokurssi",
+    "shortTitles": ["Analyysi 2"],
+    "subject": "matematiikka"
+  },
+  {
+    "title": "Kaupunkitalous",
+    "shortTitles": ["KA 6d"],
+    "subject": "taloustiede"
   }
 ]

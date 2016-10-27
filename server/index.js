@@ -39,9 +39,13 @@ module.exports = function createServer () {
 
   app.get('*', (req, res) => {
     const {path} = req
-    const state  = {path, history: true}
-    const html   = renderToString(<App {...state}/>)
-    res.send(renderHTML(html, state))
+
+    files.getCourses()
+      .then(courses => {
+        const state  = {courses, filter: '', path, history: true}
+        const html   = renderToString(<App {...state}/>)
+        res.send(renderHTML(html, state))
+      })
   })
 
   return app

@@ -2,6 +2,7 @@ import React from 'react'
 
 export default React.createClass({
   render () {
-    return <div>{this.props.course}</div>
+    const {title} = this.props.course
+    return <div>{title}</div>
   }
 })
