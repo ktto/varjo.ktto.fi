@@ -31,7 +31,7 @@ export default React.createClass({
     return (
       <section>
         <Header title={title}/>
-        <div className="wrapper">
+        <div className="wrapper content">
           {this.renderCurrentRoute()}
         </div>
       </section>
