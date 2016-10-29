@@ -3,7 +3,11 @@ import R from 'ramda'
 export function courseMatchesFilter (filter) {
   const needle  = filter.toLowerCase()
   const matches = haystack => haystack.toLowerCase().indexOf(needle) > -1
-  return course => matches(course.title) || R.any(matches, course.shortTitles)
+  return course => (
+    matches(course.title)
+    || matches(course.subject)
+    || R.any(matches, course.shortTitles)
+  )
 }
 
 export function courseMatchesUrl (url) {

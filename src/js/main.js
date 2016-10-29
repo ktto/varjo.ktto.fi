@@ -7,7 +7,6 @@ import appState from './megablob/state'
 import App      from './components/App'
 
 startApp(window.INITIAL_STATE, appState, state => {
-  console.log(state)
   render(
     <App {...state} history={true}/>,
     document.getElementById('app')
