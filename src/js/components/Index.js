@@ -3,20 +3,18 @@ import R     from 'ramda'
 
 import {urlify} from '../util'
 
-export default ({courses}) => {
-  const subjects = R.compose(R.values, R.groupBy(R.prop('subject')))(courses)
+export default ({courses}) => (
+  <ul className="courses">
+    {R.pipe(
+      R.compose(R.values, R.groupBy(R.prop('subject'))),
+      R.map(renderSubject),
+      R.flatten
+    )(courses)}
+  </ul>
+)
 
-  return (
-    <ul className="courses">
-      {R.pipe(
-        R.map(subject => [
-          renderTitle(subject[0]),
-          R.map(renderCourse, subject)
-        ]),
-        R.flatten
-      )(subjects)}
-    </ul>
-  )
+function renderSubject (subject) {
+  return [renderTitle(subject[0]), R.map(renderCourse, subject)]
 }
 
 function renderTitle (course) {
