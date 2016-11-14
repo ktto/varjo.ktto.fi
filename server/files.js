@@ -18,7 +18,7 @@ const getCourses = req => cache(
 )
 
 const getCourse = req => cache(
-  req,
+  req.path,
   () => fs.readFileAsync(`${DATA_DIR}/${req.params.course}.md`, 'utf8')
 )
 
@@ -43,12 +43,17 @@ const commitAndPush = () => execAsync(
   'git commit -am "[update course data]" && git push'
 )
 
+const favicon = (req, res) => (
+  res.sendFile(resolve(__dirname, '..', 'public', 'ktto.png'))
+)
+
 export default {
   getCourses,
   getCourse,
   getCourseHistory,
   getCourseAt,
-  commitAndPush
+  commitAndPush,
+  favicon
 }
 
 function getFilename (course) {

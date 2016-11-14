@@ -1,11 +1,15 @@
 import express          from 'express'
 import parser           from 'body-parser'
+import fetch            from 'node-fetch'
+import Promise          from 'bluebird'
+import * as L           from 'partial.lenses'
 import React            from 'react'
 import {renderToString} from 'react-dom/server'
 import {resolve}        from 'path'
 
-import App   from '../src/js/components/App'
 import files from './files'
+import App   from '../src/js/components/App'
+import {contentIn, courseMatchesUrl} from '../src/js/util'
 
 module.exports = function createServer () {
 
@@ -19,33 +23,23 @@ module.exports = function createServer () {
   app.use('/api', api)
 
 
-  api.get('/courses', (req, res) => {
-    files.getCourses()
-      .then(data   => res.json(data))
-      .catch(error => res.status(500).json({error}))
-  })
+  api.get('/courses', handleRoute(files.getCourses))
+  api.get('/:course', handleRoute(files.getCourse))
+  api.get('/:course/history', handleRoute(files.getCourseHistory))
+  api.get('/:course/:commit', handleRoute(files.getCourseAt))
 
-  api.get('/:course/history', (req, res) => {
-    files.getCourseHistory(req.params.course, req.query.commit)
-      .then(content => res.json({content}))
-      .catch(error  => res.status(500).json({error}))
-  })
-
-  api.get('/:course/:commit', (req, res) => {
-    files.getCourseAt(req.params)
-      .then(content => res.json({content}))
-      .catch(error  => res.status(500).json({error}))
-  })
-
+  app.get('/favicon.ico', files.favicon)
   app.get('*', (req, res) => {
-    const {path} = req
-
-    files.getCourses()
-      .then(courses => {
-        const state  = {courses, filter: '', path, history: true}
-        const html   = renderToString(<App {...state}/>)
-        res.send(renderHTML(html, state))
-      })
+    const {path}  = req
+    Promise.props({
+      courses: files.getCourses({path: '/api/courses'}),
+      content: path === '/' ? Promise.resolve() : fetchData(req)
+    }).then(data => {
+      const courses = L.set(contentIn(path), data.content, data.courses)
+      const state   = {courses, filter: '', path, editing: false, history: true}
+      const html    = renderToString(<App {...state}/>)
+      res.send(renderHTML(html, state))
+    })
   })
 
   return app
@@ -68,3 +62,15 @@ return `<!doctype html>
   </body>
 </html>`
 }
+
+function handleRoute (getData) {
+  return (req, res) => getData(req)
+    .then(data   => res.json(data))
+    .catch(error => res.status(500).json({error}))
+}
+
+function fetchData (req) {
+  return fetch(`${req.protocol}://${req.headers.host}/api${req.path}`)
+    .then(res => res.json())
+}
+

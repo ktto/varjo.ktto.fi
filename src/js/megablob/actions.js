@@ -1,7 +1,11 @@
 import {createAction} from 'megablob'
 
-const setFilter = createAction()
+const setFilter  = createAction()
+const setEditing = createAction()
+const setContent = createAction()
 
 export {
-  setFilter
+  setFilter,
+  setEditing,
+  setContent
 }

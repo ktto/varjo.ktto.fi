@@ -1,4 +1,9 @@
-import R from 'ramda'
+import R      from 'ramda'
+import * as L from 'partial.lenses'
+
+
+export const contentIn  = createLens('content')
+export const materialIn = createLens('materials')
 
 export function courseMatchesFilter (filter) {
   const needle  = filter.toLowerCase()
@@ -24,4 +29,12 @@ export function normalize (string) {
 
 function kebabCase (string) {
   return string.toLowerCase().replace(/\s+/g, '-')
+}
+
+function createLens (prop) {
+  return path => L.compose(
+    L.find(course => urlify(course.title) === path),
+    L.prop(prop),
+    L.valueOr('')
+  )
 }
