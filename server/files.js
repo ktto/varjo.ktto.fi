@@ -22,6 +22,12 @@ const getCourse = req => cache(
   () => fs.readFileAsync(`${DATA_DIR}/${req.params.course}.md`, 'utf8')
 )
 
+const setCourse = req => bustCache(
+  req.path,
+  () => fs.writeFileAsync(`${DATA_DIR}/${req.params.course}.md`, req.body.content, 'utf8')
+    .then(() => req.body.content)
+)
+
 const getCourseHistory = req => cache(
   req.path,
   () => execAsync(`git log -- ${getFilename(req.params.course)}`)
@@ -50,6 +56,7 @@ const favicon = (req, res) => (
 export default {
   getCourses,
   getCourse,
+  setCourse,
   getCourseHistory,
   getCourseAt,
   commitAndPush,

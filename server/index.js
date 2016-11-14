@@ -28,6 +28,8 @@ module.exports = function createServer () {
   api.get('/:course/history', handleRoute(files.getCourseHistory))
   api.get('/:course/:commit', handleRoute(files.getCourseAt))
 
+  api.post('/:course', handleRoute(files.setCourse))
+
   app.get('/favicon.ico', files.favicon)
   app.get('*', (req, res) => {
     const {path}  = req
