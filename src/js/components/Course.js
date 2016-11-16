@@ -15,7 +15,7 @@ export default React.createClass({
   },
 
   componentDidMount () {
-    if (!this.props.content) {
+    if (this.props.content === undefined) {
       const path = urlify(this.props.title)
       http.get(`/api${path}`)
         .then(content => setContent({path, content}))
