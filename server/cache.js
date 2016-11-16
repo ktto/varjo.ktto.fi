@@ -10,6 +10,7 @@ export function cache (route, getData) {
   )
 }
 
-export function bustCache (route, getData) {
+export function resetCache (route, getData) {
+  [route, route.substr(4), '/'].forEach(route => routes[route] = null)
   return getData().then(data => routes[route] = data)
 }
