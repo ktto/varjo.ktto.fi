@@ -20,7 +20,7 @@ function renderSubject (subject) {
 function renderTitle (course) {
   return (
     <li key={course.subject} className="courses__subject">
-      <h2>{course.subject}</h2>
+      <h2 className="courses__subject-title">{course.subject}</h2>
     </li>
   )
 }
@@ -28,9 +28,9 @@ function renderTitle (course) {
 function renderCourse (course) {
   return (
     <li key={course.title} className="courses__course">
-      <h3 className="courses__course-title">
+      <span className="courses__course-title">
         <a href={urlify(course.title)}>{course.title}</a>
-      </h3>
+      </span>
       <subtitle className="courses__course-shortTitles">
         {course.shortTitles.join(', ')}
       </subtitle>

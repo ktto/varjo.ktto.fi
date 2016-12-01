@@ -32,7 +32,7 @@ export default React.createClass({
       <header className="header">
         <nav className="wrapper">
           <h2 className="header__title">
-            {title || 'KTTO | Varjo-opinto-opas'}
+            <a href="/">{title || 'KTTO | Varjo-opinto-opas'}</a>
           </h2>
           <input className="header__filter"
                  placeholder="Etsi kursseja"

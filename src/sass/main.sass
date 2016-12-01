@@ -1,3 +1,9 @@
+$black:  #222
+$gray:   #888
+$light:  #eee
+$white:  #fff
+$accent: #34a995
+
 *
   margin: 0
   padding: 0
@@ -8,9 +14,32 @@ body
   font-size: 16px
   font-family: sans-serif
   line-height: 1.6
+  color: $black
 
 p
   margin: 1rem 0
+
+a
+  color: $accent
+  text-decoration: none
+
+  &:hover
+    border-bottom: 1px solid $accent
+
+button
+  margin: 0.5rem 1rem 0.5rem 0
+  padding: 0.5rem
+  color: $accent
+  background: $white
+  text-transform: uppercase
+  border: 1px solid $accent
+  cursor: pointer
+  transition: color .25s ease-in-out
+  transition: background .2s ease-in-out
+
+  &:hover
+    color: $white
+    background: $accent
 
 .wrapper
   margin: 0 auto
@@ -28,6 +57,12 @@ p
 .header__title
   display: inline-block
 
+  a
+    color: $black
+
+    &:hover
+      border: none
+
 .header__filter
   display: inline-block
   margin-left: 2rem
@@ -36,21 +71,28 @@ p
   list-style-type: none
 
 .courses__subject
- text-transform: capitalize
+  text-transform: uppercase
+
+.courses__subject-title
+  margin: 2rem 0 1rem
 
 .courses__course
   display: table
-  padding: 0.5rem 1rem
+  padding: 0.2rem 1rem
   width: 100%
   white-space: nowrap;
+
+  &:nth-child(odd)
+    background: $light
 
 .courses__course-title
   display: table-cell
   width: 100%
 
-.courses__course-shortTitle
+.courses__course-shortTitles
   display: table-cell
   text-align: right
+  color: $gray
 
 textarea
   width: 100%
