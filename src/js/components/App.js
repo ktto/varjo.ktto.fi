@@ -21,9 +21,7 @@ export default React.createClass({
   },
 
   course (title) {
-    const {editing} = this.props
-    return <Course {...R.find(courseMatchesUrl(title), this.props.courses)}
-                   editing={editing}/>
+    return <Course {...R.find(courseMatchesUrl(title), this.props.courses)}/>
   },
 
   render () {

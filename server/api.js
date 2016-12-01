@@ -61,7 +61,7 @@ const renderHTML = req => cache(
     content: req.path === '/' ? Bluebird.resolve() : fetchData(req)
   }).then(data => {
     const courses = L.set(contentIn(req.path), data.content, data.courses)
-    const state   = {courses, filter: '', path: req.path, editing: false, history: true}
+    const state   = {courses, filter: '', path: req.path,  history: true}
     const html    = renderToString(<App {...state}/>)
     return renderApp(html, state)
   })

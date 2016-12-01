@@ -1,15 +1,16 @@
 import React  from 'react'
 import marked from 'marked'
 
-import Loading                  from './Loading'
-import http                     from '../http'
-import {urlify}                 from '../util'
-import {setContent, setEditing} from '../megablob/actions'
+import Loading      from './Loading'
+import http         from '../http'
+import {urlify}     from '../util'
+import {setContent} from '../megablob/actions'
 
 export default React.createClass({
 
   getInitialState () {
     return {
+      editing: false,
       content: this.props.content
     }
   },
@@ -23,16 +24,12 @@ export default React.createClass({
     }
   },
 
-  componentWillUnmount () {
-    setEditing(false)
-  },
-
   componentWillReceiveProps ({content}) {
     this.setState({content})
   },
 
   toggleEdit () {
-    setEditing(!this.props.editing)
+    this.setState({editing: !this.state.editing})
   },
 
   edit (e) {
@@ -47,20 +44,21 @@ export default React.createClass({
   },
 
   renderContent () {
-    const {editing, content} = this.props
+    const {content} = this.props
+    const {editing} = this.state
     return editing
       ? <textarea onChange={this.edit} defaultValue={content}/>
       : <section dangerouslySetInnerHTML={{__html: marked(content)}}/>
   },
 
   render () {
-    const {title}   = this.props
-    const {content} = this.state
+    const {title}            = this.props
+    const {content, editing} = this.state
     return (
       <article>
         <h3>{title}</h3>
-        <button onClick={this.toggleEdit}>Edit</button>
-        <button onClick={this.save}>Save</button>
+        <button onClick={this.toggleEdit}>{editing ? 'Peruuta' : 'Muokkaa'}</button>
+        <button onClick={this.save}>Tallenna</button>
         <Loading loading={content === undefined} content={this.renderContent}/>
       </article>
     )
