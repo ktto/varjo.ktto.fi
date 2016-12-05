@@ -27,6 +27,15 @@ const getCourses = req => cache(
     .then(data => JSON.parse(data))
 )
 
+const setCourses = req => resetCache(
+  req.path,
+  () => fs.readFileAsync(COURSES, 'utf8')
+    .then(courses => JSON.parse(courses).concat(req.body.course))
+    .then(courses => fs.writeFileAsync(COURSES, JSON.stringify(courses), 'utf8')
+      .then(() => fs.writeFileAsync(`${DATA_DIR}/${normalize(req.body.course.title)}.md`, '', 'utf8'))
+      .then(() => courses))
+)
+
 const getCourse = req => cache(
   req.path,
   () => fs.readFileAsync(`${DATA_DIR}/${req.params.course}.md`, 'utf8')
@@ -74,7 +83,7 @@ const renderHTML = req => cache(
     content: req.path === '/' ? Bluebird.resolve() : fetchData(req)
   }).then(data => {
     const courses = L.set(contentIn(req.path), data.content, data.courses)
-    const state   = {courses, filter: '', path: req.path, showModal: false, history: true}
+    const state   = {courses, filter: '', path: req.path, history: true}
     const html    = renderToString(<App {...state}/>)
     return renderApp(html, state)
   })
@@ -83,6 +92,7 @@ const renderHTML = req => cache(
 
 export default {
   getCourses,
+  setCourses,
   getCourse,
   setCourse,
   getCourseHistory,

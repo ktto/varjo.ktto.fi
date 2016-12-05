@@ -1,17 +1,86 @@
 import React from 'react'
 import R     from 'ramda'
 
-import {urlify} from '../util'
+import http             from '../http'
+import {urlify}         from '../util'
+import {receiveCourses} from '../megablob/actions'
 
-export default ({courses}) => (
-  <ul className="courses">
-    {R.pipe(
-      R.compose(R.values, R.groupBy(R.prop('subject'))),
-      R.map(renderSubject),
-      R.flatten
-    )(courses)}
-  </ul>
-)
+const clearState = {
+  editing: false,
+  title: '',
+  shortTitles: '',
+  subject: ''
+}
+
+export default React.createClass({
+
+  getInitialState () {
+    return clearState
+  },
+
+  toggleEdit () {
+    this.setState({editing: !this.state.editing})
+  },
+
+  addCourse () {
+    const {title, shortTitles, subject} = this.state
+    const course = {
+      title: title.trim(),
+      shortTitles: R.map(s => s.trim(), shortTitles.split(',')),
+      subject
+    }
+
+    if (course.title && course.subject) {
+      this.setState(clearState, () => {
+        http.post('/api/courses', {course})
+          .then(receiveCourses)
+      })
+    }
+  },
+
+  renderAddCourse () {
+    return (
+      <div className="add-course__fields">
+        <input placeholder="Kurssin nimi"
+               onChange={e => this.setState({title: e.target.value})}/>
+        <input placeholder="Kurssin lyhenteet pilkulla erotettuna"
+               onChange={e => this.setState({shortTitles: e.target.value})}/>
+        <select onChange={e => this.setState({subject: e.target.value})}>
+          <option selected={true} disabled={true}>Valitse aine</option>
+          {R.pipe(
+            R.map(R.prop('subject')),
+            R.uniq,
+            R.map(s => <option key={s}>{s}</option>)
+          )(this.props.courses)}
+        </select>
+        <button onClick={this.addCourse}>Tallenna</button>
+      </div>
+    )
+  },
+
+  render () {
+    const {courses} = this.props
+    const {editing} = this.state
+
+    return (
+      <secton>
+        <ul className="courses">
+          {R.pipe(
+            R.compose(R.values, R.groupBy(R.prop('subject'))),
+            R.map(renderSubject),
+            R.flatten
+          )(courses)}
+        </ul>
+        <div className="add-course">
+          <button onClick={this.toggleEdit}>
+            {editing ? 'Peruuta' : 'Lisää kurssi'}
+          </button>
+          {editing && this.renderAddCourse()}
+        </div>
+      </secton>
+    )
+  }
+})
 
 function renderSubject (subject) {
   return [renderTitle(subject[0]), R.map(renderCourse, subject)]

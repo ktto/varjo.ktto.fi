@@ -23,12 +23,10 @@ module.exports = function createServer () {
   app.get('/api/:course/history', sendJSON(api.getCourseHistory))
   app.get('/api/:course/:commit', sendJSON(api.getCourseAt))
 
+  app.post('/api/courses', sendJSON(api.setCourses))
   app.post('/api/:course', sendJSON(api.setCourse))
 
-  app.get('*', (req, res) => {
-    api.renderHTML(req)
-      .then(html => res.send(html))
-  })
+  app.get('*', (req, res) => api.renderHTML(req).then(html => res.send(html)))
 
   return app
 }

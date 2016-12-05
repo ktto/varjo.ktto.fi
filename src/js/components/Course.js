@@ -11,6 +11,7 @@ export default React.createClass({
   getInitialState () {
     return {
       editing: false,
+      material: this.props.material,
       content: this.props.content
     }
   },
@@ -51,6 +52,20 @@ export default React.createClass({
       : <section dangerouslySetInnerHTML={{__html: marked(content)}}/>
   },
 
+  renderMaterial () {
+    const material = this.props.material  || []
+
+    return (
+      <ul>
+        {material.map(m => (
+          <li key={m.url}>
+            <a href={`/files/${m.url}`}>{m.title}</a>
+          </li>
+        ))}
+      </ul>
+    )
+  },
+
   render () {
     const {title}            = this.props
     const {content, editing} = this.state
@@ -58,7 +73,8 @@ export default React.createClass({
       <article>
         <h3>{title}</h3>
         <button onClick={this.toggleEdit}>{editing ? 'Peruuta' : 'Muokkaa'}</button>
-        <button onClick={this.save}>Tallenna</button>
+        {editing && <button onClick={this.save}>Tallenna</button>}
+        {this.renderMaterial()}
         <Loading loading={content === undefined} content={this.renderContent}/>
       </article>
     )
