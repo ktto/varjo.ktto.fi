@@ -6,19 +6,24 @@ import React            from 'react'
 import {renderToString} from 'react-dom/server'
 import {resolve}        from 'path'
 
-import {normalize, contentIn} from '../src/js/util'
-import {cache, resetCache}     from './cache'
-import App                    from '../src/js/components/App'
+import App                 from '../src/js/components/App'
+import {cache, resetCache} from './cache'
+import {
+  normalize,
+  contentIn,
+  materialIn
+} from '../src/js/util'
 
 const fs          = Bluebird.promisifyAll(require('fs'))
 const {execAsync} = Bluebird.promisifyAll(require('child_process'))
 
 const DATA_DIR = resolve(`${__dirname}/../data`)
+const COURSES  = `${DATA_DIR}/_courses.json`
 
 
 const getCourses = req => cache(
   req.path,
-  () => fs.readFileAsync(`${DATA_DIR}/_courses.json`, 'utf8')
+  () => fs.readFileAsync(COURSES, 'utf8')
     .then(data => JSON.parse(data))
 )
 
@@ -31,6 +36,14 @@ const setCourse = req => resetCache(
   req.path,
   () => fs.writeFileAsync(`${DATA_DIR}/${req.params.course}.md`, req.body.content, 'utf8')
     .then(() => req.body.content)
+)
+
+const setMaterial = req => resetCache(
+  req.path,
+  () => fs.readFileAsync(COURSES, 'utf8')
+    .then(data    => L.set(materialIn(req.path), req.body.material, data))
+    .then(courses => fs.writeFileAsync(COURSES, JSON.stringify(courses), 'utf8')
+      .then(() => courses))
 )
 
 const getCourseHistory = req => cache(
@@ -61,7 +74,7 @@ const renderHTML = req => cache(
     content: req.path === '/' ? Bluebird.resolve() : fetchData(req)
   }).then(data => {
     const courses = L.set(contentIn(req.path), data.content, data.courses)
-    const state   = {courses, filter: '', path: req.path,  history: true}
+    const state   = {courses, filter: '', path: req.path, showModal: false, history: true}
     const html    = renderToString(<App {...state}/>)
     return renderApp(html, state)
   })
