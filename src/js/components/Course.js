@@ -48,7 +48,9 @@ export default React.createClass({
     const {editing, content} = this.state
     return editing
       ? <textarea onChange={this.edit} defaultValue={content}/>
-      : <section dangerouslySetInnerHTML={{__html: marked(content)}}/>
+      : content.length
+        ? <section dangerouslySetInnerHTML={{__html: marked(content)}}/>
+        : <section>Auta muita lisäämällä tänne kurssivinkkejä!</section>
   },
 
   renderMaterial () {
@@ -71,7 +73,7 @@ export default React.createClass({
 
     return (
       <article>
-        <h3>{title}</h3>
+        <h2>{title}</h2>
         <button onClick={this.toggleEdit}>{editing ? 'Peruuta' : 'Muokkaa'}</button>
         {editing && <button onClick={this.save}>Tallenna</button>}
         {this.renderMaterial()}

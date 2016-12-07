@@ -5,6 +5,7 @@ $white:  #fff
 $accent: #34a995
 $red:    #b36621
 $font:   sans-serif
+$weight: 300
 
 *
   margin: 0
@@ -15,6 +16,7 @@ $font:   sans-serif
 body
   font-size: 16px
   font-family: $font
+  font-weight: $weight
   line-height: 1.6
   color: $black
 
@@ -71,6 +73,9 @@ button
   padding-left: 2rem
   width: 100%
 
+  > input
+    margin: 0
+
 .courses, .materials
   list-style-type: none
 
@@ -95,10 +100,12 @@ button
 .courses__course-title
   display: table-cell
   width: 100%
+  white-space: normal
 
 .courses__course-shortTitles
   display: table-cell
   text-align: right
+  font-family: monospace
   color: $gray
 
 .add-course__fields

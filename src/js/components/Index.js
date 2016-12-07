@@ -64,11 +64,14 @@ export default React.createClass({
     return (
       <secton>
         <ul className="courses">
-          {R.pipe(
-            R.compose(R.values, R.groupBy(R.prop('subject'))),
-            R.map(renderSubject),
-            R.flatten
-          )(courses)}
+          {courses.length ? (
+            R.pipe(
+              R.compose(R.values, R.groupBy(R.prop('subject'))),
+              R.map(renderSubject),
+              R.flatten
+            )(courses)
+          ) : <li>Nyt ei kyllä löytynyt mitään :(</li>
+          }
         </ul>
         <div className="add-course">
           {editing && this.renderAddCourse()}
