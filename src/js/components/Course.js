@@ -45,17 +45,16 @@ export default React.createClass({
   },
 
   renderContent () {
-    const {content} = this.props
-    const {editing} = this.state
+    const {editing, content} = this.state
     return editing
       ? <textarea onChange={this.edit} defaultValue={content}/>
       : <section dangerouslySetInnerHTML={{__html: marked(content)}}/>
   },
 
   renderMaterial () {
-    const material = this.props.material  || []
+    const {material} = this.props
 
-    return (
+    return material ? (
       <ul>
         {material.map(m => (
           <li key={m.url}>
@@ -63,12 +62,13 @@ export default React.createClass({
           </li>
         ))}
       </ul>
-    )
+    ) : null
   },
 
   render () {
     const {title}            = this.props
     const {content, editing} = this.state
+
     return (
       <article>
         <h3>{title}</h3>

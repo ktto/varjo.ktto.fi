@@ -47,14 +47,6 @@ const setCourse = req => resetCache(
     .then(() => req.body.content)
 )
 
-const setMaterial = req => resetCache(
-  req.path,
-  () => fs.readFileAsync(COURSES, 'utf8')
-    .then(data    => L.set(materialIn(req.path), req.body.material, data))
-    .then(courses => fs.writeFileAsync(COURSES, JSON.stringify(courses), 'utf8')
-      .then(() => courses))
-)
-
 const getCourseHistory = req => cache(
   req.path,
   () => execAsync(`git log -- ${getFilename(req.params.course)}`)

@@ -3,7 +3,6 @@ import * as L from 'partial.lenses'
 
 
 export const contentIn  = createLens('content')
-export const materialIn = createLens('materials')
 
 export function courseMatchesFilter (filter) {
   const needle  = filter.toLowerCase()
