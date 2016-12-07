@@ -3,6 +3,8 @@ $gray:   #888
 $light:  #eee
 $white:  #fff
 $accent: #34a995
+$red:    #b36621
+$font:   sans-serif
 
 *
   margin: 0
@@ -12,7 +14,7 @@ $accent: #34a995
 
 body
   font-size: 16px
-  font-family: sans-serif
+  font-family: $font
   line-height: 1.6
   color: $black
 
@@ -55,7 +57,8 @@ button
   box-shadow: 0 0 8px -2px #333
 
 .header__title
-  display: inline-block
+  display: table-cell
+  white-space: nowrap
 
   a
     color: $black
@@ -64,11 +67,15 @@ button
       border: none
 
 .header__filter
-  display: inline-block
-  margin-left: 2rem
+  display: table-cell
+  padding-left: 2rem
+  width: 100%
 
-.courses
+.courses, .materials
   list-style-type: none
+
+.materials
+  margin: 1rem 0
 
 .courses__subject
   text-transform: uppercase
@@ -76,7 +83,7 @@ button
 .courses__subject-title
   margin: 2rem 0 1rem
 
-.courses__course
+.courses__course, .materials__material
   display: table
   padding: 0.2rem 1rem
   width: 100%
@@ -94,7 +101,36 @@ button
   text-align: right
   color: $gray
 
+.add-course__fields
+  margin: 1rem 0 0
+
+input
+  display: inline-block
+  padding: .5rem
+  margin: .5rem 0
+  height: 2rem
+  width: 100%
+  font-size: 1rem
+  font-family: $font
+  border: 1px solid $gray
+
+  &.dirty
+    border: 1px solid $red
+
 textarea
+  padding: .5rem
+  margin: .5rem 0
   width: 100%
   min-height: 420px;
+  font-size: 1rem
+  font-family: $font
+  border: 1px solid $gray
   padding: 1rem
+
+select
+  padding: .5rem
+  margin: .5rem 2rem .5rem 0
+  height: 2rem
+  width: 100%
+  font-size: 1rem
+  font-family: $font

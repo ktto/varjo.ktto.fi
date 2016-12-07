@@ -26,17 +26,21 @@ export default React.createClass({
 
   render () {
     const {inputStream, dirty} = this.state
-    const {title}              = this.props
+    const {showFilter}         = this.props
     
     return (
       <header className="header">
         <nav className="wrapper">
           <h2 className="header__title">
-            <a href="/">{title || 'KTTO | Varjo-opinto-opas'}</a>
+            <a href="/">Varjo-opinto-opas</a>
           </h2>
-          <input className="header__filter"
-                 placeholder="Etsi kursseja"
-                 onChange={e => inputStream.push(e.target.value)}/>
+          {showFilter && (
+            <div className="header__filter">
+              <input className={dirty ? 'dirty' : ''}
+                     placeholder="Etsi kursseja"
+                     onChange={e => inputStream.push(e.target.value)}/>
+            </div>
+          )}
         </nav>
       </header>
     )

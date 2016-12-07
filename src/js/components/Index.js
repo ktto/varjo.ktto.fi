@@ -53,7 +53,6 @@ export default React.createClass({
             R.map(s => <option key={s}>{s}</option>)
           )(this.props.courses)}
         </select>
-        <button onClick={this.addCourse}>Tallenna</button>
       </div>
     )
   },
@@ -72,10 +71,11 @@ export default React.createClass({
           )(courses)}
         </ul>
         <div className="add-course">
+          {editing && this.renderAddCourse()}
           <button onClick={this.toggleEdit}>
             {editing ? 'Peruuta' : 'Lisää kurssi'}
           </button>
-          {editing && this.renderAddCourse()}
+          {editing && <button onClick={this.addCourse}>Tallenna</button>}
         </div>
       </secton>
     )

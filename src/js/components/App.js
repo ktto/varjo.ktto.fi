@@ -25,11 +25,9 @@ export default React.createClass({
   },
 
   render () {
-    const {title} = this.props
-
     return (
       <section>
-        <Header title={title}/>
+        <Header showFilter={this.state.path === '/'}/>
         <div className="wrapper content">
           {this.renderCurrentRoute()}
         </div>

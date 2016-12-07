@@ -55,9 +55,9 @@ export default React.createClass({
     const {material} = this.props
 
     return material ? (
-      <ul>
+      <ul className="materials">
         {material.map(m => (
-          <li key={m.url}>
+          <li key={m.url} className="materials__material">
             <a href={`/files/${m.url}`}>{m.title}</a>
           </li>
         ))}
