@@ -1,11 +1,11 @@
 import React  from 'react'
 import marked from 'marked'
 
-import Loading      from './Loading'
-import Upload       from './Upload'
-import http         from '../http'
-import {urlify}     from '../util'
-import {setContent} from '../megablob/actions'
+import Loading                   from './Loading'
+import Upload                    from './Upload'
+import http                      from '../http'
+import {urlify}                  from '../util'
+import {setContent, setMaterial} from '../megablob/actions'
 
 export default React.createClass({
 
@@ -41,7 +41,16 @@ export default React.createClass({
   save () {
     const path = urlify(this.props.title)
     http.post(`/api${path}`, {content: this.state.content})
-      .then(content => setContent({path, content}))
+      .then(content => this.setState(
+        {editing: false},
+        () => setContent({path, content})
+      )).catch(error => console.log(error))
+  },
+
+  saveFile (data) {
+    const path = urlify(this.props.title)
+    http.upload(`/upload${path}`, data)
+      .then(material => setMaterial({path, material}))
       .catch(error => console.log(error))
   },
 
@@ -69,7 +78,7 @@ export default React.createClass({
             ))}
           </ul>
         )}
-        {editing && <Upload path={urlify(this.props.title)}/>}
+        {editing && <Upload upload={this.saveFile}/>}
       </div>
     )
   },
@@ -81,10 +90,10 @@ export default React.createClass({
     return (
       <article>
         <h2>{title}</h2>
-        <button onClick={this.toggleEdit}>{editing ? 'Peruuta' : 'Muokkaa'}</button>
-        {editing && <button onClick={this.save}>Tallenna</button>}
         {this.renderMaterial()}
         <Loading loading={content === undefined} content={this.renderContent}/>
+        <button onClick={this.toggleEdit}>{editing ? 'Peruuta' : 'Muokkaa'}</button>
+        {editing && <button onClick={this.save}>Tallenna</button>}
       </article>
     )
   }

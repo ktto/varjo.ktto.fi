@@ -10,15 +10,12 @@ export function contentIn (path) {
   )
 }
 
-export function materialIn (path, title) {
+export function materialIn (path, {title}) {
   return L.compose(
     L.find(course => urlify(course.title) === path),
     L.prop('material'),
     L.required([]),
-    L.find(R.whereEq({title})),
-    L.defaults({title}),
-    L.prop('url'),
-    L.valueOr('')
+    L.find(R.whereEq({title}))
   )
 }
 

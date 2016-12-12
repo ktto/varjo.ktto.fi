@@ -2,6 +2,7 @@ import express          from 'express'
 import parser           from 'body-parser'
 import multer           from 'multer'
 import {resolve}        from 'path'
+import {extension}      from 'mime-types'
 
 import api from './api'
 
@@ -12,7 +13,7 @@ module.exports = function createServer () {
       cb(null, resolve(__dirname, '..', 'data', 'files'))
     },
     filename: (req, file, cb) => {
-      cb(null, `${req.params.course}-${Date.now()}`)
+      cb(null, `${req.params.course}-${Date.now()}.${extension(file.mimetype)}`)
     }
   })})
 
@@ -31,6 +32,7 @@ module.exports = function createServer () {
   app.get('/api/:course', sendJSON(api.getCourse))
   app.get('/api/:course/history', sendJSON(api.getCourseHistory))
   app.get('/api/:course/:commit', sendJSON(api.getCourseAt))
+  app.post('/api/courses', sendJSON(api.setCourses))
   app.post('/api/:course', sendJSON(api.setCourse))
 
   app.post('/upload/:course', files.single('file'), sendJSON(api.setMaterial))

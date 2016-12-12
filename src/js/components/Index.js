@@ -5,7 +5,7 @@ import http             from '../http'
 import {urlify}         from '../util'
 import {receiveCourses} from '../megablob/actions'
 
-const clearState = {
+const cleanState = {
   editing: false,
   title: '',
   shortTitles: '',
@@ -15,7 +15,7 @@ const clearState = {
 export default React.createClass({
 
   getInitialState () {
-    return clearState
+    return cleanState
   },
 
   toggleEdit () {
@@ -27,11 +27,12 @@ export default React.createClass({
     const course = {
       title: title.trim(),
       shortTitles: R.map(s => s.trim(), shortTitles.split(',')),
-      subject
+      subject,
+      material: []
     }
 
     if (course.title && course.subject) {
-      this.setState(clearState, () => {
+      this.setState(cleanState, () => {
         http.post('/api/courses', {course})
           .then(receiveCourses)
       })

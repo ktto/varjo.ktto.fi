@@ -13,13 +13,22 @@ import {contentIn, normalize} from '../src/js/util'
 const fs          = Bluebird.promisifyAll(require('fs'))
 const {execAsync} = Bluebird.promisifyAll(require('child_process'))
 
-const DATA_DIR = resolve(`${__dirname}/../data`)
+const DATA_DIR = resolve(__dirname, '..', 'data')
 
 const getCourses = req => cache(req.path, () => {
   return fs.readdirAsync(DATA_DIR)
     .filter(f => f.endsWith('.json'))
     .map(read)
     .map(JSON.parse)
+})
+
+const setCourses = req => resetCache(req.path, () => {
+  const {course} = req.body
+  const title    = normalize(course.title)
+  return Bluebird.all([
+    write(`${title}.json`, JSON.stringify(course, null, 2)),
+    write(`${title}.md`, '')
+  ]).then(() => req.body.course)
 })
 
 const getCourse = req => cache(req.path, () => {
@@ -39,11 +48,10 @@ const setMaterial = req => resetCache(req.path, () => {
       const {material} = json
       const {filename} = req.file
       const {title}    = req.body
-      const data       = R.merge(json, {
-        material: material.concat({title, filename})
-      })
+      const uploaded   = {title, filename}
+      const data       = R.merge(json, {material: material.concat(uploaded)})
       return write(file, JSON.stringify(data, null, 2))
-        .then(() => data)
+        .then(() => uploaded)
     })
 })
 
@@ -81,6 +89,7 @@ const renderHTML = req => cache(req.path, () => {
 
 export default {
   getCourses,
+  setCourses,
   getCourse,
   setCourse,
   setMaterial,
@@ -97,7 +106,6 @@ function read (path) {
 function write (path, content) {
   return fs.writeFileAsync(`${DATA_DIR}/${path}`, content, 'utf8')
 }
-
 
 function getFilename (course) {
   return  `${DATA_DIR}/${normalize(course)}.md`
