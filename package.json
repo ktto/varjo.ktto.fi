@@ -41,8 +41,7 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-dropzone": "^3.7.3",
-    "react-mini-router": "^2.0.0",
-    "superagent": "^3.1.0"
+    "react-mini-router": "^2.0.0"
   },
   "devDependencies": {
     "babel": "^6.5.2",

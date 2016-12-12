@@ -2,6 +2,7 @@ import React  from 'react'
 import marked from 'marked'
 
 import Loading      from './Loading'
+import Upload       from './Upload'
 import http         from '../http'
 import {urlify}     from '../util'
 import {setContent} from '../megablob/actions'
@@ -50,21 +51,27 @@ export default React.createClass({
       ? <textarea onChange={this.edit} defaultValue={content}/>
       : content.length
         ? <section dangerouslySetInnerHTML={{__html: marked(content)}}/>
-        : <section>Auta muita lisäämällä tänne kurssivinkkejä!</section>
+        : <section>Auta lisäämällä tänne kurssivinkkejä!</section>
   },
 
   renderMaterial () {
     const {material} = this.props
+    const {editing}  = this.state
 
-    return material ? (
-      <ul className="materials">
-        {material.map(m => (
-          <li key={m.url} className="materials__material">
-            <a href={`/files/${m.url}`}>{m.title}</a>
-          </li>
-        ))}
-      </ul>
-    ) : null
+    return (
+      <div>
+        {material && (
+          <ul className="materials">
+            {material.map(m => (
+              <li key={m.filename} className="materials__material">
+                <a href={`/files/${m.filename}`}>{m.title}</a>
+              </li>
+            ))}
+          </ul>
+        )}
+        {editing && <Upload path={urlify(this.props.title)}/>}
+      </div>
+    )
   },
 
   render () {

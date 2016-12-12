@@ -2,7 +2,25 @@ import R      from 'ramda'
 import * as L from 'partial.lenses'
 
 
-export const contentIn  = createLens('content')
+export function contentIn (path) {
+  return L.compose(
+    L.find(course => urlify(course.title) === path),
+    L.prop('content'),
+    L.valueOr('')
+  )
+}
+
+export function materialIn (path, title) {
+  return L.compose(
+    L.find(course => urlify(course.title) === path),
+    L.prop('material'),
+    L.required([]),
+    L.find(R.whereEq({title})),
+    L.defaults({title}),
+    L.prop('url'),
+    L.valueOr('')
+  )
+}
 
 export function courseMatchesFilter (filter) {
   const needle  = filter.toLowerCase()
@@ -28,12 +46,4 @@ export function normalize (string) {
 
 function kebabCase (string) {
   return string.toLowerCase().replace(/\s+/g, '-')
-}
-
-function createLens (prop) {
-  return path => L.compose(
-    L.find(course => urlify(course.title) === path),
-    L.prop(prop),
-    L.valueOr('')
-  )
 }
