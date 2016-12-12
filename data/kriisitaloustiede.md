@@ -1,3 +1,3 @@
 ### Testi
 
-(http://example.com)[test]
+[http://example.com](test)
