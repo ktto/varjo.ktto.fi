@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo 🚔",
     "start": "node index.js",
-    "start:prod": "NODE_ENV=production node index.js",
+    "start:prod": "NODE_ENV=production forever index.js",
+    "stop:prod": "forever stop index.js",
     "build": "NODE_ENV=production npm run build:js && npm run build:css",
     "build:js": "browserify src/js/main.js -o public/js/all.min.js -t babelify",
     "build:css": "node-sass src/sass/main.sass public/css/all.min.css",
@@ -14,7 +15,8 @@
     "watch": "npm run watch:js & npm run watch:css & npm run watch:server",
     "watch:js": "watchify src/js/main.js -vo public/js/all.min.js -t babelify",
     "watch:css": "node-sass -w src/sass/main.sass public/css/all.min.css",
-    "watch:server": "nodemon index.js"
+    "watch:server": "nodemon index.js",
+    "start:prod:all": "sudo ./bin/start-prod.sh"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,7 @@
     "bluebird": "^3.4.6",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
+    "forever": "^0.15.3",
     "marked": "^0.3.6",
     "megablob": "^0.2.0",
     "mime-types": "^2.1.13",

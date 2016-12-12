@@ -28,7 +28,10 @@ const setCourses = req => resetCache(req.path, () => {
   return Bluebird.all([
     write(`${title}.json`, JSON.stringify(course, null, 2)),
     write(`${title}.md`, '')
-  ]).then(() => req.body.course)
+  ]).then(() => {
+    commitAndPush()
+    return req.body.course
+  })
 })
 
 const getCourse = req => cache(req.path, () => {
@@ -37,7 +40,10 @@ const getCourse = req => cache(req.path, () => {
 
 const setCourse = req => resetCache(req.path, () => {
   return write(`${req.params.course}.md`, req.body.content)
-    .then(() => req.body.content)
+    .then(() => {
+      commitAndPush()
+      return req.body.content
+    })
 })
 
 const setMaterial = req => resetCache(req.path, () => {
@@ -51,7 +57,10 @@ const setMaterial = req => resetCache(req.path, () => {
       const uploaded   = {title, filename}
       const data       = R.merge(json, {material: material.concat(uploaded)})
       return write(file, JSON.stringify(data, null, 2))
-        .then(() => uploaded)
+        .then(() => {
+          commitAndPush()
+          return uploaded
+        })
     })
 })
 
@@ -70,9 +79,10 @@ const getCourseAt = req => cache(req.path, () => {
   return execAsync(`git show ${req.query.commit}:${getFilename(req.params.course)}`)
 })
 
-const commitAndPush = () => execAsync(
-  'git commit -am "[update course data]" && git push'
-)
+const commitAndPush = () => process.env.NODE_ENV === 'production'
+  ? execAsync('git commit -am "[update course data]" && git push')
+      .catch(err => console.error(err))
+  : console.log('Committing only in production')
 
 const renderHTML = req => cache(req.path, () => {
   return Bluebird.props({

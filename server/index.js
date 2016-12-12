@@ -30,8 +30,8 @@ module.exports = function createServer () {
 
   app.get('/api/courses', sendJSON(api.getCourses))
   app.get('/api/:course', sendJSON(api.getCourse))
-  app.get('/api/:course/history', sendJSON(api.getCourseHistory))
-  app.get('/api/:course/:commit', sendJSON(api.getCourseAt))
+  //app.get('/api/:course/history', sendJSON(api.getCourseHistory))
+  //app.get('/api/:course/:commit', sendJSON(api.getCourseAt))
   app.post('/api/courses', sendJSON(api.setCourses))
   app.post('/api/:course', sendJSON(api.setCourse))
 
