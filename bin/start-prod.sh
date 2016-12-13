@@ -1,8 +1,9 @@
 #!/bin/sh
 
-cp proxy/default /etx/nginx/sites-available/default
+sudo mkdir -p /usr/local/etc/nginx
+sudo cp proxy/nginx.conf /usr/local/etc/nginx/nginx.conf
 npm run build:prod
 npm run stop:prod
 npm run start:prod
-service nginx restart
+sudo service nginx restart
 

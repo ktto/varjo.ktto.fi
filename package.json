@@ -16,7 +16,7 @@
     "watch:js": "watchify src/js/main.js -vo public/js/all.min.js -t babelify",
     "watch:css": "node-sass -w src/sass/main.sass public/css/all.min.css",
     "watch:server": "nodemon index.js",
-    "start:prod:all": "sudo ./bin/start-prod.sh"
+    "start:prod:all": "./bin/start-prod.sh"
   },
   "repository": {
     "type": "git",
