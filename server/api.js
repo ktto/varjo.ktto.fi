@@ -47,7 +47,7 @@ const setCourse = req => resetCache(req.path, () => {
     })
 })
 
-const setMaterial = req => resetCache(req.path, () => {
+const setMaterial = req => resetCache(`/api/${req.params.course}`, () => {
   const file = `${req.params.course}.json`
   return read(file)
     .then(JSON.parse)
