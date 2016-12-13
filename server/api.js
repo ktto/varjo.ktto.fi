@@ -36,6 +36,7 @@ const setCourses = req => resetCache(req.path, () => {
 
 const getCourse = req => cache(req.path, () => {
   return read(`${req.params.course}.md`)
+    .then(content => ({content}))
 })
 
 const setCourse = req => resetCache(req.path, () => {
@@ -142,5 +143,6 @@ return `<!doctype html>
 function fetchData (req) {
   return fetch(`${req.protocol}://${req.headers.host}/api${req.path}`)
     .then(res => res.json())
+    .then(data => data.content)
 }
 

@@ -1,3 +1,4 @@
+/* global ga*/
 import React  from 'react'
 import marked from 'marked'
 
@@ -13,7 +14,8 @@ export default React.createClass({
     return {
       editing: false,
       material: this.props.material,
-      content: this.props.content
+      content: this.props.content,
+      loading: this.props.content && this.props.content.length
     }
   },
 
@@ -21,9 +23,12 @@ export default React.createClass({
     if (this.props.content === undefined) {
       const path = urlify(this.props.title)
       http.get(`/api${path}`)
-        .then(content => setContent({path, content}))
-        .catch(error  => console.log(error))
+        .then(({content}) => this.setState(
+          {loading: false},
+          () => setContent({path, content})
+        )).catch(error => console.log(error))
     }
+    ga('send', 'pageview')
   },
 
   componentWillReceiveProps ({content}) {
@@ -58,7 +63,7 @@ export default React.createClass({
     const {editing, content} = this.state
     return editing
       ? <textarea onChange={this.edit} defaultValue={content}/>
-      : content.length
+      : content
         ? <section dangerouslySetInnerHTML={{__html: marked(content)}}/>
         : <section>Auta lisäämällä tänne kurssivinkkejä!</section>
   },
@@ -84,15 +89,15 @@ export default React.createClass({
   },
 
   render () {
-    const {title}            = this.props
-    const {content, editing} = this.state
+    const {title}                     = this.props
+    const {content, editing, loading} = this.state
 
     return (
       <article>
         <h2>{title}</h2>
         {this.renderMaterial()}
         {editing && helpText()}
-        <Loading loading={content === undefined} content={this.renderContent}/>
+        <Loading loading={loading} content={this.renderContent}/>
         <button onClick={this.toggleEdit}>{editing ? 'Peruuta' : 'Muokkaa'}</button>
         {editing && <button onClick={this.save}>Tallenna</button>}
       </article>

@@ -32,7 +32,7 @@ export default React.createClass({
       <header className="header">
         <nav className="wrapper">
           <h2 className="header__title">
-            <a href="/">Varjo-opinto-opas</a>
+            <a href="/">KTTO</a>
           </h2>
           {showFilter && (
             <div className="header__filter">
