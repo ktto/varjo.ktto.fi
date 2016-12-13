@@ -15,7 +15,8 @@ export default React.createClass({
       editing: false,
       material: this.props.material,
       content: this.props.content,
-      loading: this.props.content === undefined
+      loading: this.props.content === undefined,
+      progress: null
     }
   },
 
@@ -43,6 +44,12 @@ export default React.createClass({
     this.setState({content: e.target.value})
   },
 
+  progressBar (e) {
+    const loaded = e.loaded / e.total
+    console.log(e)
+    this.setState({progress: loaded === 1 ? null : loaded * 100})
+  },
+
   save () {
     const path = urlify(this.props.title)
     http.post(`/api${path}`, {content: this.state.content})
@@ -54,7 +61,7 @@ export default React.createClass({
 
   saveFile (data) {
     const path = urlify(this.props.title)
-    http.upload(`/upload${path}`, data)
+    http.upload(`/upload${path}`, data, this.progressBar)
       .then(material => setMaterial({path, material}))
       .catch(error => console.log(error))
   },
@@ -69,8 +76,8 @@ export default React.createClass({
   },
 
   renderMaterial () {
-    const {material} = this.props
-    const {editing}  = this.state
+    const {material}          = this.props
+    const {editing, progress} = this.state
 
     return (
       <div>
@@ -84,6 +91,7 @@ export default React.createClass({
           </ul>
         )}
         {editing && <Upload upload={this.saveFile}/>}
+        {progress && <div>{progress} %</div>}
       </div>
     )
   },
