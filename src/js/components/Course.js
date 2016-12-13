@@ -15,7 +15,7 @@ export default React.createClass({
       editing: false,
       material: this.props.material,
       content: this.props.content,
-      loading: !this.props.content || !this.props.content.length
+      loading: this.props.content === undefined
     }
   },
 
