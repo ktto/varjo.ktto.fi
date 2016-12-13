@@ -91,6 +91,7 @@ export default React.createClass({
       <article>
         <h2>{title}</h2>
         {this.renderMaterial()}
+        {editing && helpText()}
         <Loading loading={content === undefined} content={this.renderContent}/>
         <button onClick={this.toggleEdit}>{editing ? 'Peruuta' : 'Muokkaa'}</button>
         {editing && <button onClick={this.save}>Tallenna</button>}
@@ -99,3 +100,15 @@ export default React.createClass({
   }
 })
 
+function helpText () {
+  return (
+    <p>
+      Kirjoita
+      {' '}
+      <a href="https://daringfireball.net/projects/markdown/syntax">
+        markdown
+      </a>
+      ia.
+    </p>
+  )
+}
