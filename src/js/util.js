@@ -38,9 +38,17 @@ export function urlify (string) {
 }
 
 export function normalize (string) {
-  return kebabCase(string.normalize('NFKD').replace(/[\u0300-\u036F]/g, ''))
+  let   str  = kebabCase(string)
+  const from = 'ãàáäâẽèéëêìíïîõòóöôùúüûñç·/_,:;'
+  const to   = 'aaaaaeeeeeiiiiooooouuuunc------'
+  // ugly mutation
+  R.addIndex(R.forEach)(
+    (c, i) => str = str.replace(new RegExp(c, 'g'), to.charAt(i)),
+    from
+  )
+  return str
 }
 
 function kebabCase (string) {
-  return string.toLowerCase().replace(/\s+/g, '-')
+  return string.toLowerCase().trim().replace(/\s+/g, '-')
 }

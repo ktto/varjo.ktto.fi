@@ -1,3 +1,5 @@
+import './polyfills'
+import './analytics'
 import React     from 'react'
 import {render}  from 'react-dom'
 import R         from 'ramda'
