@@ -16,15 +16,18 @@ export default (initialState = {}) => {
     material,
     courses
   )
-  const addCourse = (courses, newCourse) => courses.concat(newCourse)
+  const addCourse  = (courses, newCourse) => courses.concat(newCourse)
+  const setCourses = (_, courses) => courses
 
   return Bacon.combineTemplate({
+    admin: initialState.admin,
     filter: actions.setFilter.$.toProperty(initialState.filter),
     courses: Bacon.update(
       initialState.courses,
       [actions.setContent.$],     setContent,
       [actions.setMaterial.$],    setMaterial,
-      [actions.receiveCourses.$], addCourse
+      [actions.receiveCourses.$], addCourse,
+      [actions.setCourses.$],     setCourses
     )
   })
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 import R     from 'ramda'
 
-import http             from '../http'
-import {urlify}         from '../util'
-import {receiveCourses} from '../megablob/actions'
+import http                         from '../http'
+import {urlify}                     from '../util'
+import {receiveCourses, setCourses} from '../megablob/actions'
 
 const cleanState = {
   editing: false,
@@ -39,6 +39,13 @@ export default React.createClass({
     }
   },
 
+  del (name) {
+    return e => {
+      http.del(`/api${urlify(name)}`)
+        .then(setCourses)
+    }
+  },
+
   renderAddCourse () {
     return (
       <div className="add-course__fields">
@@ -58,9 +65,42 @@ export default React.createClass({
     )
   },
 
+
+  renderSubject (subject) {
+    return [this.renderTitle(subject[0]), R.map(this.renderCourse, subject)]
+  },
+
+  renderTitle (course) {
+    return (
+      <li key={course.subject} className="courses__subject">
+        <h2 className="courses__subject-title">{course.subject}</h2>
+      </li>
+    )
+  },
+
+  renderCourse (course) {
+    const {admin} = this.props
+
+    return (
+      <li key={course.title} className="courses__course">
+        <span className="courses__course-title">
+          <a href={urlify(course.title)}>{course.title}</a>
+        </span>
+        <subtitle className="courses__course-shortTitles">
+          {course.shortTitles.join(', ')}
+        </subtitle>
+        {admin && (
+          <span className="delete" onClick={this.del(course.title)}>
+            poista
+          </span>
+        )}
+      </li>
+    )
+  },
+
   render () {
-    const {courses} = this.props
-    const {editing} = this.state
+    const {courses, admin} = this.props
+    const {editing}       = this.state
 
     return (
       <secton>
@@ -68,45 +108,32 @@ export default React.createClass({
           {courses.length ? (
             R.pipe(
               R.compose(R.values, R.groupBy(R.prop('subject'))),
-              R.map(renderSubject),
+              R.sortBy(subjectWeight),
+              R.map(this.renderSubject),
               R.flatten
             )(courses)
           ) : <li>Nyt ei kyllä löytynyt mitään :(</li>
           }
         </ul>
-        <div className="add-course">
-          {editing && this.renderAddCourse()}
-          <button onClick={this.toggleEdit}>
-            {editing ? 'Peruuta' : 'Lisää kurssi'}
-          </button>
-          {editing && <button onClick={this.addCourse}>Tallenna</button>}
-        </div>
+        {admin && (
+          <div className="add-course">
+            {editing && this.renderAddCourse()}
+            <button onClick={this.toggleEdit}>
+              {editing ? 'Peruuta' : 'Lisää kurssi'}
+            </button>
+            {editing && <button onClick={this.addCourse}>Tallenna</button>}
+          </div>
+        )}
       </secton>
     )
   }
 })
 
-function renderSubject (subject) {
-  return [renderTitle(subject[0]), R.map(renderCourse, subject)]
-}
-
-function renderTitle (course) {
-  return (
-    <li key={course.subject} className="courses__subject">
-      <h2 className="courses__subject-title">{course.subject}</h2>
-    </li>
-  )
-}
-
-function renderCourse (course) {
-  return (
-    <li key={course.title} className="courses__course">
-      <span className="courses__course-title">
-        <a href={urlify(course.title)}>{course.title}</a>
-      </span>
-      <subtitle className="courses__course-shortTitles">
-        {course.shortTitles.join(', ')}
-      </subtitle>
-    </li>
-  )
+function subjectWeight (subject) {
+  switch (R.head(subject).subject) {
+    case 'taloustiede': return 0
+    case 'matematiikka': return 1
+    case 'tilastotiede': return 2
+    default: return 3
+  }
 }

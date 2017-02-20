@@ -15,7 +15,7 @@ const {execAsync} = Bluebird.promisifyAll(require('child_process'))
 
 const DATA_DIR = resolve(__dirname, '..', 'data')
 
-const getCourses = req => cache(req.path, () => {
+const getCourses = req => cache(req.user, req.path, () => {
   return fs.readdirAsync(DATA_DIR)
     .filter(f => f.endsWith('.json'))
     .map(read)
@@ -34,7 +34,7 @@ const setCourses = req => resetCache(req.path, () => {
   })
 })
 
-const getCourse = req => cache(req.path, () => {
+const getCourse = req => cache(req.user, req.path, () => {
   return read(`${req.params.course}.md`)
 })
 
@@ -43,6 +43,23 @@ const setCourse = req => resetCache(req.path, () => {
     .then(() => {
       commitAndPush()
       return req.body.content
+    })
+})
+
+const deleteCourse = req => resetCache(req.path, () => {
+  const name = req.params.course
+  return read(`${name}.json`)
+    .then(JSON.parse)
+    .then(({material}) => {
+      const files = material
+        .map(({filename}) => `${DATA_DIR}/files/${filename}`)
+        .concat(['json', 'md'].map(ext => `${DATA_DIR}/${name}.${ext}`))
+        .join(' ')
+      return execAsync(`rm ${files}`)
+    }).then(() => {
+      commitAndPush()
+      resetCache('/api/courses')
+      return getCourses({path: '/api/courses'})
     })
 })
 
@@ -64,7 +81,7 @@ const setMaterial = req => resetCache(`/api/${req.params.course}`, () => {
     })
 })
 
-const getCourseHistory = req => cache(req.path, () => {
+const getCourseHistory = req => cache(req.user, req.path, () => {
   return execAsync(`git log -- data/${req.params.course}.md`)
     .then(R.pipe(
       R.split('\n'),
@@ -75,7 +92,7 @@ const getCourseHistory = req => cache(req.path, () => {
     ))
 })
 
-const getCourseAt = req => cache(req.path, () => {
+const getCourseAt = req => cache(req,user, req.path, () => {
   const {course, commit} = req.params
   return execAsync(`git show ${commit}:data/${course}.md`)
 })
@@ -85,13 +102,13 @@ const commitAndPush = () => process.env.NODE_ENV === 'production'
       .catch(err => console.error(err))
   : console.log('Committing only in production')
 
-const renderHTML = req => cache(req.path, () => {
+const renderHTML = req => cache(req.user, req.path, () => {
   return Bluebird.props({
     courses: getCourses({path: '/api/courses'}),
     content: req.path === '/' ? Bluebird.resolve() : fetchData(req)
   }).then(data => {
     const courses = L.set(contentIn(req.path), data.content, data.courses)
-    const state   = {courses, filter: '', path: req.path, history: true}
+    const state   = {courses, filter: '', admin: !!req.user, path: req.path, history: true}
     const html    = renderToString(<App {...state}/>)
     return renderApp(html, state)
   })
@@ -103,6 +120,7 @@ export default {
   setCourses,
   getCourse,
   setCourse,
+  deleteCourse,
   setMaterial,
   getCourseHistory,
   getCourseAt,
@@ -119,7 +137,7 @@ function write (path, content) {
 }
 
 function renderApp (appHTML, appState) {
-return `<!doctype html>
+  return `<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">

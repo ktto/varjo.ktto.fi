@@ -16,8 +16,9 @@ export default React.createClass({
   },
 
   index () {
-    const {filter, courses} = this.props
-    return <Index courses={R.filter(courseMatchesFilter(filter), courses)}/>
+    const {filter, courses, admin} = this.props
+    return <Index courses={R.filter(courseMatchesFilter(filter), courses)}
+                  admin={admin}/>
   },
 
   course (title) {
