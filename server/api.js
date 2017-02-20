@@ -36,7 +36,6 @@ const setCourses = req => resetCache(req.path, () => {
 
 const getCourse = req => cache(req.path, () => {
   return read(`${req.params.course}.md`)
-    .then(content => ({content}))
 })
 
 const setCourse = req => resetCache(req.path, () => {
@@ -66,7 +65,7 @@ const setMaterial = req => resetCache(`/api/${req.params.course}`, () => {
 })
 
 const getCourseHistory = req => cache(req.path, () => {
-  return execAsync(`git log -- ${getFilename(req.params.course)}`)
+  return execAsync(`git log -- data/${req.params.course}.md`)
     .then(R.pipe(
       R.split('\n'),
       R.filter(line => line.startsWith('commit') || line.startsWith('Date')),
@@ -77,7 +76,8 @@ const getCourseHistory = req => cache(req.path, () => {
 })
 
 const getCourseAt = req => cache(req.path, () => {
-  return execAsync(`git show ${req.query.commit}:${getFilename(req.params.course)}`)
+  const {course, commit} = req.params
+  return execAsync(`git show ${commit}:data/${course}.md`)
 })
 
 const commitAndPush = () => process.env.NODE_ENV === 'production'
@@ -118,10 +118,6 @@ function write (path, content) {
   return fs.writeFileAsync(`${DATA_DIR}/${path}`, content, 'utf8')
 }
 
-function getFilename (course) {
-  return  `${DATA_DIR}/${normalize(course)}.md`
-}
-
 function renderApp (appHTML, appState) {
 return `<!doctype html>
 <html>
@@ -141,8 +137,8 @@ return `<!doctype html>
 }
 
 function fetchData (req) {
-  return fetch(`${req.protocol}://${req.headers.host}/api${req.path}`)
+  const url = `${req.protocol}://${req.headers.host}/api${req.path}`
+  console.log(url)
+  return fetch(url)
     .then(res => res.json())
-    .then(data => data.content)
 }
-

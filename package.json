@@ -6,17 +6,16 @@
   "scripts": {
     "test": "echo 🚔",
     "start": "node index.js",
-    "start:prod": "NODE_ENV=production forever index.js",
-    "stop:prod": "forever stop index.js",
+    "start:prod": "NODE_ENV=production index.js",
     "build": "NODE_ENV=production npm run build:js && npm run build:css",
     "build:js": "browserify src/js/main.js -o public/js/all.min.js -t babelify",
+    "build:js:prod": "browserify src/js/main.js -t babelify | uglifyjs > public/js/all.min.js",
     "build:css": "node-sass src/sass/main.sass public/css/all.min.css",
-    "build:prod": "NODE_ENV=production npm run build",
+    "build:prod": "NODE_ENV=production npm run build:js:prod && npm run build:css",
     "watch": "npm run watch:js & npm run watch:css & npm run watch:server",
     "watch:js": "watchify src/js/main.js -vo public/js/all.min.js -t babelify",
     "watch:css": "node-sass -w src/sass/main.sass public/css/all.min.css",
-    "watch:server": "nodemon index.js",
-    "start:prod:all": "./bin/start-prod.sh"
+    "watch:server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -36,7 +35,6 @@
     "es5-shim": "^4.5.9",
     "es6-shim": "^0.35.2",
     "express": "^4.14.0",
-    "forever": "^0.15.3",
     "marked": "^0.3.6",
     "megablob": "^0.2.0",
     "mime-types": "^2.1.13",
@@ -47,7 +45,8 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-dropzone": "^3.7.3",
-    "react-mini-router": "^2.0.0"
+    "react-mini-router": "^2.0.0",
+    "uglifyjs": "^2.4.10"
   },
   "devDependencies": {
     "babel": "^6.5.2",

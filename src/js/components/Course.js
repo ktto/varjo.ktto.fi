@@ -1,5 +1,6 @@
 /* global ga*/
 import React  from 'react'
+import R      from 'ramda'
 import marked from 'marked'
 
 import Loading                   from './Loading'
@@ -16,6 +17,7 @@ export default React.createClass({
       material: this.props.material,
       content: this.props.content,
       loading: this.props.content === undefined,
+      history: null,
       progress: null
     }
   },
@@ -24,7 +26,7 @@ export default React.createClass({
     if (this.props.content === undefined) {
       const path = urlify(this.props.title)
       http.get(`/api${path}`)
-        .then(({content}) => this.setState(
+        .then(content => this.setState(
           {loading: false},
           () => setContent({path, content})
         )).catch(error => console.log(error))
@@ -50,6 +52,20 @@ export default React.createClass({
     this.setState({progress: loaded === 1 ? null : loaded * 100})
   },
 
+  getHistory () {
+    fetch(`/api${urlify(this.props.title)}/history`)
+      .then(res => res.json())
+      .then(history => this.setState({history}))
+  },
+
+  getCommit (commit) {
+    return () => {
+      fetch(`/api${urlify(this.props.title)}/${commit}`)
+        .then(res => res.json())
+        .then(content => this.setState({content}))
+    }
+  },
+
   save () {
     const path = urlify(this.props.title)
     http.post(`/api${path}`, {content: this.state.content})
@@ -69,7 +85,7 @@ export default React.createClass({
   renderContent () {
     const {editing, content} = this.state
     return editing
-      ? <textarea onChange={this.edit} defaultValue={content}/>
+      ? <textarea onChange={this.edit} value={content}/>
       : content
         ? <section dangerouslySetInnerHTML={{__html: marked(content)}}/>
         : <section>Auta lisäämällä tänne kurssivinkkejä!</section>
@@ -96,6 +112,27 @@ export default React.createClass({
     )
   },
 
+  renderHistory () {
+    const {history} = this.state
+    return (
+      <section>
+        <button onClick={this.getHistory}>Muokkaushistoria</button>
+        {history && (
+          <ul className="course-history">
+            {R.map(({commit, date}) => (
+              <li key={commit}
+                  className="course-history__item"
+                  onClick={this.getCommit(commit)}>
+                {parseDate(date)}
+              </li>
+            ), history)
+            }
+          </ul>
+        )}
+      </section>
+    )
+  },
+
   render () {
     const {title}                     = this.props
     const {content, editing, loading} = this.state
@@ -106,6 +143,7 @@ export default React.createClass({
         {this.renderMaterial()}
         {editing && helpText()}
         <Loading loading={loading} content={this.renderContent}/>
+        {editing && this.renderHistory()}
         <button onClick={this.toggleEdit}>{editing ? 'Peruuta' : 'Muokkaa'}</button>
         {editing && <button onClick={this.save}>Tallenna</button>}
       </article>
@@ -124,4 +162,9 @@ function helpText () {
       ia.
     </p>
   )
+}
+
+function parseDate (dateString) {
+  const [date, time] = new Date(dateString).toISOString().split('T')
+  return `${date} ${R.head(time.split('.'))}`
 }
