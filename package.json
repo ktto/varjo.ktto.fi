@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo 🚔",
     "start": "node index.js",
-    "start:prod": "NODE_ENV=production index.js",
+    "start:prod": "NODE_ENV=production node index.js",
     "build": "NODE_ENV=production npm run build:js && npm run build:css",
     "build:js": "browserify src/js/main.js -o public/js/all.min.js -t babelify",
     "build:js:prod": "browserify src/js/main.js -t babelify | uglifyjs > public/js/all.min.js",

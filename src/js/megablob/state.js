@@ -11,7 +11,7 @@ export default (initialState = {}) => {
     content,
     courses
   )
-  const setMaterial = (courses, {path, material}) => L.set(
+  const addMaterial = (courses, {path, material}) => L.set(
     materialIn(path, material),
     material,
     courses
@@ -25,7 +25,7 @@ export default (initialState = {}) => {
     courses: Bacon.update(
       initialState.courses,
       [actions.setContent.$],     setContent,
-      [actions.setMaterial.$],    setMaterial,
+      [actions.addMaterial.$],    addMaterial,
       [actions.receiveCourses.$], addCourse,
       [actions.setCourses.$],     setCourses
     )

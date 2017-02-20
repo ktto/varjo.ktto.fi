@@ -22,7 +22,9 @@ export default React.createClass({
   },
 
   course (title) {
-    return <Course {...R.find(courseMatchesUrl(title), this.props.courses)}/>
+    const {courses, admin} = this.props
+    return <Course {...R.find(courseMatchesUrl(title), courses)}
+                   admin={admin}/>
   },
 
   render () {

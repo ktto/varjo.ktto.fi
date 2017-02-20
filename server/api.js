@@ -81,6 +81,25 @@ const setMaterial = req => resetCache(`/api/${req.params.course}`, () => {
     })
 })
 
+const deleteMaterial = req => resetCache(req.path, () => {
+  const {filename} = req.params
+  const course     = `${R.init(filename.split('-')).join('-')}.json`
+  return read(course)
+    .then(JSON.parse)
+    .then(json => {
+      const material = json.material.filter(m => m.filename !== filename)
+      const data     = R.merge(json, {material})
+      return write(course, JSON.stringify(data, null, 2))
+        .then(() => execAsync(`rm ${DATA_DIR}/files/${filename}`))
+        .then(() => {
+          commitAndPush()
+          resetCache('/api/courses')
+          resetCache(`/api/${course}`)
+          return getCourses({path: '/api/courses'})
+        })
+    })
+})
+
 const getCourseHistory = req => cache(req.user, req.path, () => {
   return execAsync(`git log -- data/${req.params.course}.md`)
     .then(R.pipe(
@@ -122,6 +141,7 @@ export default {
   setCourse,
   deleteCourse,
   setMaterial,
+  deleteMaterial,
   getCourseHistory,
   getCourseAt,
   commitAndPush,
@@ -155,8 +175,6 @@ function renderApp (appHTML, appState) {
 }
 
 function fetchData (req) {
-  const url = `${req.protocol}://${req.headers.host}/api${req.path}`
-  console.log(url)
-  return fetch(url)
+  return fetch(`${req.protocol}://${req.headers.host}/api${req.path}`)
     .then(res => res.json())
 }

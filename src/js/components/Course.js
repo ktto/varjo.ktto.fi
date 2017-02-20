@@ -3,11 +3,11 @@ import React  from 'react'
 import R      from 'ramda'
 import marked from 'marked'
 
-import Loading                   from './Loading'
-import Upload                    from './Upload'
-import http                      from '../http'
-import {urlify}                  from '../util'
-import {setContent, setMaterial} from '../megablob/actions'
+import Loading                               from './Loading'
+import Upload                                from './Upload'
+import http                                  from '../http'
+import {urlify}                              from '../util'
+import {setContent, addMaterial, setCourses} from '../megablob/actions'
 
 export default React.createClass({
 
@@ -48,7 +48,6 @@ export default React.createClass({
 
   progressBar (e) {
     const loaded = e.loaded / e.total
-    console.log(e)
     this.setState({progress: loaded === 1 ? null : loaded * 100})
   },
 
@@ -66,6 +65,13 @@ export default React.createClass({
     }
   },
 
+  del (filename) {
+    return e => {
+      http.del(`/upload/${filename}`)
+        .then(setCourses)
+    }
+  },
+
   save () {
     const path = urlify(this.props.title)
     http.post(`/api${path}`, {content: this.state.content})
@@ -78,7 +84,7 @@ export default React.createClass({
   saveFile (data) {
     const path = urlify(this.props.title)
     http.upload(`/upload${path}`, data, this.progressBar)
-      .then(material => setMaterial({path, material}))
+      .then(material => addMaterial({path, material}))
       .catch(error => console.log(error))
   },
 
@@ -92,7 +98,7 @@ export default React.createClass({
   },
 
   renderMaterial () {
-    const {material}          = this.props
+    const {material, admin}   = this.props
     const {editing, progress} = this.state
 
     return (
@@ -102,6 +108,11 @@ export default React.createClass({
             {material.map(m => (
               <li key={m.filename} className="materials__material">
                 <a href={`/files/${m.filename}`}>{m.title}</a>
+                {admin && (
+                  <span className="delete" onClick={this.del(m.filename)}>
+                    poista
+                  </span>
+                )}
               </li>
             ))}
           </ul>

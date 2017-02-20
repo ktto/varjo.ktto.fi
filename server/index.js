@@ -45,6 +45,7 @@ module.exports = function createServer (config) {
   app.post('/upload/:course', files.single('file'), sendJSON(api.setMaterial))
 
   app.delete('/api/:course', login, sendJSON(api.deleteCourse))
+  app.delete('/upload/:filename', login, sendJSON(api.deleteMaterial))
 
 
   app.get('/login', login, (req, res) => {
