@@ -29,7 +29,7 @@ const setCourses = req => resetCache(req.path, () => {
     write(`${title}.json`, JSON.stringify(course, null, 2)),
     write(`${title}.md`, '')
   ]).then(() => {
-    commitAndPush()
+    commitAndPush(`Add ${course}`)
     return req.body.course
   })
 })
@@ -39,9 +39,11 @@ const getCourse = req => cache(req.user, req.path, () => {
 })
 
 const setCourse = req => resetCache(req.path, () => {
-  return write(`${req.params.course}.md`, req.body.content)
+  const name    = req.params.course
+  const content = req.body.content
+  return write(`${name}.md`, content)
     .then(() => {
-      commitAndPush()
+      commitAndPush(`Edit ${name} [len: ${content.length}]`)
       return req.body.content
     })
 })
@@ -57,7 +59,7 @@ const deleteCourse = req => resetCache(req.path, () => {
         .join(' ')
       return execAsync(`rm ${files}`)
     }).then(() => {
-      commitAndPush()
+      commitAndPush(`Delete ${name}`)
       resetCache('/api/courses')
       resetCache(`/api/${name}`)
       return getCourses({path: '/api/courses'})
@@ -77,7 +79,7 @@ const setMaterial = req => {
       const data       = R.merge(json, {material: material.concat(uploaded)})
       return write(file, JSON.stringify(data, null, 2))
         .then(() => {
-          commitAndPush()
+          commitAndPush(`Add ${filename}`)
           resetCache('/api/courses')
           resetCache(`/api/${name}`)
           return uploaded
@@ -96,7 +98,7 @@ const deleteMaterial = req => resetCache(req.path, () => {
       return write(course, JSON.stringify(data, null, 2))
         .then(() => execAsync(`rm ${DATA_DIR}/files/${filename}`))
         .then(() => {
-          commitAndPush()
+          commitAndPush(`Delete ${filename}`)
           resetCache('/api/courses')
           resetCache(`/api/${course}`)
           return getCourses({path: '/api/courses'})
@@ -120,8 +122,8 @@ const getCourseAt = req => cache(req.user, req.path, () => {
   return execAsync(`git show ${commit}:data/${course}.md`)
 })
 
-const commitAndPush = () => process.env.NODE_ENV === 'production'
-  ? execAsync('git commit -am "[update course data]" && git push')
+const commitAndPush = (msg) => process.env.NODE_ENV === 'production'
+  ? execAsync(`git commit -am "${msg || '[update course data]'}" && git push backup master`)
       .catch(err => console.error(err))
   : console.log('Committing only in production')
 
@@ -148,7 +150,6 @@ export default {
   deleteMaterial,
   getCourseHistory,
   getCourseAt,
-  commitAndPush,
   renderHTML
 }
 
