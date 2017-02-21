@@ -30,7 +30,7 @@ export default React.createClass({
   render () {
     return (
       <section>
-        <Header showFilter={this.state.path === '/'}/>
+        <Header filter={this.props.filter} showFilter={this.state.path === '/'}/>
         <div className="wrapper content">
           {this.renderCurrentRoute()}
         </div>

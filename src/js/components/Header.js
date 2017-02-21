@@ -26,7 +26,7 @@ export default React.createClass({
 
   render () {
     const {inputStream, dirty} = this.state
-    const {showFilter}         = this.props
+    const {filter, showFilter} = this.props
     
     return (
       <header className="header">
@@ -38,6 +38,7 @@ export default React.createClass({
             <div className="header__filter">
               <input className={dirty ? 'dirty' : ''}
                      placeholder="Etsi kursseja"
+                     defaultValue={filter}
                      onChange={e => inputStream.push(e.target.value)}/>
             </div>
           )}

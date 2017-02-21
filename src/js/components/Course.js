@@ -48,7 +48,7 @@ export default React.createClass({
 
   progressBar (e) {
     const loaded = e.loaded / e.total
-    this.setState({progress: loaded === 1 ? null : loaded * 100})
+    this.setState({progress: loaded === 1 ? null : (loaded * 100).toFixed(2)})
   },
 
   getHistory () {

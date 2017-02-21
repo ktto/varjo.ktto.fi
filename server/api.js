@@ -59,12 +59,14 @@ const deleteCourse = req => resetCache(req.path, () => {
     }).then(() => {
       commitAndPush()
       resetCache('/api/courses')
+      resetCache(`/api/${name}`)
       return getCourses({path: '/api/courses'})
     })
 })
 
-const setMaterial = req => resetCache(`/api/${req.params.course}`, () => {
-  const file = `${req.params.course}.json`
+const setMaterial = req => {
+  const name = req.params.course
+  const file = `${name}.json`
   return read(file)
     .then(JSON.parse)
     .then(json => {
@@ -76,10 +78,12 @@ const setMaterial = req => resetCache(`/api/${req.params.course}`, () => {
       return write(file, JSON.stringify(data, null, 2))
         .then(() => {
           commitAndPush()
+          resetCache('/api/courses')
+          resetCache(`/api/${name}`)
           return uploaded
         })
     })
-})
+}
 
 const deleteMaterial = req => resetCache(req.path, () => {
   const {filename} = req.params
@@ -111,7 +115,7 @@ const getCourseHistory = req => cache(req.user, req.path, () => {
     ))
 })
 
-const getCourseAt = req => cache(req,user, req.path, () => {
+const getCourseAt = req => cache(req.user, req.path, () => {
   const {course, commit} = req.params
   return execAsync(`git show ${commit}:data/${course}.md`)
 })

@@ -17,7 +17,9 @@ module.exports = function createServer (config) {
       cb(null, resolve(__dirname, '..', 'data', 'files'))
     },
     filename: (req, file, cb) => {
-      cb(null, `${req.params.course}-${Date.now()}.${extension(file.mimetype)}`)
+      const filetype = extension(file.mimetype)
+      const ext = filetype === 'bin' ? 'pdf' : filetype
+      cb(null, `${req.params.course}-${Date.now()}.${ext}`)
     }
   })})
 
