@@ -29,8 +29,8 @@ const setCourses = req => resetCache(req.path, () => {
     write(`${title}.json`, JSON.stringify(course, null, 2)),
     write(`${title}.md`, '')
   ]).then(() => {
-    commitAndPush(`Add ${course}`)
-    return req.body.course
+    commitAndPush('Add %s', title)
+    return course
   })
 })
 
@@ -43,8 +43,8 @@ const setCourse = req => resetCache(req.path, () => {
   const content = req.body.content
   return write(`${name}.md`, content)
     .then(() => {
-      commitAndPush(`Edit ${name} [len: ${content.length}]`)
-      return req.body.content
+      commitAndPush('Edit %s [len: %s]', name, content.length)
+      return content
     })
 })
 
@@ -57,9 +57,12 @@ const deleteCourse = req => resetCache(req.path, () => {
         .map(({filename}) => `${DATA_DIR}/files/${filename}`)
         .concat(['json', 'md'].map(ext => `${DATA_DIR}/${name}.${ext}`))
         .join(' ')
+      if (R.any(potentiallyHarmful, files)) {
+        return Promise.reject()
+      }
       return execAsync(`rm ${files}`)
     }).then(() => {
-      commitAndPush(`Delete ${name}`)
+      commitAndPush('Delete %s', name)
       resetCache('/api/courses')
       resetCache(`/api/${name}`)
       return getCourses({path: '/api/courses'})
@@ -79,7 +82,7 @@ const setMaterial = req => {
       const data       = R.merge(json, {material: material.concat(uploaded)})
       return write(file, JSON.stringify(data, null, 2))
         .then(() => {
-          commitAndPush(`Add ${filename}`)
+          commitAndPush('Add %s', filename)
           resetCache('/api/courses')
           resetCache(`/api/${name}`)
           return uploaded
@@ -89,7 +92,10 @@ const setMaterial = req => {
 
 const deleteMaterial = req => resetCache(req.path, () => {
   const {filename} = req.params
-  const course     = `${R.init(filename.split('-')).join('-')}.json`
+  if (potentiallyHarmful(filename)) {
+    return Promise.reject()
+  }
+  const course = `${R.init(filename.split('-')).join('-')}.json`
   return read(course)
     .then(JSON.parse)
     .then(json => {
@@ -98,7 +104,7 @@ const deleteMaterial = req => resetCache(req.path, () => {
       return write(course, JSON.stringify(data, null, 2))
         .then(() => execAsync(`rm ${DATA_DIR}/files/${filename}`))
         .then(() => {
-          commitAndPush(`Delete ${filename}`)
+          commitAndPush('Delete %s', filename)
           resetCache('/api/courses')
           resetCache(`/api/${course}`)
           return getCourses({path: '/api/courses'})
@@ -107,6 +113,9 @@ const deleteMaterial = req => resetCache(req.path, () => {
 })
 
 const getCourseHistory = req => cache(req.user, req.path, () => {
+  if (potentiallyHarmful(req.params.course)) {
+    return Promise.reject()
+  }
   return execAsync(`git log -- data/${req.params.course}.md`)
     .then(R.pipe(
       R.split('\n'),
@@ -118,14 +127,26 @@ const getCourseHistory = req => cache(req.user, req.path, () => {
 })
 
 const getCourseAt = req => cache(req.user, req.path, () => {
+  if (R.any(potentiallyHarmful, [course, commit])) {
+    return Promise.reject()
+  }
   const {course, commit} = req.params
   return execAsync(`git show ${commit}:data/${course}.md`)
 })
 
-const commitAndPush = (msg) => process.env.NODE_ENV === 'production'
-  ? execAsync(`git commit -am "${msg || '[update course data]'}" && git push backup master`)
-      .catch(err => console.error(err))
-  : console.log('Committing only in production')
+const commitAndPush = (template, ...vars) => {
+  if (R.any(potentiallyHarmful, vars)) {
+    return Promise.reject()
+  }
+
+  let msg = template
+  vars.forEach(v => msg = msg.replace('%s', v))
+
+  return process.env.NODE_ENV === 'production'
+    ? execAsync(`git commit -am "${msg}" && git push backup master`)
+        .catch(err => console.error(err))
+    : console.log('Committing only in production', msg)
+}
 
 const renderHTML = req => cache(req.user, req.path, () => {
   return Bluebird.props({
@@ -182,4 +203,21 @@ function renderApp (appHTML, appState) {
 function fetchData (req) {
   return fetch(`${req.protocol}://${req.headers.host}/api${req.path}`)
     .then(res => res.json())
+}
+
+function potentiallyHarmful (str) {
+  const s = decodeURIComponent(str)
+  const shouldBeConcerned = /\s/.test(s)
+    || s.indexOf(';') !== -1
+    || s.indexOf('&') !== -1
+    || s.indexOf('|') !== -1
+    || s.indexOf('"') !== -1
+    || s.indexOf('`') !== -1
+    || s.indexOf("'") !== -1
+    || s.indexOf('$') !== -1
+  if (shouldBeConcerned) {
+    console.error('Someone tried something nasty:', str, s)
+    return true
+  }
+  return false
 }
