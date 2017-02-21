@@ -6,9 +6,9 @@ import React            from 'react'
 import {renderToString} from 'react-dom/server'
 import {resolve}        from 'path'
 
-import App                    from '../src/js/components/App'
-import {cache, resetCache}    from './cache'
-import {contentIn, normalize} from '../src/js/util'
+import App                                    from '../src/js/components/App'
+import {cache, resetCache}                    from './cache'
+import {contentIn, courseMatching, normalize} from '../src/js/util'
 
 const fs          = Bluebird.promisifyAll(require('fs'))
 const {execAsync} = Bluebird.promisifyAll(require('child_process'))
@@ -154,9 +154,10 @@ const renderHTML = req => cache(req.user, req.path, () => {
     content: req.path === '/' ? Bluebird.resolve() : fetchData(req)
   }).then(data => {
     const courses = L.set(contentIn(req.path), data.content, data.courses)
+    const course  = L.get(courseMatching(req.path), data.courses)
     const state   = {courses, filter: '', admin: !!req.user, path: req.path, history: true}
     const html    = renderToString(<App {...state}/>)
-    return renderApp(html, state)
+    return renderApp(html, state, course)
   }).catch(() => {
     return getCourses({path: '/api/courses'})
       .then(courses => {
@@ -191,20 +192,36 @@ function write (path, content) {
     .catch(err => `Error writing ${path}: ${err}`)
 }
 
-function renderApp (appHTML, appState) {
+function renderApp (appHTML, appState, course) {
+  const title = `${course.title ? course.title + ' | ' : ''}KTTO:n varjo-opinto-opas`
+  const desc  = `Kansantaloustieteen opiskelijat KTTO ry:n varjo-opinto-opas. Vanhoja tenttejä, laskareita ja kurssivinkkejä.${course.title ? ' ' + course.title + '.' : ''}`
   return `<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="description" content="${desc}" />
+    <meta name="keywords" content="KTTO taloustiede tilastotiede matematiikka Helsingin yliopisto valtiotieteellinen opinto-opas koe kokeita tentti tenttejä kurssi kurssivinkkejä" />
+    <meta name="author" content="KTTO ry" />
+    <meta name="copyright" content="KTTO ry" />
+    <meta name="application-name" content="Varjo-opinto-opas" />
+    <meta property="og:title" content="${title}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="/public/img/ktto.jpg" />
+    <meta property="og:url" content="http://varjo.ktto.fi${appState.path}" />
+    <meta property="og:description" content="${desc}" />
+    <meta name="twitter:card" content="KTTO" />
+    <meta name="twitter:title" content="${title}" />
+    <meta name="twitter:description" content="${desc}" />
+    <meta name="twitter:image" content="/public/img/ktto.jpg" />
     <link href='https://fonts.googleapis.com/css?family=Cambay:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/public/css/all.min.css">
-    <title>ktto | varjo-opinto-opas</title>
+    <title>KTTO | ${course ? course.title + ' | ' : ''}varjo-opinto-opas</title>
   </head>
   <body>
     <main id="app">${appHTML}</main>
     <script>window.INITIAL_STATE = ${JSON.stringify(appState)}</script>
-    <script src="/public/js/all.min.js"></script>
+    <script src="/public/js/all.min.js" async></script>
   </body>
 </html>`
 }

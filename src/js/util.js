@@ -2,9 +2,13 @@ import R      from 'ramda'
 import * as L from 'partial.lenses'
 
 
+export function courseMatching (path) {
+  return L.find(course => urlify(course.title) === path)
+}
+
 export function contentIn (path) {
   return L.compose(
-    L.find(course => urlify(course.title) === path),
+    courseMatching(path),
     L.prop('content'),
     L.valueOr('')
   )
@@ -12,7 +16,7 @@ export function contentIn (path) {
 
 export function materialIn (path, {title}) {
   return L.compose(
-    L.find(course => urlify(course.title) === path),
+    courseMatching(path),
     L.prop('material'),
     L.required([]),
     L.find(R.whereEq({title}))
