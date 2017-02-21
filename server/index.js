@@ -1,5 +1,6 @@
 import express     from 'express'
 import session     from 'express-session'
+import compression from 'compression'
 import passport    from 'passport'
 import parser      from 'body-parser'
 import multer      from 'multer'
@@ -24,6 +25,7 @@ module.exports = function createServer (config) {
   })})
 
   app.disable('x-powered-by')
+  app.use(compression())
   app.use('/public', express.static(resolve(__dirname, '..', 'public')))
   app.use('/api', parser.json())
   app.use(session({secret: config.secret, resave: false, saveUninitialized: false}))
