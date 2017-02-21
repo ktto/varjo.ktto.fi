@@ -157,13 +157,13 @@ const renderHTML = req => cache(req.user, req.path, () => {
     const course  = L.get(courseMatching(req.path), data.courses)
     const state   = {courses, filter: '', admin: !!req.user, path: req.path, history: true}
     const html    = renderToString(<App {...state}/>)
-    return renderApp(html, state, course)
+    return renderApp(html, state, course || {})
   }).catch(() => {
     return getCourses({path: '/api/courses'})
       .then(courses => {
         const state   = {courses, filter: '', admin: !!req.user, path: '/404',  history: true}
         const html    = renderToString(<App {...state}/>)
-        return renderApp(html, state)
+        return renderApp(html, state, {})
       })
   })
 })
