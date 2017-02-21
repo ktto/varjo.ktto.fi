@@ -26,10 +26,16 @@ export default React.createClass({
     if (this.props.content === undefined) {
       const path = urlify(this.props.title)
       http.get(`/api${path}`)
-        .then(content => this.setState(
-          {loading: false},
-          () => setContent({path, content})
-        )).catch(error => console.log(error))
+        .then(data => {
+          // Fucking ridicilous, IE
+          const content = typeof data === 'string'
+            ? JSON.parse(data).content
+            : data.content
+          this.setState(
+            {loading: false},
+            () => setContent({path, content})
+          )
+        }).catch(error => console.log(error))
     }
     ga('send', 'pageview')
   },
@@ -52,16 +58,14 @@ export default React.createClass({
   },
 
   getHistory () {
-    fetch(`/api${urlify(this.props.title)}/history`)
-      .then(res => res.json())
+    http.get(`/api${urlify(this.props.title)}/history`)
       .then(history => this.setState({history}))
   },
 
   getCommit (commit) {
     return () => {
-      fetch(`/api${urlify(this.props.title)}/${commit}`)
-        .then(res => res.json())
-        .then(content => this.setState({content}))
+      http.get(`/api${urlify(this.props.title)}/${commit}`)
+        .then(content => this.setState(content))
     }
   },
 

@@ -36,6 +36,7 @@ const setCourses = req => resetCache(req.path, () => {
 
 const getCourse = req => cache(req.user, req.path, () => {
   return read(`${req.params.course}.md`)
+    .then(content => ({content}))
 })
 
 const setCourse = req => resetCache(req.path, () => {
@@ -44,7 +45,7 @@ const setCourse = req => resetCache(req.path, () => {
   return write(`${name}.md`, content)
     .then(() => {
       commitAndPush('Edit %s [len: %s]', name, content.length)
-      return content
+      return {content}
     })
 })
 
@@ -132,6 +133,7 @@ const getCourseAt = req => cache(req.user, req.path, () => {
   }
   const {course, commit} = req.params
   return execAsync(`git show ${commit}:data/${course}.md`)
+    .then(content => ({content}))
 })
 
 const commitAndPush = (template, ...vars) => {
@@ -151,9 +153,9 @@ const commitAndPush = (template, ...vars) => {
 const renderHTML = req => cache(req.user, req.path, () => {
   return Bluebird.props({
     courses: getCourses({path: '/api/courses'}),
-    content: req.path === '/' ? Bluebird.resolve() : fetchData(req)
+    content: req.path === '/' ? Bluebird.resolve({}) : fetchData(req)
   }).then(data => {
-    const courses = L.set(contentIn(req.path), data.content, data.courses)
+    const courses = L.set(contentIn(req.path), data.content.content, data.courses)
     const course  = L.get(courseMatching(req.path), data.courses)
     const state   = {courses, filter: '', admin: !!req.user, path: req.path, history: true}
     const html    = renderToString(<App {...state}/>)
