@@ -91,7 +91,7 @@ export default React.createClass({
     return editing
       ? <textarea onChange={this.edit} value={content}/>
       : content
-        ? <section dangerouslySetInnerHTML={{__html: marked(content)}}/>
+        ? <section className="course__content" dangerouslySetInnerHTML={{__html: marked(content)}}/>
         : <section>Auta lisäämällä tänne kurssivinkkejä!</section>
   },
 
