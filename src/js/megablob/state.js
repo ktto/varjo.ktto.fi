@@ -21,13 +21,14 @@ export default (initialState = {}) => {
 
   return Bacon.combineTemplate({
     admin: initialState.admin,
-    filter: actions.setFilter.$.toProperty(initialState.filter),
     courses: Bacon.update(
       initialState.courses,
       [actions.setContent.$],     setContent,
       [actions.addMaterial.$],    addMaterial,
       [actions.receiveCourses.$], addCourse,
       [actions.setCourses.$],     setCourses
-    )
+    ),
+    filter: actions.setFilter.$.toProperty(initialState.filter),
+    path: initialState.path,
   })
 }

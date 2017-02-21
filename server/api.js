@@ -157,6 +157,13 @@ const renderHTML = req => cache(req.user, req.path, () => {
     const state   = {courses, filter: '', admin: !!req.user, path: req.path, history: true}
     const html    = renderToString(<App {...state}/>)
     return renderApp(html, state)
+  }).catch(() => {
+    return getCourses({path: '/api/courses'})
+      .then(courses => {
+        const state   = {courses, filter: '', admin: !!req.user, path: '/404',  history: true}
+        const html    = renderToString(<App {...state}/>)
+        return renderApp(html, state)
+      })
   })
 })
 
@@ -176,10 +183,12 @@ export default {
 
 function read (path) {
   return fs.readFileAsync(`${DATA_DIR}/${path}`, 'utf8')
+    .catch(err => `Error reading ${path}: ${err}`)
 }
 
 function write (path, content) {
   return fs.writeFileAsync(`${DATA_DIR}/${path}`, content, 'utf8')
+    .catch(err => `Error writing ${path}: ${err}`)
 }
 
 function renderApp (appHTML, appState) {

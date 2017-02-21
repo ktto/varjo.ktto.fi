@@ -12,6 +12,7 @@ export default React.createClass({
   mixins: [RouterMixin],
   routes: {
     '/': 'index',
+    '/404': 'notFound',
     '/:title': 'course'
   },
 
@@ -25,6 +26,10 @@ export default React.createClass({
     const {courses, admin} = this.props
     return <Course {...R.find(courseMatchesUrl(title), courses)}
                    admin={admin}/>
+  },
+
+  notFound (path) {
+    return <div>Sivua ei löytynyt</div>
   },
 
   render () {
