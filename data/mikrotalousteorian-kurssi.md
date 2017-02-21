@@ -1,3 +1,5 @@
+[Vuoden 2008 laskarit ja vastaukset](http://www.helsinki.fi/jarj/ktto/Opiskelu/Tentit/mikro08laskarit/)
+
 ### Kirjallisuus ja/tai muu materiaali
 _Varian H R: Intermediate Microeconomics. A Modern Approach (7th ed.), ei lukuja 11 ja 13._
 
