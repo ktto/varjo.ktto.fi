@@ -26,16 +26,10 @@ export default React.createClass({
     if (this.props.content === undefined) {
       const path = urlify(this.props.title)
       http.get(`/api${path}`)
-        .then(data => {
-          // Fucking ridicilous, IE
-          const content = typeof data === 'string'
-            ? JSON.parse(data).content
-            : data.content
-          this.setState(
-            {loading: false},
-            () => setContent({path, content})
-          )
-        }).catch(error => console.log(error))
+        .then(data => this.setState(
+          {loading: false},
+          () => setContent({path, content: fuckYouInternetExplorer(data)})
+        )).catch(error => console.log(error))
     }
     ga('send', 'pageview')
   },
@@ -79,9 +73,9 @@ export default React.createClass({
   save () {
     const path = urlify(this.props.title)
     http.post(`/api${path}`, {content: this.state.content})
-      .then(content => this.setState(
+      .then(data => this.setState(
         {editing: false},
-        () => setContent({path, content})
+        () => setContent({path, content: fuckYouInternetExplorer(data)})
       )).catch(error => console.log(error))
   },
 
@@ -182,4 +176,10 @@ function helpText () {
 function parseDate (dateString) {
   const [date, time] = new Date(dateString).toISOString().split('T')
   return `${date} ${R.head(time.split('.'))}`
+}
+
+function fuckYouInternetExplorer (data) {
+  return typeof data === 'string'
+    ? JSON.parse(data).content
+    : data.content
 }
