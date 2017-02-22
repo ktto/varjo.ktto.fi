@@ -57,11 +57,10 @@ const deleteCourse = req => resetCache(req.path, () => {
       const files = material
         .map(({filename}) => `${DATA_DIR}/files/${filename}`)
         .concat(['json', 'md'].map(ext => `${DATA_DIR}/${name}.${ext}`))
-        .join(' ')
       if (R.any(potentiallyHarmful, files)) {
         return Promise.reject()
       }
-      return execAsync(`rm ${files}`)
+      return execAsync(`rm ${files.join(' ')}`)
     }).then(() => {
       commitAndPush('Delete %s', name)
       resetCache('/api/courses')
