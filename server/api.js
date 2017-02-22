@@ -198,14 +198,14 @@ function write (path, content) {
 
 function renderApp (appHTML, appState, course) {
   const title = `${course.title ? course.title + ' | ' : ''}KTTO:n varjo-opinto-opas`
-  const desc  = `Kansantaloustieteen opiskelijat KTTO ry:n varjo-opinto-opas. Vanhoja tenttejä, laskareita ja kurssivinkkejä.${course.title ? ' ' + course.title + '.' : ''}`
+  const desc  = `Kansantaloustieteen opiskelijat KTTO ry:n varjo-opinto-opas. Vanhoja tenttejä, laskareita ja kurssivinkkejä.${course.subject ? ' ' + course.subject + ', ' + course.title + '.': ''}`
   return `<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta name="description" content="${desc}" />
-    <meta name="keywords" content="KTTO taloustiede tilastotiede matematiikka Helsingin yliopisto valtiotieteellinen opinto-opas koe kokeita tentti tenttejä kurssi kurssivinkkejä" />
+    <meta name="keywords" content="KTTO taloustiede tilastotiede matematiikka kansantaloustiede kansis helsingin yliopisto hy aalto kauppis kylteri ky valtiotieteellinen valtsika opinto-opas koe kokeita tenttiarkisto tentti tenttejä kurssi kurssivinkkejä" />
     <meta name="author" content="KTTO ry" />
     <meta name="copyright" content="KTTO ry" />
     <meta name="application-name" content="Varjo-opinto-opas" />
