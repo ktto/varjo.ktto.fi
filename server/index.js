@@ -38,6 +38,9 @@ module.exports = function createServer (config) {
   app.get('/files/:filename', (req, res) => {
     res.sendFile(resolve(__dirname, '..', 'data', 'files', req.params.filename))
   })
+  app.get('/google70c878569f267bac.html', (req, res) => {
+    res.sendFile(resolve(__dirname, '..', 'public', 'google70c878569f267bac.html'))
+  })
 
   app.get('/api/courses', sendJSON(api.getCourses))
   app.get('/api/:course', sendJSON(api.getCourse))
