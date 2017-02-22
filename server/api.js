@@ -128,10 +128,12 @@ const getCourseHistory = req => cache(req.user, req.path, () => {
 })
 
 const getCourseAt = req => cache(req.user, req.path, () => {
+  const {course, commit} = req.params
+
   if (R.any(potentiallyHarmful, [course, commit])) {
     return Promise.reject()
   }
-  const {course, commit} = req.params
+
   return execAsync(`git show ${commit}:data/${course}.md`)
     .then(content => ({content}))
 })
