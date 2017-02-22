@@ -2,5 +2,14 @@
   "title": "Topologia I",
   "shortTitles": [],
   "subject": "matematiikka",
-  "material": []
+  "material": [
+    {
+      "title": "1. kurssikoe 2014",
+      "filename": "topologia-i-1487784719747.pdf"
+    },
+    {
+      "title": "2. kurssikoe 2014",
+      "filename": "topologia-i-1487784738723.pdf"
+    }
+  ]
 }

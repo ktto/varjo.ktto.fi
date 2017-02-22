@@ -4,5 +4,30 @@
     "Analyysi 2"
   ],
   "subject": "matematiikka",
-  "material": []
+  "material": [
+    {
+      "title": "1. kurssikoe 12.3.2011",
+      "filename": "matemaattisen-analyysin-jatkokurssi-1487783948589.pdf"
+    },
+    {
+      "title": "2. kurssikoe 3.5.2012",
+      "filename": "matemaattisen-analyysin-jatkokurssi-1487783969906.jpeg"
+    },
+    {
+      "title": "1. kurssikoe 11.3.2013",
+      "filename": "matemaattisen-analyysin-jatkokurssi-1487783986717.pdf"
+    },
+    {
+      "title": "1. välikoe 10.3.2015",
+      "filename": "matemaattisen-analyysin-jatkokurssi-1487784008113.jpeg"
+    },
+    {
+      "title": "1. välikoe 16.3.2016",
+      "filename": "matemaattisen-analyysin-jatkokurssi-1487784023055.pdf"
+    },
+    {
+      "title": "Loppukoe 11.8.2016",
+      "filename": "matemaattisen-analyysin-jatkokurssi-1487784046043.pdf"
+    }
+  ]
 }

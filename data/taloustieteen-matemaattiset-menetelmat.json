@@ -4,5 +4,30 @@
     "TA6"
   ],
   "subject": "taloustiede",
-  "material": []
+  "material": [
+    {
+      "title": "1. välikoe 18.10.2011",
+      "filename": "taloustieteen-matemaattiset-menetelmat-1487778340016.pdf"
+    },
+    {
+      "title": "2. välikoe 8.12.2011",
+      "filename": "taloustieteen-matemaattiset-menetelmat-1487778354548.pdf"
+    },
+    {
+      "title": "1. välikoe 8.12.2012",
+      "filename": "taloustieteen-matemaattiset-menetelmat-1487778379985.jpeg"
+    },
+    {
+      "title": "2. välikoe 27.12.2014",
+      "filename": "taloustieteen-matemaattiset-menetelmat-1487778405114.jpeg"
+    },
+    {
+      "title": "1. välikoe 15.10.2015",
+      "filename": "taloustieteen-matemaattiset-menetelmat-1487778554912.pdf"
+    },
+    {
+      "title": "1. välikoe 18.10.2016",
+      "filename": "taloustieteen-matemaattiset-menetelmat-1487778648319.pdf"
+    }
+  ]
 }

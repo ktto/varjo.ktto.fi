@@ -4,5 +4,22 @@
     "S1"
   ],
   "subject": "taloustiede",
-  "material": []
+  "material": [
+    {
+      "title": "1. välikoe 8.11.2013",
+      "filename": "mikrotalousteorian-syventava-kurssi-1487779052797.pdf"
+    },
+    {
+      "title": "2. välikoe 15.1.2014",
+      "filename": "mikrotalousteorian-syventava-kurssi-1487779083121.pdf"
+    },
+    {
+      "title": "Uusinta 19.11.2014",
+      "filename": "mikrotalousteorian-syventava-kurssi-1487779136528.pdf"
+    },
+    {
+      "title": "Uusinta 2015",
+      "filename": "mikrotalousteorian-syventava-kurssi-1487779161900.pdf"
+    }
+  ]
 }

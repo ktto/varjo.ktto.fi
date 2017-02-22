@@ -4,5 +4,26 @@
     "JTP"
   ],
   "subject": "tilastotiede",
-  "material": []
+  "material": [
+    {
+      "title": "Kurssikoe 10.5.2010",
+      "filename": "johdatus-tilastolliseen-paattelyyn-1487785196008.pdf"
+    },
+    {
+      "title": "Kurssikoe 7.5.2012 ja vastaukset",
+      "filename": "johdatus-tilastolliseen-paattelyyn-1487785225308.pdf"
+    },
+    {
+      "title": "Kurssikoe 6.5.2013",
+      "filename": "johdatus-tilastolliseen-paattelyyn-1487785241543.pdf"
+    },
+    {
+      "title": "Erilliskoe 4.3.2014",
+      "filename": "johdatus-tilastolliseen-paattelyyn-1487785260345.pdf"
+    },
+    {
+      "title": "Kurssikoe 17.3.2016",
+      "filename": "johdatus-tilastolliseen-paattelyyn-1487785277330.pdf"
+    }
+  ]
 }

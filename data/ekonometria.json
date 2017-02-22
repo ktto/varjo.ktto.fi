@@ -4,5 +4,46 @@
     "TA7"
   ],
   "subject": "taloustiede",
-  "material": []
+  "material": [
+    {
+      "title": "Lopputentti 2011",
+      "filename": "ekonometria-1487777968999.pdf"
+    },
+    {
+      "title": "Uusintatentti 2011",
+      "filename": "ekonometria-1487778004215.pdf"
+    },
+    {
+      "title": "Lopputentti 2012",
+      "filename": "ekonometria-1487778028762.jpeg"
+    },
+    {
+      "title": "Lopputentti 2013",
+      "filename": "ekonometria-1487778062099.pdf"
+    },
+    {
+      "title": "1. välikoe 10.3.2014",
+      "filename": "ekonometria-1487778097622.pdf"
+    },
+    {
+      "title": "2. välikoe 15.4.2014",
+      "filename": "ekonometria-1487778119034.pdf"
+    },
+    {
+      "title": "Loppukoe 19.5.2014",
+      "filename": "ekonometria-1487778154160.pdf"
+    },
+    {
+      "title": "1. välikoe 25.2.2016",
+      "filename": "ekonometria-1487778187054.pdf"
+    },
+    {
+      "title": "2. välikoe 4.4.2016",
+      "filename": "ekonometria-1487778210448.pdf"
+    },
+    {
+      "title": "Uusinta 9.5.2016",
+      "filename": "ekonometria-1487778247004.pdf"
+    }
+  ]
 }
