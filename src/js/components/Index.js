@@ -103,7 +103,7 @@ export default React.createClass({
     const {editing}       = this.state
 
     return (
-      <secton>
+      <section>
         <ul className="courses">
           {courses.length ? (
             R.pipe(
@@ -124,7 +124,8 @@ export default React.createClass({
             {editing && <button onClick={this.addCourse}>Tallenna</button>}
           </div>
         )}
-      </secton>
+        <small>Haluatko lisätä kurssin? Kysy admin-tunnuksia <a href="http://ktto.fi">KTTO</a>:n hallitukselta.</small>
+      </section>
     )
   }
 })
