@@ -216,7 +216,6 @@ function renderApp (appHTML, appState, course) {
     <meta name="twitter:title" content="${title}" />
     <meta name="twitter:description" content="${desc}" />
     <meta name="twitter:image" content="http://varjo.ktto.fi/public/img/ktto.jpg" />
-    <link href='https://fonts.googleapis.com/css?family=Cambay:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/public/css/all.min.css">
     <title>KTTO | ${course.title ? course.title + ' | ' : ''}varjo-opinto-opas</title>
   </head>
