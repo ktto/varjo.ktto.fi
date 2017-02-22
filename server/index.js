@@ -9,9 +9,11 @@ import {extension} from 'mime-types'
 
 import auth from './auth'
 import api  from './api'
+import le   from './lets-encrypt'
 
 module.exports = function createServer (config) {
   const app    = express()
+  const lex    = le(config)
   const login  = auth(passport, config)
   const files  = multer({storage: multer.diskStorage({
     destination: (req, file, cb) => {
@@ -67,10 +69,18 @@ module.exports = function createServer (config) {
   app.get('*', (req, res) => api.renderHTML(req).then(html => res.send(html)))
 
   return {
-    start: () => app.listen(
-      config.port,
-      () => console.log(`server listening at ${config.port}`)
-    )
+    start: () => {
+      if (config.env === 'production') {
+        require('http')
+          .createServer(lex.middleware(require('redirect-https')()))
+          .listen(80, () => console.log('Redirecting from http to https'))
+        require('https')
+          .createServer(lex.httpsOptions, lex.middleware(app))
+          .listen(443, () => console.log('Server running'))
+      } else {
+        app.listen(config.port, () => console.log(`Running locally at localhost:${config.port}`))
+      }
+    }
   }
 }
 
