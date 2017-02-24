@@ -146,7 +146,7 @@ const commitAndPush = (template, ...vars) => {
   vars.forEach(v => msg = msg.replace('%s', v))
 
   return process.env.NODE_ENV === 'production'
-    ? execAsync(`git commit -am "${msg}" && git push backup master`)
+    ? execAsync(`git add -A && commit -m "${msg}" && git push backup master`)
         .catch(err => console.error(err))
     : console.log('Committing only in production', msg)
 }
