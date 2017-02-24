@@ -18,7 +18,7 @@ Matemaattisen analyysin kurssi
 
 ### Kurssin käytännöt
 
-Samat kuin ykkösosassa
+Samat kuin ykkösosassa.
 
 ### Suoritustavat
 
