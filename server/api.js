@@ -171,7 +171,6 @@ const renderHTML = req => cache(req.user, req.path, () => {
   })
 })
 
-
 export default {
   getCourses,
   setCourses,
@@ -229,8 +228,10 @@ function renderApp (appHTML, appState, course) {
 }
 
 function fetchData (req) {
-  return fetch(`${req.protocol}://${req.headers.host}/api${req.path}`)
-    .then(res => res.json())
+  return !req.path.startsWith('/api/')
+    ? fetch(`${req.protocol}://${req.headers.host}/api${req.path}`)
+        .then(res => res.json())
+    : Promise.reject()
 }
 
 function potentiallyHarmful (str) {
