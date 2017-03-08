@@ -1,0 +1,1 @@
+Jakaantunut nykyään kahteen osaan. Ensimmäisessä osassa käydään kanditason ekonometriaa läpi, mutta sukelletaan paljon syvemmälle. Paljon teknistä pyörittelyä, joka tulee hallita tentissä. Toinen osio keskittyy aikasarjoihin ja uutta asiaa tulee vauhdilla. Molemmat kurssit vaativat todella paljon töitä mikäli hyvän numeron haluaa.
