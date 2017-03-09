@@ -16,7 +16,7 @@ Integraalilaskennan perusteet. Ei hätää vaikka asiat unohtuneet, samaan aikaa
 
 ### Kurssin käytännöt
 
-Laskarit kerran viikossa, pakollinen läsnäolo. Luentoja 5 tuntia viikossa.
+Laskarit kerran viikossa. Luentoja 5 tuntia viikossa.
 
 ### Suoritustavat
 
