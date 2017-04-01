@@ -1,0 +1,1 @@
+Paljon asiaa, mutta ei vaikeaa sellaista. Aloita lukemaan tenttiin ajoissa, niin hyvä numero on taattu
