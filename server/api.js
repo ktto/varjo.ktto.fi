@@ -30,7 +30,7 @@ const setCourses = req => resetCache(req.path, () => {
     write(`${title}.md`, '')
   ]).then(() => {
     commitAndPush('Add %s', title)
-    return course
+    return getCourses(req)
   })
 })
 

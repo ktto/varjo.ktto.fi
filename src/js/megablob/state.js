@@ -16,7 +16,7 @@ export default (initialState = {}) => {
     material,
     courses
   )
-  const addCourse  = (courses, newCourse) => courses.concat(newCourse)
+
   const setCourses = (_, courses) => courses
 
   return Bacon.combineTemplate({
@@ -25,7 +25,7 @@ export default (initialState = {}) => {
       initialState.courses,
       [actions.setContent.$],     setContent,
       [actions.addMaterial.$],    addMaterial,
-      [actions.receiveCourses.$], addCourse,
+      [actions.receiveCourses.$], setCourses,
       [actions.setCourses.$],     setCourses
     ),
     filter: actions.setFilter.$.toProperty(initialState.filter),
