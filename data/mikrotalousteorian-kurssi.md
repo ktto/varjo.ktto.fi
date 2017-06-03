@@ -36,7 +36,6 @@ Kurssikirjaa ei tarvitse hallita kokonaan eikä erityisen syvällisesti pääst�
 Laskareiden tekoon kannattaa panostaa, vaikka ne saattavat tuntua tylsiltä. Useimmiten ne alkavat lauseilla "Pekka tykkää omenoista ja päärynöistä. Omenat maksavat x ja päärynät y euroa". Sitten derivoidaankin puoli tuntia sitä, kuinka monta Pekka ostaa.
 
 ### Muuta
-__Pakollinen kurssi!__ 
 
 Kurssia luennoi jälleen syksyllä 2017 Marita Laukkanen. Aiempina vuosina Maritan pitämillä luennoilla on yleensä lähinnä luettu luentokalvot ääneen yleisölle. Jos pystyt lukemaan kirjaa ja luentokalvoja itsenäisesti, voi luennoilla käymisen lisäarvo jäädä melko pieneksi.
 
