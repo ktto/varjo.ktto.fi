@@ -1,10 +1,11 @@
-### Kurssi lopetettu!
+### Siirtymäsäännökset
 
 Kurssi on järjestetty viimeisen kerran vuoden 2016 syksyllä. **Kurssia ei siis enää pysty suorittamaan** (myöskään yleistenttejä ei järjestetä).
 
-Kurssi ei myöskään kuulu uusien kandidaatintutkintojen vaatimuksiin. Jos olet aloittanut opintosi vuonna 2017 tai siirryt suorittamaan uusien tutkintovaatimusten mukaista kandidaatintutkintoa, sinun ei siis tarvitse suorittaa kurssia tai korvata sitä millään.
+Jos suoritat uutta kandia (olet aloittanut syksyllä 2017 tai siirtynyt syksyllä 2017 tai sen jälkeen uuteen kandiohjelmaan), sinun ei tarvitse tehdä mitään. Tämä kurssi ei kuulu tutkintovaatimuksiin.
 
-Jos suoritat vanhojen tutkintovaatimusten (esimerkiksi 2014–2017) mukaista tutkintoa, kurssi on korvattava 10 opintopisteellä muita opintoja seuraavista vaihtoehdoista (tiedot 3.6.2017):
+Jos suoritat vanhaa kandia etkä ole aiemmin suorittanut tätä kurssia, voit korvata sen 
+kokoamalla 10 opintopistettä opintoja seuraavista vaihtoehdoista (tiedot 3.6.2017):
 * Mikä tahansa TA5-kurssi
 * Mitkä tahansa matemaattisten tieteiden kandidaatinohjelman kurssit
 
