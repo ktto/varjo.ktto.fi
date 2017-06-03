@@ -28,7 +28,7 @@ Yksi kurssikoe.
 
 ### Työläys
 
-Kurssi on työläydeltään keskitasoa. Se on selvästi haastavampi kuin Tilastollinen päättely I.
+Kurssi on työläydeltään ja vaikeudeltaan keskitasoa. Se on selvästi haastavampi kuin Tilastollinen päättely I.
 
 ### Muuta
 
