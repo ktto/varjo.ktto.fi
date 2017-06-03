@@ -1,10 +1,8 @@
 ### Siirtymäsäännökset ja pakollisuus
 
-Kurssi on **pakollinen** uusissa kandiohjelmissa.
+Kurssi on **pakollinen** vanhoissa kandiohjelmissa. Uusissa kandiohjelmissa se on vapaaehtoinen.
 
-Oletusvaihtoehto: jos suoritat uutta kandia (olet aloittanut syksyllä 2017 tai siirtynyt uuteen kandiohjelmaan), käy kurssi "TA2 Asiantuntijataidot" normaalisti.
-
-Jos suoritat uutta kandia ja olet jo suorittanut kurssin "TA2 Suomen talouselämän ja maailmantalouden esittely", voit korvata uuden kurssin "TA2 Asiantuntijataidot" vanhalla TA2-kurssilla.
+Jos suoritat uutta kandia (olet aloittanut syksyllä 2017 tai siirtynyt uuteen kandiohjelmaan) ja olet aiemmin suorittanut vanhan kurssin "TA2 Suomen talouselämän ja maailmantalouden esittely", voit korvata uuden pakollisen kurssin "TA2 Asiantuntijataidot" vanhalla TA2-kurssilla.
 
 ### Kirjallisuus ja/tai muu materiaali
 
@@ -15,8 +13,6 @@ Vierailevien luennoijien luentokalvot. Aiempina vuosina osa luentokalvoista ei v
 Kurssilla ei ole yleensä ollut tarkkaa teemaa, vaan käsiteltävät alueet ovat vaihdelleet sen mukaan, keitä kurssin järjestäjät ovat saaneet luennoijiksi. 
 
 Usein vierailevat luennoijat ovat olleet hyvin korkeatasoisia puhujia, ja keskimäärin luennot ovat kiinnostavia.
-
-Vanhasta TA2- ja uudesta TA5-kurssista poiketen kurssiin kuuluu myös joitain urapalveluiden järjestämiä luentoja. Niiden tarkoitus on tökkiä opiskelijoita miettimään, mitä haluavat isona tehdä ja miten saisi isona duunia (eli jonkun myös maksamaan siitä tekemisestä). Aiemmin samantyyppinen kokonaisuus kuului kurssiin "Valtiotieteilijä työelämässä".
 
 ### Todelliset esitiedot
 
