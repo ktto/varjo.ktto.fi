@@ -12,6 +12,12 @@ Kurssin todellinen tarkoitus on varmistaa, että saat kirjoitettua kandin työsi
 
 Kurssilta ei todennäköisesti saa eväitä taloustieteellisen kirjoittamisen erityiskysymyksiin, koska se on suunnattu kaikille valtsikan opiskelijoille.
 
+### Kurssin käytännöt
+
+Kurssin voi suorittaa milloin tahansa opintojen aikana. Käytännössä se on järkevää suorittaa viimeistään ennen kandin työtä. Kurssia järjestetään yleensä ainakin keväisin ja avoimessa yliopistossa kesäisin.
+
+Monilla kursseilla suoritukseen kuuluu esseen kirjoittaminen. Jos tieteellisen kirjoittamisen käytännöt tuntuvat vaikeilta, voi tästä kurssista olla jonkin verran hyötyä.
+
 ### Työläys
 
 Kurssi ei ole erityisen vaikea. Se vaatii kuitenkin jonkin verran aikaa, koska luennoilla on läsnäolopakko. Jos olet poissa luennoilta, joudut suorittamaan luennoijan antaman korvaavan tehtävän, esimerkiksi kirjoittamaan kurssikirjan jostain luvusta referaatin.
