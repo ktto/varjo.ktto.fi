@@ -8,9 +8,7 @@ Kurssiin tehdään useita muutoksia syksyllä 2017. Ylivoimainen enemmistö tuol
 
 Kurssin ensisijainen materiaali on todennäköisesti luentomateriaali (kurssisivuilta ladattavat luentokalvot). 
 
-Opiskelun tukena on teos 
-
-_Daron Acemoglu, David Laibson, John List (2015): Economics_
+Opiskelun tukena on teos _Daron Acemoglu, David Laibson, John List (2015): Economics_.
 
 Erittäin todennäköisesti teoksesta käsitellään kuitenkin vain osaa.
 
