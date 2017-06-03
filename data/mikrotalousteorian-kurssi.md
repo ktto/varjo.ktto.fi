@@ -4,9 +4,9 @@
 
 Syksystä 2017 alkaen kurssi on jaettu kahteen 5 opintopisteen osaan, TA3a Mikrotaloustiede I ja TA3b Mikrotaloustiede II (ECOK-210 ja ECOK-211). 
 
-Jos suoritat vanhaa kandia, voit korvata näillä uusilla kursseilla vanhan, 10 op:n TA3a-kurssin.
+Jos suoritat uutta kandia (olet aloittanut syksyllä 2017 tai siirryt uuteen kandiohjelmaan) ja olet suorittanut vanhan 10 op:n TA3a-kurssin, voit korvata sillä uudet 5 op:n kurssit.
 
-Jos siirryt suorittamaan uutta kandia, voit korvata vanhalla 10 op:n TA3a-kurssilla uudet 5 op:n kurssit.
+Jos suoritat vanhaa kandia, voit korvata näillä uusilla kursseilla vanhan, 10 op:n TA3a-kurssin.
 
 ### Kirjallisuus ja/tai muu materiaali
 _Varian H R: Intermediate Microeconomics. A Modern Approach (7th ed.), ei lukuja 11 ja 13._
@@ -19,7 +19,10 @@ Kurssilla perehdytään ekonomistille välttämättömiin mikrotalouden perustei
 TA 1 antaa hyvän pohjan. Lisäksi Analyysin kursseista (vanhasta Analyysin jatkokurssista) tai vastaavista tiedoista on hyötyä optimointiongelmien kanssa: käytännössä pitää tietää, mikä on osittaisderivaatta ja miten Lagrangen menetelmällä voi ratkaista yksinkertaisia, yhtälörajoittein annettuja minimointi- tai maksimointiongelmia.
 
 ### Kurssin käytännöt
-Luennot 4h/viikossa sekä kolmet laskarit/kurssi. Laskarit ovat pakollisia, eli niitä on suoritettava vähimmäismäärä, jotta voi osallistua kurssikokeisiin.
+
+Luentoja yhteensä 18h sekä 3 x 2h laskareita/kurssi. Luennoija VATT:n Marita Laukkanen. Periodit 1–2, suositeltu suoritusvuosi 2. Monet opiskelijat ovat kuitenkin suorittaneet kurssin jo ensimmäisenä opiskeluvuonna.
+
+Laskarit ovat pakollisia (niitä on suoritettava vähimmäismäärä, jotta voi osallistua kurssikokeisiin).
 
 ### Suoritustavat
 Kaksi välikoetta tai loppukuulustelu (jossa laskaripisteet eivät enää auta!).
