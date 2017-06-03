@@ -10,11 +10,13 @@ Vierailevien luennoijien luentokalvot. Aiempina vuosina osa luentokalvoista ei v
 
 ### Sisältö
 
-Kurssilla ei ole yleensä ollut tarkkaa teemaa, vaan käsiteltävät alueet ovat vaihdelleet sen mukaan, keitä kurssin järjestäjät ovat saaneet luennoijiksi. Usein luennoijat ovat kuitenkin olleet hyvin korkeatasoisia puhujia.
+Kurssilla ei ole yleensä ollut tarkkaa teemaa, vaan käsiteltävät alueet ovat vaihdelleet sen mukaan, keitä kurssin järjestäjät ovat saaneet luennoijiksi. 
+
+Usein luennoijat ovat olleet hyvin korkeatasoisia puhujia, ja keskimäärin luennot ovat kiinnostavia.
 
 ### Todelliset esitiedot
 
-Ei todellisia esitietoja.
+Ei todellisia esitietoja. Pieni osa luennoista saattaa avautua astetta paremmin, jos olet suorittanut aineopintotasoisia runkokursseja.
 
 ### Kurssin käytännöt
 
@@ -26,4 +28,4 @@ Loppukoe.
 
 ### Työläys
 
-Lähtökohtaisesti kurssi ei ole ollut kovin työläs: riittää istua luennot läpi.
+Lähtökohtaisesti kurssi ei ole ollut työläs: riittää istua luennot läpi ja ymmärtää kuulemansa. Suurin osa luennoista ei ole kovin vaikeaselkoisia.
