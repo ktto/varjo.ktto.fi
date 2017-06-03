@@ -20,9 +20,9 @@ _Chiang A C & Wainwright K: Fundamental Methods of Mathematical Economics. 4th e
 
 Olennaisesti sama sisältö esitellään esimerkiksi teoksessa
 
-_Simon, C P & Blume L: Mathematics for economists._, joka saattaa olla osalle lukijoista kattavampi ja selkeämpi. Sitä suosittelee myös [Greg Mankiw](http://gregmankiw.blogspot.fi/2006/05/which-math-courses.html "Greg Mankiw: Which math courses?"), ja sitä käytetään opetusmateriaalina mm. Aallon kurssilla Taloustieteen matemaattiset menetelmät, TaY:n kurssilla Taloustieteen matematiikka, TuY:n opintokokonaisuudessa Taloustieteen matematiikka ja JY:n kurssilla Matemaattinen taloustiede II.
+_Simon, C P & Blume L: Mathematics for economists._, joka saattaa olla osalle lukijoista kattavampi ja selkeämpi. Sitä suosittelee myös [Greg Mankiw](http://gregmankiw.blogspot.fi/2006/05/which-math-courses.html "Greg Mankiw: Which math courses?"). Lisäksi kirjaa käytetään opetusmateriaalina mm. Aallon kurssilla Taloustieteen matemaattiset menetelmät, TaY:n kurssilla Taloustieteen matematiikka, TuY:n opintokokonaisuudessa Taloustieteen matematiikka ja JY:n kurssilla Matemaattinen taloustiede II.
 
-Lisäksi Tapio Palokankaan kurssille laatima [moniste] (http://blogs.helsinki.fi/palokang/files/2005/08/kirja.pdf "Luentoja kansantaloustieteen matemaattisista menetelmistä") saattaa olla (tai olla olematta) hyödyllinen.
+Lisäksi Tapio Palokankaan kurssille laatima [moniste](http://blogs.helsinki.fi/palokang/files/2005/08/kirja.pdf "Luentoja kansantaloustieteen matemaattisista menetelmistä") saattaa olla (tai olla olematta) hyödyllinen.
 
 ### Sisältö
 
