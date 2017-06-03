@@ -1,4 +1,6 @@
-### Siirtymäsäännökset
+### Siirtymäsäännökset ja pakollisuus
+
+Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville.
 
 Syksystä 2017 alkaen kurssi on jaettu kahteen 5 opintopisteen osaan, TA4a Makrotaloustiede I ja TA4b Makrotaloustiede II (ECOK-213 ja ECOK-214).
 
