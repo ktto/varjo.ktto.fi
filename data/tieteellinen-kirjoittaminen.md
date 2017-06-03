@@ -32,4 +32,4 @@ Onko tästä kurssista apua ajatusten pukemisessa sanoiksi? Jaa-a. Jos et aio tu
 
 Jos olet kiinnostunut asiatekstien kirjoittamisesta yleensä, kannattaa kokeilla Steven Pinkerin englanninkielistä teosta [The Sense of Style](http://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century).
 
-Jos haluat opetella hyvän työkalun (talous)tieteellisten artikkelien ja harjoitustöiden kirjoittamiseen, kannattaa harkita matikan opiskelijoille tarkoitettua [LaTeX-kurssia](https://wiki.helsinki.fi/display/opetussuunnitelma/MAT20004+Latex-kurssi).
+Jos haluat opetella hyvän työkalun (talous)tieteellisten artikkelien ja harjoitustöiden kirjoittamiseen, kannattaa harkita [LaTeX-kurssia](https://wiki.helsinki.fi/display/opetussuunnitelma/MAT20004+Latex-kurssi).
