@@ -35,6 +35,6 @@ __Pakollinen kurssi!__
 
 Kurssia luennoi jälleen syksyllä 2017 Marita Laukkanen. Aiempina vuosina Maritan pitämillä luennoilla on yleensä lähinnä luettu luentokalvot ääneen yleisölle. Jos pystyt lukemaan kirjaa ja luentokalvoja itsenäisesti, voi luennoilla käymisen lisäarvo jäädä melko pieneksi.
 
-Varianin kurssikirja on pätevä opus. Kannattaa kuitenkin huomata, että tentissä saattaa kuitenkin olla sellaisia kysymyksiä, joita on käsitelty vain luentokalvoissa. Vähimmillään kannattaa siis lukea luentokalvot hyvin läpi ja käyttää kirjaa apuna, jos jokin kohta ei oikein aukea tai haluaa muuten syventää ymmärrystään.
+Varianin kurssikirja on pätevä opus. Kannattaa kuitenkin huomata, että tentissä saattaa olla jokin yksittäinen kysymys, jossa kurssikirjasta on vähänlaisesti jos lainkaan apua. (Tehtävä saattaa koskea esimerkiksi jotain käsitettä, joita kurssikirjassa ei mainita lainkaan.) Vähimmillään kannattanee siis lukea luentokalvot hyvin läpi ja käyttää kirjaa apuna, jos jokin kohta ei oikein aukea tai haluaa muuten syventää ymmärrystään.
 
 Kurssikokeiden tehtävät ovat yleensä olleet hyvin samanlaisia tai jopa täysin identtisiä kuin laskuharjoitustehtävät ja vanhojen vuosien kokeiden tehtävät.
