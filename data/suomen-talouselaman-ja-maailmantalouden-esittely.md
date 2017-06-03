@@ -1,8 +1,10 @@
-### Siirtymäsäännökset
+### Siirtymäsäännökset ja pakollisuus
 
-Jos suoritat vanhaa kandia etkä ole suorittanut kurssia "TA2 Suomen talouselämän ja maailmantalouden esittely", voit korvata sen kurssilla "TA5 Suomen talouselämän ja maailmantalouden esittely".
+Kurssi on **pakollinen** uusissa kandiohjelmissa.
 
-Jos suoritat uutta kandia ja olet suorittanut kurssin "TA2 Suomen talouselämän ja maailmantalouden esittely", voit korvata uuden kurssin "TA2 Asiantuntijataidot" vanhalla TA2-kurssilla.
+Oletusvaihtoehto: jos suoritat uutta kandia (olet aloittanut syksyllä 2017 tai siirtynyt uuteen kandiohjelmaan), käy kurssi "TA2 Asiantuntijataidot" normaalisti.
+
+Jos suoritat uutta kandia ja olet jo suorittanut kurssin "TA2 Suomen talouselämän ja maailmantalouden esittely", voit korvata uuden kurssin "TA2 Asiantuntijataidot" vanhalla TA2-kurssilla.
 
 ### Kirjallisuus ja/tai muu materiaali
 
@@ -12,11 +14,13 @@ Vierailevien luennoijien luentokalvot. Aiempina vuosina osa luentokalvoista ei v
 
 Kurssilla ei ole yleensä ollut tarkkaa teemaa, vaan käsiteltävät alueet ovat vaihdelleet sen mukaan, keitä kurssin järjestäjät ovat saaneet luennoijiksi. 
 
-Usein luennoijat ovat olleet hyvin korkeatasoisia puhujia, ja keskimäärin luennot ovat kiinnostavia.
+Usein vierailevat luennoijat ovat olleet hyvin korkeatasoisia puhujia, ja keskimäärin luennot ovat kiinnostavia.
+
+Vanhasta TA2- ja uudesta TA5-kurssista poiketen kurssiin kuuluu myös joitain urapalveluiden järjestämiä luentoja. Niiden tarkoitus on tökkiä opiskelijoita miettimään, mitä haluavat isona tehdä ja miten saisi isona duunia (eli jonkun myös maksamaan siitä tekemisestä). Aiemmin samantyyppinen kokonaisuus kuului kurssiin "Valtiotieteilijä työelämässä".
 
 ### Todelliset esitiedot
 
-Ei todellisia esitietoja. Pieni osa luennoista saattaa avautua astetta paremmin, jos olet suorittanut aineopintotasoisia runkokursseja.
+Ei todellisia esitietoja. Pieni osa luennoista saattaa avautua astetta paremmin, jos olet suorittanut muita taloustieteen kursseja.
 
 ### Kurssin käytännöt
 
