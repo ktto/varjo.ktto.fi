@@ -1,3 +1,7 @@
+### Siirtymäsäännökset
+
+Kurssiin ei liity siirtymä
+
 ### Kirjallisuus ja/tai muu materiaali
 
 Kurssista selviää erittäin hyvin pelkän luentomateriaalin (löytyy kurssin Moodle-sivulta) avulla.
@@ -16,9 +20,11 @@ Ei esitietovaatimuksia.
 
 ### Kurssin käytännöt
 
-Syksyllä 2017 kurssilla oli luentoja 4 viikkotuntia sekä yhteensä kolmet laskarit verkossa. Lisäksi kolmeen verkkokyselyyn vastaamisesta sai hieman lisäpisteitä kokeeseen. (Verkkokyselyt veivät aikaa muutaman minuutin.) 
+Kurssilla on yhteensä 20 tuntia luentoja (4h/vko) sekä yhteensä kolmet laskarit verkossa. Lisäksi kolmeen verkkokyselyyn vastaamisesta sai hieman lisäpisteitä kokeeseen. (Verkkokyselyt veivät aikaa muutaman minuutin.) 
 
-Laskuharjoitukset olivat verkossa tehtäviä monivalintatehtäviä, joista osassa tarvitsi kynän ja paperia mallintaakseen kysymyksen ennen vastaamista.
+Laskuharjoitukset olivat verkossa tehtäviä monivalintatehtäviä. Niistä osassa tarvitsi kynän ja paperia mallintaakseen kysymyksen ennen vastaamista.
+
+Tämän lisäksi kurssilla järjestetään 3 x 2h vapaaehtoisia harjoituspajoja, joissa voi käydä harjoittelemassa tehtäviä. Harjoituspajoista ei saa lisäpisteitä, mutta ne ovat hyvä paikka harjoitella yhdessä muiden kanssa ja kysyä avoimeksi jääneistä kysymyksistä.
 
 ### Suoritustavat
 
