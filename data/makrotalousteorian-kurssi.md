@@ -1,6 +1,6 @@
 ### Siirtymäsäännökset
 
-Syksystä 2017 alkaen kurssi on jaettu kahteen 5 opintopisteen osaan, TA4a Makrotaloustiede I ja TA4b Makrotaloustiede II (ECOK-213 ja ECOK-214). 
+Syksystä 2017 alkaen kurssi on jaettu kahteen 5 opintopisteen osaan, TA4a Makrotaloustiede I ja TA4b Makrotaloustiede II (ECOK-213 ja ECOK-214). Jos vanhat merkit pitävät paikkansa, näistä TA4b on selvästi lyhyempi ja suppeampi (luennot ja harjoitukset loppuvat kesken periodin, ja myös kurssikoe osuu keskelle viimeistä kevätperiodia).
 
 Jos suoritat vanhaa kandia, voit korvata näillä uusilla kursseilla vanhan, 10 op:n TA4a-kurssin.
 
@@ -26,6 +26,8 @@ Kurssi on matemaattisesti hyvin helposti lähestyttävä: lukion matematiikassa 
 
 ### Kurssin käytännöt
 
+Periodissa 3, yhteensä 20 tuntia luentoja, 3 x 2 tuntia harjoituksia, luennoija Juha Tervala.
+
 Laskareista täytyy suorittaa 50%, jotta voi osallistua kurssikokeisiin. Jos on tehnyt 90 % laskareista ja pääsee kokeista läpi, saa yksikköä paremman arvosanan.
 
 ### Suoritustavat
@@ -37,9 +39,3 @@ Kurssikoe on paras tapa laskaripisteiden hyödyntämisen takia. Tiedekuntatentis
 Kurssi ei ole kovinkaan työläs verrattuna siitä saataviin 10 opintopisteeseen. Kurssikokeessa olleet kysymykset ovat yleensä olleet vuodesta toiseen hyvin samanlaisia kuin aiemmat koe- ja harjoitustehtävät. Käymällä ne läpi ja tekemällä laskarit vasemmalla kädellä kurssista pääsee halutessaan läpi hyvin pienellä panostuksella.
 
 Kurssiin kannattaa kuitenkin panostaa enemmän kuin pelkkä läpipääsy edellyttää, koska se on yksi taloustieteen bread and butter -kursseista. Samoihin asioihin siis törmää hyvin todennäköisesti uudelleen myöhemmin. Pyrkimällä ymmärtämään kurssin asiat hyvin saa kurssiin kuitenkin helposti uppoamaan 6–10h itsenäistä työtä viikossa.
-
-### Muuta
-
-Älä tee laskareita sokeasti muilta kopioiden tai puolivaloilla. Mikäli haluat kurssista hyvän numeron, __käytä aikaa asioiden lukemiseen ja hahmottamiseen jo kurssin aikana!__ Lopulta tämä säästää useita työtunteja, kun ahaa-elämykset tulevat jo kurssin edetessä, eikä vasta kokeeseen kerratessa. 
-
-Näin kurssi on varmasti myös paljon mielekkäämpi suorittaa: jos ei tajua asioista mitään, ei luennoilla tai laskareissa paljon huvita roikkua.
