@@ -1,27 +1,35 @@
+### Siirtymäsäännökset ja pakollisuus
+
+Kurssi on **pakollinen** sekä uutta että vanhaa kandia suorittaville.
+
+*Huomaa*: kurssia opetetaan nykyisin nimellä Tilastollinen päättely I (5 op).
+
 ### Kirjallisuus ja/tai muu materiaali
 
-Prujut
+Luentomoniste.
 
 ### Sisältö
 
-Kuten nimi viittaa, tutustutaan tilastollisen päättelyn perusteisiin. Kurssi keskittyy frekventistiseen päättelyyn jättäen Bayesilaisen päättelyn selvästi vähäisemmälle painoarvolle (jälkimmäiselle on olemassa oma kurssinsa). Käsittelyssä parametrit, luottamusvälit ja -joukot, jakaumien eri suureiden testausta ja saatujen tuloksien arviointia. Tällä kurssilla luodaan perustaa niille matemaattis-tilastollisille välineille, joiden avulla ekonomisti yrittää selittää tutkittavia ilmiöitä.
+Kurssin keskeiset asiat luettelona: tilastollinen malli, uskottavuusfunktio, luottamusjoukko, regressiosuora ja Bayes-päättelyn alkeet.
+
+Käytännössä kurssilla aloitat perehtymisen seuraaviin kysymyksiin: sinulle annetaan tällainen tilastoaineisto, mitä siitä voisi päätellä? Mitä virhemahdollisuuksia päättelyssä on? 
 
 ### Todelliset esitiedot
 
-Todarin johdanto ja Mat. analyysi on hyvä olla käytynä.
+Todarista: pistetodennäköisyysfunktio, tiheysfunktio, odotusarvo, varianssi, perusjakaumat, riippumattomuus. Matikasta: eksponentti- ja logaritmifunktiot, yhden muuttujan funktion derivointi ja maksimin hakeminen, mikä on suora.
+
+Jos lukion matikka on hyvin hallussa, kurssille voi lampsia suoraan. Muuten on hyvä suorittaa Analyysin kursseja sekä Todari I.
 
 ### Kurssin käytännöt
 
-Kurssi on suoraa jatkumoa todarin johdantokurssille, käytännöt hyvin samanlaiset. Luennot + yhdet pakolliset laskarit, laskariryhmiä runsaasti tarjolla. Laskarityhmien vetäjissä on isoja eroja, kannattaa kokeilla kuka on itselle sopivin!
+Kurssilla on normaalit luennot. Harjoitukset palautetaan verkossa, ja lisäksi harjoituksiin kuuluu osana muiden palautusten vertaisarviointia verkossa. Harjoituksiin saa apua Kumpulassa Exactumin 3. kerroksesta.
+
+Kurssi järjestetään 4. periodilla. Syksystä 2017 alkaen se suositellaan tehtäväksi toisena vuotena (aiemmin ensimmäisenä); jos aikataulussa on tilaa, mikään ei toki estä hoitamasta sitä jo ekan vuoden keväällä.
 
 ### Suoritustavat
 
-Kurssikoe on paras tapa suorittaa kurssi, laskaripisteillä voi pelastaa paljon. Tai sitten menee kokeilemaan onneaan erillistenttiin.
+Kurssikoe, johon saa lisäpisteitä harjoituksista.
 
 ### Työläys
 
-Voi tuntua vaikeammalta kuin todarin johdato, lähinnä siksi että tämänkaltainen asia ei ole lukiosta aivan yhtä tuttua. Hyviin arvosanoihin joutuu siis näkemään enemmän vaivaa. Koe oli myös vaikeampi kuin todarin johdannossa.
-
-### Muuta
-
-2012 kevään kokeessa ei saanut käyttää taulukkokirjaa, mutta mukana sai olla itse tehty A4-kokoinen lunttilappu (molemmille puolille sai kirjoittaa)! Ei hätää vaikka kokeen jälkeen voikin olla olo ettei kurssista jäänyt mitään käteen, samoja asioita kerrataan vielä moneen otteeseen varsinkin Ekonometrian johdantokkurssilla. Mat. ja tilastotieteen laitos tarjoaa jatkokurssin Tilastollinen päättely, joka ei ole yhtään huono valinta myöhemmässä vaiheessa opintoja.
+Kurssi ei ole aivan yhtä helppo kuin Todari I, eli kurssista ei pääse läpi lukion matikalla. Kohtuullisella panostuksella kurssista pääsee kuitenkin läpi hyvin arvosanoin. Laskareiden vääntämiseen ja vertaisarviointiin saa kulutettua niin paljon aikaa kuin itsestä tuntuu järkevältä.
