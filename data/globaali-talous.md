@@ -1,3 +1,11 @@
+### Kurssi lopetettu!
+
+Kurssia ei järjestetä enää vuodesta 2017 alkaen. Lähin vastaava uusi johdantokurssi taloushistoriaan lienee Globaali taloudellinen muutos (YK-211).
+
+Jos haluat suorittaa vanhojen (esim. 2016–2017) tutkintovaatimusten mukaisen kandidaatintutkinnon etkä ole suorittanut tätä kurssia, voit korvata sen vapaasti valittavalla 5 op:n opintojaksolla valtsikan koulutusohjelmista.
+
+Jos olet aloittanut opintosi syksyllä 2017 tai siirryt uuteen kandiohjelmaan, sinun ei tarvitse suorittaa tai korvata tätä kurssia.
+
 ### Sisältö
 
 Kurssi on käytännössä johdatus taloushistoriaan. Luennoilla käydään läpi talouden vaiheita kivikaudesta toisen maailmansodan jälkeiseen aikaan. Voit käydä luennolla jos aihe kiinnostaa, mutta tehokkaampaa ajankäyttöä olisi lukea mikä tahansa aiheesta tehty kirja.
