@@ -24,7 +24,7 @@ Jos et jaksa istua luennoilla, voit suorittaa kurssin kirjatenttinä. Välttäm�
 
 > [Paul Krugman](https://krugman.blogs.nytimes.com/2013/08/18/communicating-economics/ "Communicating Economics"): "Nobody has to read what you write". 
 
-Jos aiot työskennellä ekonomistina, on sangen todennäköistä, että joudut kirjoittamaan kaikenlaisia tekstejä. Monet ihmiset pitävät ihan itsessään kivana ja tavoiteltavana sitä, että toiset heppulit haluavat lukea heidän ajatuksiaan.
+Jos aiot työskennellä ekonomistina, on sangen todennäköistä, että joudut kirjoittamaan kaikenlaisia tekstejä. Lisäksi monet ihmiset pitävät ihan itsessään kivana ja tavoiteltavana sitä, että toiset heppulit haluavat lukea heidän ajatuksiaan.
 
 Onko tästä kurssista apua ajatusten pukemisessa sanoiksi? Jaa-a. Jos et aio tutkijaksi, *tieteellisen* kirjoittamisen erityissääntöjen omaksumisesta voi olla melko vähän hyötyä sen jälkeen, kun olet kandin ja gradun saanut kirjoitettua. Kannattaakin ehkä keskittyä kurssilla miettimään ja harjoittelemaan eniten sitä, miten saat tekstistä helposti luettavaa, houkuteltavaa ja ymmärrettävää. 
 
