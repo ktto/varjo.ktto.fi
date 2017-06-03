@@ -1,26 +1,33 @@
 ### Kirjallisuus ja/tai muu materiaali
 
-Varsinaisesti kurssilla ei ole kirjaa, mutta suositeltavaa oheislukemista on Osborne: An Introduction to Game Theory. Kurssista selviää kuitenkin hyvin luentomateriaalin avulla.
+Kurssista selviää erittäin hyvin pelkän luentomateriaalin (löytyy kurssin Moodle-sivulta) avulla.
+
+Ainakin syksyn 2017 luennoilla käytettiin paljon aikaa käytännön esimerkkien tekemiseen. Ne ovat todennäköisesti tärkein apuväline kurssin suorittamiseksi, ja luennoilla tehtyjä harjoituksia ei julkaista verkossa.
+
+Opiskelun apuna käytetään kirjaa Osborne: An Introduction to Game Theory.
 
 ### Sisältö
 
-Peliteorian alkeita. Mm. Normaalimuotoiset pelit, laajennetun muodon peli (extensive form game), Nash-tasapaino puhtailla- ja sekastrategioilla, Bayesilaiset pelit, toistetut pelit, sekä esimerkkejä taloudellisista sovellutuksista
+Peliteorian alkeita: mm. Normaalimuotoiset pelit, laajennetun muodon peli (extensive form game), Nash-tasapaino puhtailla ja sekastrategioilla, Bayesilaiset pelit, toistetut pelit, sekä esimerkkejä taloudellisista sovellutuksista.
 
 ### Todelliset esitiedot
 
-Ei esitietovaatimuksia, KA4 kurssin peliteoriaosuuden ymmärtäminen helpottaa hieman alkuun pääsyä.
+Ei esitietovaatimuksia.
 
 ### Kurssin käytännöt
 
-Ainakin vuoden 2012 kurssilla luentoja joko 3 tai 6 viikkotuntia, viikosta riippuen.
+Syksyllä 2017 kurssilla oli luentoja 4 viikkotuntia sekä yhteensä kolmet laskarit verkossa. Lisäksi kolmeen verkkokyselyyn vastaamisesta sai hieman lisäpisteitä kokeeseen. (Verkkokyselyt veivät aikaa muutaman minuutin.) 
+
+Laskuharjoitukset olivat verkossa tehtäviä monivalintatehtäviä, joista osassa tarvitsi kynän ja paperia mallintaakseen kysymyksen ennen vastaamista.
+
 ### Suoritustavat
 
 Kurssikoe.
 
 ### Työläys
 
-Ei kovin työläs.
+Kurssi ei ole erityisen työläs.
 
 ### Muuta
 
-Kurssi luennoidaan englanniksi.
+Kurssin luennoija on erikoistunut käyttäytymistaloustieteeseen (behavioral economics) ja yleensä pitänyt yhden luennon erikseen käyttäytymistaloustieteen kysymyksistä.
