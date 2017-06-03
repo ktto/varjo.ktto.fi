@@ -1,3 +1,5 @@
+Kurssi on osa valtiotieteellisen tiedekunnan yleisopintoja.
+
 ### Pakollisuus
 
 Kurssi on **pakollinen** sekä uutta että vanhaa kandia suorittaville. WebOodissa tarjolla olevista kursseista on etsittävä nimenomaan valtiotieteellisen tiedekunnan opiskelijoille suunnattu kurssi.
