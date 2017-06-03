@@ -1,6 +1,6 @@
 ### Pakollisuus
 
-Kurssi on **pakollinen** sekä uutta että vanhaa kandia suorittaville.
+Kurssi on **pakollinen** sekä uutta että vanhaa kandia suorittaville. WebOodissa tarjolla olevista kursseista on etsittävä nimenomaan valtiotieteellisen tiedekunnan opiskelijoille suunnattu kurssi.
 
 ### Kirjallisuus ja/tai muu materiaali
 
@@ -9,6 +9,8 @@ Kurssilla on yleensä opettajasta riippuen luentomateriaalia sekä muutama ehdot
 ### Sisältö
 
 Kurssin todellinen tarkoitus on varmistaa, että saat kirjoitettua kandin työsi äidinkielelläsi. Se sisältää pikakatsauksen pilkkusääntöihin, sujuvaan tekstiin ja tieteellisen kirjoittamisen erityissääntöihin (tieteellinen tyyli, siteeraaminen, lähdeluettelot, jne.).
+
+Kurssilta ei todennäköisesti saa eväitä taloustieteellisen kirjoittamisen erityiskysymyksiin, koska se on suunnattu kaikille valtsikan opiskelijoille.
 
 ### Työläys
 
@@ -29,3 +31,5 @@ Jos aiot työskennellä ekonomistina, on sangen todennäköistä, että joudut k
 Onko tästä kurssista apua ajatusten pukemisessa sanoiksi? Jaa-a. Jos et aio tutkijaksi, *tieteellisen* kirjoittamisen erityissääntöjen omaksumisesta voi olla melko vähän hyötyä sen jälkeen, kun olet kandin ja gradun saanut kirjoitettua. Kannattaakin ehkä keskittyä kurssilla miettimään ja harjoittelemaan eniten sitä, miten saat tekstistä helposti luettavaa, houkuteltavaa ja ymmärrettävää. 
 
 Jos olet kiinnostunut asiatekstien kirjoittamisesta yleensä, kannattaa kokeilla Steven Pinkerin englanninkielistä teosta [The Sense of Style](http://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century).
+
+Jos haluat opetella hyvän työkalun (talous)tieteellisten artikkelien ja harjoitustöiden kirjoittamiseen, kannattaa harkita matikan opiskelijoille tarkoitettua [LaTeX-kurssia](https://wiki.helsinki.fi/display/opetussuunnitelma/MAT20004+Latex-kurssi).
