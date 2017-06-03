@@ -1,6 +1,8 @@
 [Vuoden 2008 laskarit ja vastaukset](http://www.helsinki.fi/jarj/ktto/Opiskelu/Tentit/mikro08laskarit/)
 
-### Siirtymäsäännökset
+### Siirtymäsäännökset ja pakollisuus
+
+Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville.
 
 Syksystä 2017 alkaen kurssi on jaettu kahteen 5 opintopisteen osaan, TA3a Mikrotaloustiede I ja TA3b Mikrotaloustiede II (ECOK-210 ja ECOK-211). 
 
