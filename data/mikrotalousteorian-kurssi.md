@@ -1,23 +1,40 @@
 [Vuoden 2008 laskarit ja vastaukset](http://www.helsinki.fi/jarj/ktto/Opiskelu/Tentit/mikro08laskarit/)
 
+### Siirtymäsäännökset
+
+Syksystä 2017 alkaen kurssi on jaettu kahteen 5 opintopisteen osaan, TA3a Mikrotaloustiede I ja TA3b Mikrotaloustiede II (ECOK-210 ja ECOK-211). 
+
+Jos suoritat vanhaa kandia, voit korvata näillä uusilla kursseilla vanhan, 10 op:n TA3a-kurssin.
+
+Jos siirryt suorittamaan uutta kandia, voit korvata vanhalla 10 op:n TA3a-kurssilla uudet 5 op:n kurssit.
+
 ### Kirjallisuus ja/tai muu materiaali
 _Varian H R: Intermediate Microeconomics. A Modern Approach (7th ed.), ei lukuja 11 ja 13._
 
 ### Sisältö
 
-Kurssilla perehdytään ekonomistille välttämättömiin mikrotalouden perusteisiin, kuten kuluttujan valintaan, yrityksen teoriaan sekä peliteoriaan. Optimointiongelmia ja Lagrangen funktiota joutuu pyörittämään useampaankin kertaan.
+Kurssilla perehdytään ekonomistille välttämättömiin mikrotalouden perusteisiin, kuten kuluttujan valintaan ja yrityksen teoriaan. Optimointiongelmia ja Lagrangen funktiota joutuu pyörittämään useampaankin kertaan.
 
 ### Todelliset esitiedot
-TA 1 antaa hyvän pohjan, myös Analyysin jatkokurssista on hyötyä optimointiongelmien kanssa. Kurssi on kuitenkin mahdollista suorittaa ilman sen kummempia esittietoja.
+TA 1 antaa hyvän pohjan. Lisäksi Analyysin kursseista (vanhasta Analyysin jatkokurssista) tai vastaavista tiedoista on hyötyä optimointiongelmien kanssa: käytännössä pitää tietää, mikä on osittaisderivaatta ja miten Lagrangen menetelmällä voi ratkaista yksinkertaisia, yhtälörajoittein annettuja minimointi- tai maksimointiongelmia.
 
 ### Kurssin käytännöt
-Luennot 4h/viikossa + yhdet laskarit. Laskaritilaisuudet pakollisia.
+Luennot 4h/viikossa sekä kolmet laskarit/kurssi. Laskarit ovat pakollisia, eli niitä on suoritettava vähimmäismäärä, jotta voi osallistua kurssikokeisiin.
 
 ### Suoritustavat
-Kaksi välikoetta tai loppukuulustelu (jossa laskaripisteet eivät enää auta!!)
+Kaksi välikoetta tai loppukuulustelu (jossa laskaripisteet eivät enää auta!).
 
 ### Työläys
-Kurssin työläys ei vastaa 10 opintopistettä, viitosen voi saada vähemmälläkin duunilla. Tosin Varianin kirjan hyvä hallitseminen vaatii runsaasti lisätunteja kurssin läpipääsyyn vaadittavaan määrään verrattuna.  Laskareiden tekoon kannattaa panostaa, vaikkakin ne saattavat tuntua tylsiltä. Useimmiten ne alkavat lauseilla "Pekka tykkää omenoista ja päärynöistä. Omenat maksavat x ja päärynät y euroa". Sitten derivoidaankin puoli tuntia sitä, kuinka monta Peka ostaa.
+Kurssin työläys ei vastaa 10 opintopistettä, vaan viitosen voi saada vähemmälläkin duunilla. 
+Kurssikirjaa ei tarvitse hallita kokonaan eikä erityisen syvällisesti päästäkseen kurssista läpi. Tulevien opintojen kannalta voi tietenkin olla silti hyödyllistä pyrkiä lukea kirjaa tarkemmin kuin pelkkä läpi pääseminen edellyttäisi.
+
+Laskareiden tekoon kannattaa panostaa, vaikka ne saattavat tuntua tylsiltä. Useimmiten ne alkavat lauseilla "Pekka tykkää omenoista ja päärynöistä. Omenat maksavat x ja päärynät y euroa". Sitten derivoidaankin puoli tuntia sitä, kuinka monta Pekka ostaa.
 
 ### Muuta
-__Pakollinen kurssi!__ Luennot ovat makukysymys. Usein niiden tuoma lisäarvo lähestyy nollaa, mutta kokeisiin luennoitsija kierosti laittaa juuri tietyn knopin luennolla puhutusta täysin turhalta tuntuvasta aiheesta. Jos et muuta syytä luennoille menemiseksi löydä, muista edes tämä. Varianin kirja puolestaan on varsin pätevä opus.
+__Pakollinen kurssi!__ 
+
+Kurssia luennoi jälleen syksyllä 2017 Marita Laukkanen. Aiempina vuosina Maritan pitämillä luennoilla on yleensä lähinnä luettu luentokalvot ääneen yleisölle. Jos pystyt lukemaan kirjaa ja luentokalvoja itsenäisesti, voi luennoilla käymisen lisäarvo jäädä melko pieneksi.
+
+Varianin kurssikirja on pätevä opus. Kannattaa kuitenkin huomata, että tentissä saattaa kuitenkin olla sellaisia kysymyksiä, joita on käsitelty vain luentokalvoissa. Vähimmillään kannattaa siis lukea luentokalvot hyvin läpi ja käyttää kirjaa apuna, jos jokin kohta ei oikein aukea tai haluaa muuten syventää ymmärrystään.
+
+Kurssikokeiden tehtävät ovat yleensä olleet hyvin samanlaisia tai jopa täysin identtisiä kuin laskuharjoitustehtävät ja vanhojen vuosien kokeiden tehtävät.
