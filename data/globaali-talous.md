@@ -12,6 +12,6 @@ Kurssi on käytännössä johdatus taloushistoriaan. Luennoilla käydään läpi
 
 ### Muuta
 
-Taloushistoria kuuluu ekonomistin yleissivistykseen: jos ei muuta, historiasta saa suhteellisuudentajua, kun huomaa, miten lujalla varmuudella taloustieteilijät ovat aikojen saatoessa esittäneet jälkikäteen tarkasteltuna melko villejä väittämiä. 
+Taloushistoria kuuluu ekonomistin yleissivistykseen: jos ei muuta, historiasta saa suhteellisuudentajua, kun huomaa, miten lujalla varmuudella taloustieteilijät ovat aikojen saatossa esittäneet jälkikäteen tarkasteltuna melko villejä väittämiä. 
 
 Jos et aio suorittaa mitään taloushistoriaa liippaavia opintoja, on suositeltavaa lukea taloushistoriallista kirjallisuutta.
