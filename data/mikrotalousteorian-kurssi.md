@@ -20,7 +20,7 @@ TA 1 antaa hyvän pohjan. Lisäksi Analyysin kursseista (vanhasta Analyysin jatk
 
 ### Kurssin käytännöt
 
-Luentoja yhteensä 18h sekä 3 x 2h laskareita/kurssi. Luennoija VATT:n Marita Laukkanen. Periodit 1–2, suositeltu suoritusvuosi 2. Monet opiskelijat ovat kuitenkin suorittaneet kurssin jo ensimmäisenä opiskeluvuonna.
+Kummallakin kurssilla on yhteensä 18h luentoja sekä 3 x 2h laskareita. Luennoija VATT:n Marita Laukkanen. Periodit 1–2, suositeltu suoritusvuosi 2. Monet opiskelijat ovat kuitenkin suorittaneet kurssin jo ensimmäisenä opiskeluvuonna.
 
 Laskarit ovat pakollisia (niitä on suoritettava vähimmäismäärä, jotta voi osallistua kurssikokeisiin).
 
