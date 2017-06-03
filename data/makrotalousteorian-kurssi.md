@@ -26,7 +26,7 @@ Kurssi on matemaattisesti hyvin helposti lähestyttävä: lukion matematiikassa 
 
 ### Kurssin käytännöt
 
-Periodissa 3, yhteensä 20 tuntia luentoja, 3 x 2 tuntia harjoituksia, luennoija Juha Tervala.
+Periodeissa 3–4. Suositeltu suoritusvuosi on ensimmäinen opiskeluvuosi. Kummallakin kurssilla on yhteensä 20 tuntia luentoja, 3 x 2 tuntia harjoituksia, luennoija Juha Tervala.
 
 Laskareista täytyy suorittaa 50%, jotta voi osallistua kurssikokeisiin. Jos on tehnyt 90 % laskareista ja pääsee kokeista läpi, saa yksikköä paremman arvosanan.
 
