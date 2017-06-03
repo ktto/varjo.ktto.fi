@@ -1,6 +1,6 @@
 ### Siirtymäsäännökset
 
-Syksystä 2017 alkaen kurssi on jaettu kahteen 5 opintopisteen osaan, TA4a Makrotaloustiede I ja TA4b Makrotaloustiede II (ECOK-213 ja ECOK-214). Jos vanhat merkit pitävät paikkansa, näistä TA4b on selvästi lyhyempi ja suppeampi (luennot ja harjoitukset loppuvat kesken periodin, ja myös kurssikoe osuu keskelle viimeistä kevätperiodia).
+Syksystä 2017 alkaen kurssi on jaettu kahteen 5 opintopisteen osaan, TA4a Makrotaloustiede I ja TA4b Makrotaloustiede II (ECOK-213 ja ECOK-214).
 
 Jos suoritat vanhaa kandia, voit korvata näillä uusilla kursseilla vanhan, 10 op:n TA4a-kurssin.
 
