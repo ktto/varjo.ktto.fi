@@ -1,6 +1,6 @@
-### Siirtymäsäännökset
+### Pakollisuus
 
-Kurssiin ei liity siirtymä
+Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville.
 
 ### Kirjallisuus ja/tai muu materiaali
 
