@@ -1,27 +1,35 @@
+### Pakollisuus ja siirtymäsäännökset
+
+Kurssi on **vapaaehtoinen** sekä uudessa että vanhoissa kandiohjelmassa.
+
+**Huomaa:** kurssista "Tilastollisen päättelyn kurssi" on historian saatossa ollut useita eri versioita. Tämä sivu käsittelee uutta kurssia "Tilastollinen päättely II", joka sisällöltään vastaa edellä mainituista vanhaa, 10 opintopisteen kurssia.
+
 ### Kirjallisuus ja/tai muu materiaali
 
-Prujut.
+Luentomoniste.
 
 ### Sisältö
 
-Muun muassa uskottavuusfunktioiden ja informaatioepäyhtälöiden pyörittelyä, tunnusluvun tyhjentävyys, tilastolliset testit ja luottamusjoukot.
+Kurssilla syvennetään Tilastollinen päättely I -kurssin asioita, kuten suurimman uskottavuuden estimointia. Erityisesti tilastollisten testien ja luottamusjoukkojen teoriaa täydennetään paljon. Uusina asioina tulevat vastaan mm. informaatio, tyhjentyvyys, tarkentuvuus ja estimaattorien asymptotiikka. 
+
+Viime kädessä kurssin ydinaiheen voinee tiivistää kysymykseen "millainen on hyvä tilastollinen estimaattori?".
 
 ### Todelliset esitiedot
 
-Pakolliset matematiikan ja tilastotieteen kurssit R:ää lukuun ottamatta. Isoa todaria voi kuitenkin suorittaa samanaikaisesti.
+Todari II esitietoineen on välttämätön. Kurssi on loppujen lopuksi hyvin pitkälle todennäköisyyslaskentaa. Matikasta tarvitset Analyysin kurssien tietoja mm. sarjojen suppenemisesta, diffeomorfismeista, supremumista ja osittaisderivaatoista.
 
 ### Kurssin käytännöt
 
-Tyypillinen luennot + laskarit.
+Luennot ja viikottaiset laskuharjoitukset. Harjoituksiin voi saada apua Kumpulassa Exactum-rakennuksen kolmannen kerroksen käytävällä.
 
 ### Suoritustavat
 
-Kaksi välikoetta tai lopputentti. Kurssissa on se hyvä puoli, että välikokeetkin voi uusia.
+Yksi kurssikoe.
 
 ### Työläys
 
-Vaikka uutta asiaa tuleekin yllättävän vähän, kurssi ei oikeastaan ole helppo. Laskareiden lisäksi myös koetehtävät saattavat olla sangen haastavia, ja useimmat kurssin käyneet ovatkin päässeet ulos mukavuusalueeltaan - esimerkiksi sanaparsi "perustele huolellisesti" voi tulla tutuksi kantapään kautta. Kurssi on kuitenkin läpäistävissä hyvällä arvosanalla, mikäli on valmis näkemään vaivaa sen eteen.
+Kurssi on työläydeltään keskitasoa. Se on selvästi haastavampi kuin Tilastollinen päättely I.
 
 ### Muuta
 
-Prujut ovat varsin hyvät ja selkeät. Pedagogisesti kurssi on esim. todaria ansioituneempi, ja ainakin allekirjoittaneen ymmärrys tilastotieteestä kasvoi selvästi. Ota siis tämä kurssi, mikäli ekonometria ja tilastotiede kiinnostavat! Samoja asioita tulee vastaan mm. ekonometrian syvärillä.
+Kurssin luennoija Petteri Piiroinen on poikkeuksellisen motivoitunut opettaja, ja vastaa yleensä mielellään kaikkiin kysymyksiin kurssiensa presemo-alueella tai häntä Kumpulassa hihasta vedettäessä.
