@@ -1,16 +1,17 @@
-### Kurssi lopetettu
+### Kurssi lopetettu!
 
-Kurssi on järjestetty viimeisen kerran vuoden 2016 syksyllä. *Kurssia ei siis enää pysty suorittamaan* (myöskään yleistenttejä ei järjestetä).
+Kurssi on järjestetty viimeisen kerran vuoden 2016 syksyllä. **Kurssia ei siis enää pysty suorittamaan** (myöskään yleistenttejä ei järjestetä).
 
 Kurssi ei myöskään kuulu uusien kandidaatintutkintojen vaatimuksiin. Jos olet aloittanut opintosi vuonna 2017 tai siirryt suorittamaan uusien tutkintovaatimusten mukaista kandidaatintutkintoa, sinun ei siis tarvitse suorittaa kurssia tai korvata sitä millään.
 
-Jos suoritat vanhojen tutkintovaatimusten (esimerkiksi 2014–2017) mukaista tutkintoa, kurssi on korvattava 10 opintopisteellä muita opintoja seuraavista vaihtoehdoista:
-* TA5-kurssit
-* Mitkä tahansa matemaattisten tieteiden kandidaatinohjelman kurssit (joita et sisällytä muihin pakollisiin opintoihin – siis esimerkiksi Linis I tai Matemaattinen analyysi I–IV eivät käy)
+Jos suoritat vanhojen tutkintovaatimusten (esimerkiksi 2014–2017) mukaista tutkintoa, kurssi on korvattava 10 opintopisteellä muita opintoja seuraavista vaihtoehdoista (tiedot 3.6.2017):
+* Mikä tahansa TA5-kurssi
+* Mitkä tahansa matemaattisten tieteiden kandidaatinohjelman kurssit
+Luonnollisesti nämä kurssit eivät voi olla sellaisia kursseja, joita sisällytät muihin pakollisiin opintoihin (siis esimerkiksi Matemaattisen analyysin kurssit tai Lineaarialgebra ja matriisilaskenta I eivät käy).
 
-Matematiikan kandiohjelman kursseista erityisesti Differentiaaliyhtälöt I–II kattavat sisällöltään osan matemaattisten menetelmien kurssien aiheista. Myös omatoimisesta perehtymisestä kurssin kirjallisuuteen/vastaavaan materiaaliin voi olla hyötyä myöhempien (maisterivaiheen) opintojen kannalta.
+Matematiikan kandiohjelman kursseista erityisesti Differentiaaliyhtälöt I–II kattavat sisällöltään osan matemaattisten menetelmien kurssien aiheista. Myös omatoimisesta perehtymisestä kurssin kirjallisuuteen/vastaavaan materiaaliin (ks. alta) voi olla hyötyä myöhempien (maisterivaiheen) opintojen kannalta.
 
-(Pieni) osa kurssin aiheista on siirretty syksystä 2017 alkaen osaksi uusia, vanhat Matemaattisen analyysin kurssin ja Matemaattisen analyysin jatkokurssin korvaavia kursseja (Matemaattinen analyysi I–IV).
+Pieni osa kurssin aiheista on siirretty syksystä 2017 alkaen osaksi uusia, vanhat Matemaattisen analyysin kurssin ja Matemaattisen analyysin jatkokurssin korvaavia kursseja (Matemaattinen analyysi I–IV).
 
 ### Kirjallisuus ja/tai muu materiaali
 
