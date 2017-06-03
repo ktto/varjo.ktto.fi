@@ -1,6 +1,6 @@
 ### Siirtymäsäännökset ja pakollisuus
 
-Kurssi on **pakollinen** uusissa kandiohjelmissa. 
+Kurssi on **pakollinen** uusissa kandiohjelmissa. Kurssia **ei kannata** käydä, jos suoritat vanhaa kandia.
 
 Jos suoritat uutta kandia (olet aloittanut syksyllä 2017 tai siirtynyt uuteen kandiohjelmaan), käy normaalisti tämä kurssi.
 
