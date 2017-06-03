@@ -1,22 +1,33 @@
+### Siirtymäsäännökset ja pakollisuus
+
+Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville.
+
 ### Kirjallisuus ja/tai muu materiaali
 
 _Pekka Tuominen: Todennäköisyyslaskenta I_, Limes ry.
 
+Kirja on huomattavasti laajempi kuin kurssi. Se saattaa myös tuntua aluksi vähän vaikealukuiselta. Kirjassa esimerkiksi kerrotaan sigma-algebrasta, Borelin joukoista ja Borelin funktioista. Koska todellisuudessa näiden asioiden käsittelemiseen ei ole tässä vaiheessa opintoja mitään järkeviä välineitä, näiden mainintojen jälkeen siirrytään sitten tyynesti puhumaan muista asioista.
+
+Vaihtoehtoisena lukemisena voi mainiosti käyttää Todennäköisyyslaskenta II -kurssin opetusmonistetta ja vaikka lukion todennäköisyyslaskennan kirjoja.
+
 ### Sisältö
 
-* Luku 1 Todennäköisyys kokonaan
+Mm. klassinen todennäköisyys, satunnaismuuttuja, jakauman käsite ja yksinkertaiset perusjakaumat, odotusarvo, varianssi, ehdollinen todennäköisyys ja riippumattomuus, Bayesin kaava ja korrelaatio. Kirjasta käsitellään:
+* Luku 1 Todennäköisyys kokonaan (ainakin teoriassa)
 * Luku 2 Satunnaismuuttujat (ei kappaletta 2.5)
 * Luku 3 Odotusarvo ja muita jakauman tunnuksia (ei kappaleita 3.3 ja 3.6-3.9)
 * Luku 4 Keskeinen raja-arvolause
 * Luvusta Kaksiulotteiset jakaumat ainoastaan kappaleet 5.2 ja 5.4.
 
+Ylivoimaisesti suurin osa kurssin käsitteistä on lukion matikasta tuttua pienellä lisäkuorrutuksella.
+
 ### Todelliset esitiedot
 
-Integraalilaskennan perusteet. Ei hätää vaikka asiat unohtuneet, samaan aikaan käytävällä Mat. analyysin jatkokurssilla käsitellään juuri tarvittavia asioita.
+Integraalilaskennan perusteet. Lukion pitkän matikan integraalilaskennalla pärjää hyvin, yliopistolla samoja asioita käsitellään analyysin kursseilla.
 
 ### Kurssin käytännöt
 
-Laskarit kerran viikossa. Luentoja 5 tuntia viikossa.
+Kurssilla on tavanomaiset luennot. Laskuharjoitukset palautetaan verkossa, eli perinteisiä laskuharjoitustilaisuuksia ei ole. Harjoitusten tekemiseen kuuluu myös viikottain muiden opiskelijoiden harjoitusten arviointia, johon on syytä varata hivenen aikaa. Harjoitusten tekemiseen saa apua Kumpulan Exactumin 3. kerroksen käytävältä.
 
 ### Suoritustavat
 
@@ -24,8 +35,8 @@ Kurssikoe tai yleistentti.
 
 ### Työläys
 
-Ei liian työläs kurssi, tosin käsiteltävien asioiden todelliseen omaksumiseen saa kulumaan enemmänkin aikaa. Klassisen todennäköisyyslaskennan asiat tuttuja jo lukiosta, jakaumiin päästessä mennään hieman pidemmälle. Aluksi mennään jopa varsin pitkään tutulla kamalla, mutta yksityiskohtaisemmin kuin lukiossa.
+Kurssi on varsin helppo, jos muistaa lukion todennäköisyyslaskennan perusteet. 
 
 ### Muuta
 
-__Pakollinen kurssi__. Luennot jakavat mielipiteitä, toiset tykkää toiset ei. Tuomisen kirja kannattaa ostaa omaksi, siitä on hyötyä myös muilla kursseilla. Kirjan voi ostaa Limeksen nettikaupasta tai ennen kurssin alkua, jolloin Limes myy sitä usemapana päivänä Kumpulan kampuksella.
+Tuomisen kirjaa voi ostaa Limeksen nettikaupasta tai Kumpulan kampuksella ennen kurssin alkua. Koska kurssilla on useita satoja osallistujia, voi kurssikirjaa olla hankalaa löytää pääkaupunkiseudun kirjastoista kurssin aikana.
