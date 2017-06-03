@@ -7,6 +7,7 @@ Kurssi ei myöskään kuulu uusien kandidaatintutkintojen vaatimuksiin. Jos olet
 Jos suoritat vanhojen tutkintovaatimusten (esimerkiksi 2014–2017) mukaista tutkintoa, kurssi on korvattava 10 opintopisteellä muita opintoja seuraavista vaihtoehdoista (tiedot 3.6.2017):
 * Mikä tahansa TA5-kurssi
 * Mitkä tahansa matemaattisten tieteiden kandidaatinohjelman kurssit
+
 Luonnollisesti nämä kurssit eivät voi olla sellaisia kursseja, joita sisällytät muihin pakollisiin opintoihin (siis esimerkiksi Matemaattisen analyysin kurssit tai Lineaarialgebra ja matriisilaskenta I eivät käy).
 
 Matematiikan kandiohjelman kursseista erityisesti Differentiaaliyhtälöt I–II kattavat sisällöltään osan matemaattisten menetelmien kurssien aiheista. Myös omatoimisesta perehtymisestä kurssin kirjallisuuteen/vastaavaan materiaaliin (ks. alta) voi olla hyötyä myöhempien (maisterivaiheen) opintojen kannalta.
