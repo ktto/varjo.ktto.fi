@@ -4,7 +4,7 @@ Syksystä 2017 alkaen kurssi on jaettu kahteen 5 opintopisteen osaan, TA4a Makro
 
 Jos suoritat vanhaa kandia, voit korvata näillä uusilla kursseilla vanhan, 10 op:n TA4a-kurssin.
 
-Jos siirryt suorittamaan uutta kandia, voit korvata vanhalla 10 op:n TA4a-kurssilla uudet 5 op:n kurssit.
+Jos suoritat uutta kandia ja olet suorittanut vanhan 10 op:n TA4a-kurssin, voit korvata sillä uudet 5 op:n kurssit.
 
 ### Kirjallisuus ja/tai muu materiaali
 _Burda M & Wyplosz C: Macroeconomics, A European Text_
