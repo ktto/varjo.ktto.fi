@@ -18,11 +18,13 @@ Kurssilla tutustutaan pintapuolisesti tietokoneen peruskäyttöön, yliopiston T
 
 ### Suoritustavat
 
-Kurssi suoritetaan varaamalla aika tentille, lampsimalla ilmoitettuun yliopiston tietokoneluokkaan ja tekemällä yksinkertaisia monivalintatehtäviä. Ennen tenttiä pitää tehdä tietty määrä harjoituksia itsenäisesti verkossa.
+Kurssi suoritetaan kahdessa osassa. 
+
+Ennen tenttiä sinun pitää tehdä joukko harjoituksia itsenäisesti verkossa. (Teoriassa tähän osioon kuuluu myös opetusmateriaaliin tutustuminen.) Tämän jälkeen varat ajan tenttiin, lampsit ilmoitettuun yliopiston tietokoneluokkaan ja teet yksinkertaisia monivalintatehtäviä. 
 
 ### Työläys
 
-Erittäin todennäköisesti nämä ovat opintojesi helpoimmat opintopisteet.
+Erittäin todennäköisesti tältä kurssilta noukit opintojesi helpoimmat opintopisteet.
 
 ### Muuta
 
