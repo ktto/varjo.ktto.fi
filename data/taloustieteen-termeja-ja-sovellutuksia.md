@@ -2,6 +2,8 @@
 
 Tämännimistä kurssia on järjestetty **kandivaiheen valinnaisena** TA5-opintojaksona. Tällä hetkellä kurssia ei näyttäisi olevan opetussuunnitelmassa.
 
+Viimeisin [kurssisivu](https://courses.helsinki.fi/fi/a70331/114339818) ja [WebOodi-sivu](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=99978533).
+
 ### Kirjallisuus ja/tai muu materiaali:
 
 Eri luennoitsijoiden antama materiaali löytyy nettisivuilta
