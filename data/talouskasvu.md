@@ -21,7 +21,7 @@ Kurssi seurailee kurssikirjan jaottelua, jossa pitkälti käsitellään yksi ker
 
 Kurssilla ei ole sanottavia esitietovaatimuksia. 
 
-Matemaattisesti lukion oppimäärällä selviää kurssista mainiosti: on mahdollista, että tentissä pitää derivoida polynomia tai ratkaista ensimmäisen asteen yhtälöitä.
+Matemaattisesti lukion oppimäärällä selviää kurssista mainiosti: on mahdollista, että tentissä pitää derivoida polynomia tai ratkaista lineaarisia yhtälöryhmiä.
 
 ### Kurssin käytännöt
 Kurssi suositellaan tehtäväksi toisena opintovuonna, ja se järjestetään 4. periodilla. Se sopii hyvin suoritettavaksi myös toisen makrokurssin ohessa 1. opiskeluvuotena.
