@@ -1,5 +1,7 @@
 [Vuoden 2008 laskarit ja vastaukset](http://www.helsinki.fi/jarj/ktto/Opiskelu/Tentit/mikro08laskarit/)
 
+WebOodi-linkit: [Mikrotaloustiede I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118844507), [Mikrotaloustiede II](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118845146).
+
 ### Siirtymäsäännökset ja pakollisuus
 
 Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville.
