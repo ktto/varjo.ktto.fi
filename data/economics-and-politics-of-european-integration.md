@@ -1,3 +1,7 @@
+### Siirtymäsäännökset ja pakollisuus
+
+Kurssi on **valinnainen** kurssi kaikissa kandiohjelmassa.
+
 ### Kirjallisuus ja/tai muu materiaali
 
 _Baldwin, R. and Wyplosz, C.: The Economics of European Integration_, McGraw-Hill (preferably 2nd/2006 or 3rd/2009 edition)
@@ -8,7 +12,7 @@ History of European Integration, institutions of the EU, microeconomics of econo
 
 ### Todelliset esitiedot
 
-KA1 on hyvä olla käytynä. Mikrotalouden kurssista on myös hyötyä, muttei ole mikään välttämättömyys.
+Taloustieteen perusteet on hyvä hallita. Mikrotalouden kurssista on myös hyötyä, muttei ole mikään välttämättömyys.
 
 ### Kurssin käytännöt
 
