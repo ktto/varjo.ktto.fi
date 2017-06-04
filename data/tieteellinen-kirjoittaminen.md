@@ -2,7 +2,7 @@ Kurssi on osa valtiotieteellisen tiedekunnan yleisopintoja.
 
 ### Pakollisuus
 
-Kurssi on **pakollinen** sekä uutta että vanhaa kandia suorittaville. WebOodissa tarjolla olevista kursseista on etsittävä nimenomaan valtiotieteellisen tiedekunnan opiskelijoille suunnattu kurssi.
+Kurssi on **pakollinen** sekä uutta että vanhaa kandia suorittaville. WebOodissa tarjolla olevista kursseista on etsittävä nimenomaan valtiotieteellisen tiedekunnan opiskelijoille suunnattu kurssi; ainakin [tällä tunnisteella](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=2024464) on löytynyt aiemmin oikea kurssi. Kurssia kannattaa etsiä myös [Avoimesta yliopistosta](https://courses.helsinki.fi/fi/open-university/search?search=Tieteellinen+kirjoittaminen).
 
 ### Kirjallisuus ja/tai muu materiaali
 
