@@ -1,3 +1,11 @@
+### Siirtymäsäännökset ja pakollisuus
+
+Kurssit ovat **valinnaisia** TA5-kursseja kaikille kandiopiskelijoille.
+
+Keväällä 2018 tarjolla on kaksi rahoituskurssia: periodissa III [yksi](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=119324971) (luennoi Anne Mikkola) ja periodissa IV [toinen](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=119325118). Alla olevat tiedot koskevat aiemmin järjestettyä vastaavaa TA5-kurssia.
+
+Maisterivaiheessa vastaavia aiheita voi käsitellä valinnaisilla erikoistumiskursseilla [Banking and Finance](https://oodi.aalto.fi/a/opintjakstied.jsp?html=1&Kieli=6&Tunniste=31E01900) (HECER) ja [Money and Monetary Theory](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118983046).
+
 ### Kirjallisuus ja/tai muu materiaali
 
 _Principles of Corporate Finance (Brealey & Myers)_
@@ -20,8 +28,8 @@ Loppukoe, tiedekuntatentti.
 
 ### Työläys
 
-Kurssilla tulee paljon tärkeää asiaa, joka kannattaa omaksua huolella. Mikäli haluaa asioita ymmärtää, kannattaa nähdä vaivaa. Mikäli on kurssilla vain 5 op:n perässä, noh silloin olet väärässä paikassa, tämä ei todellakaan ole KA6:sien helpoimmasta päästä.
+Kurssilla tulee paljon tärkeää asiaa, joka kannattaa omaksua huolella. Mikäli haluaa asioita ymmärtää, kannattaa nähdä vaivaa.
 
 ### Muuta
 
-Kurssilla raapaistaan jokaiselle taloustieteilijälle ehdottoman tärkeitä perusasioita! Tosin valitettavasti hyvin ylimalkaisesti. Silti suositeltava kurssi, toivottavasti kurssi on tarjolla tulevaisuudessa!
+Kurssilla raapaistaan jokaiselle taloustieteilijälle ehdottoman tärkeitä perusasioita! Tosin valitettavasti hyvin ylimalkaisesti. Silti suositeltava kurssi.
