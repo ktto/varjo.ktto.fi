@@ -1,14 +1,18 @@
+### Yleistä
+
+Tämännimistä kurssia on järjestetty **kandivaiheen valinnaisena** TA5-opintojaksona. Tällä hetkellä kurssia ei näyttäisi olevan opetussuunnitelmassa.
+
 ### Kirjallisuus ja/tai muu materiaali:
 
 Eri luennoitsijoiden antama materiaali löytyy nettisivuilta
 
 ### Sisältö
 
-Hyvin samanalinen kuin KA2, joka kerta eri luennoitsija eri aiheesta. Aiheiden syvällisyys vaihtelee suuresti; välillä käydään hyvin sivuaineopiskelijalähtöisesti kansiksen perustermejä ja välillä syvennytään Paaschen ja Laspeyresin hintaindeksien laskutekniikoihin.
+Toteutettu yleensä vierailijaluentosarjasta. Aiheiden syvällisyys vaihtelee suuresti; välillä käydään hyvin sivuaineopiskelijalähtöisesti kansiksen perustermejä, ja välillä syvennytään Paaschen ja Laspeyresin hintaindeksien laskutekniikoihin.
 
 ### Todelliset esitiedot 
 
-Ei esitietovaatimuksia
+Ei esitietovaatimuksia.
 
 ### Suoritustavat
 
