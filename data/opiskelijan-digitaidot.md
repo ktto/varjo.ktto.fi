@@ -30,4 +30,4 @@ Erittäin todennäköisesti tältä kurssilta noukit opintojesi helpoimmat opint
 
 Tällä kurssilla et opi tekemään tietokoneella esimerkiksi tilastollista analyysiä tai kauniita raportteja. Ne taidot kannattaa hankkia muualta.
 
-Kurssin materiaaleista yliopiston omia palveluita koskeva [osio](http://blogs.helsinki.fi/tvt-ajokortti/2-helsingin-yliopiston-tietotekninen-ymparisto/) saattaa olla sinulle hyödyllinenkin.
+Kurssin materiaaleista yliopiston omia palveluita koskeva [osio](http://blogs.helsinki.fi/tvt-ajokortti/2-helsingin-yliopiston-tietotekninen-ymparisto/) sen sijaan saattaa olla sinulle hyödyllinenkin, myös kurssin jälkeen.
