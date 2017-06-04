@@ -3,11 +3,16 @@
 Kurssi on järjestetty viimeisen kerran vuoden 2016 syksyllä. **Kurssia ei siis enää pysty suorittamaan** (myöskään yleistenttejä ei järjestetä).
 
 Korvaavuudet:
-* Jos suoritat uutta kandia (olet aloittanut syksyllä 2017 tai siirtynyt syksyllä 2017 tai sen jälkeen uuteen kandiohjelmaan), sinun *ei tarvitse tehdä mitään*. Tämä kurssi ei kuulu tutkintovaatimuksiin.
-* Jos suoritat vanhaa kandia etkä ole aiemmin suorittanut tätä kurssia, voit korvata sen 
-kokoamalla 10 opintopistettä opintoja seuraavista vaihtoehdoista (tiedot 3.6.2017):
-** Mikä tahansa TA5-kurssi
-** Mitkä tahansa matemaattisten tieteiden kandidaatinohjelman kurssit
+
+<ul>
+<li> Jos suoritat uutta kandia (olet aloittanut syksyllä 2017 tai siirtynyt syksyllä 2017 tai sen jälkeen uuteen kandiohjelmaan), sinun *ei tarvitse tehdä mitään*. Tämä kurssi ei kuulu tutkintovaatimuksiin.</li>
+<li> Jos suoritat vanhaa kandia etkä ole aiemmin suorittanut tätä kurssia, voit korvata sen 
+kokoamalla 10 opintopistettä opintoja seuraavista vaihtoehdoista (tiedot 3.6.2017):</li>
+<ul>
+<li> Mikä tahansa TA5-kurssi</li>
+<li> Mitkä tahansa matemaattisten tieteiden kandidaatinohjelman kurssit</li>
+</ul>
+</ul>
 
 Luonnollisesti nämä kurssit eivät voi olla sellaisia kursseja, joita sisällytät muihin pakollisiin opintoihin (siis esimerkiksi Matemaattisen analyysin kurssit tai Lineaarialgebra ja matriisilaskenta I eivät käy).
 
