@@ -1,4 +1,4 @@
-WebOodi-linkit: [Makrotaloustiede I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118158379), [Makrotaloustiede II](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=119330075
+WebOodi-linkit: [Makrotaloustiede I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118158379), [Makrotaloustiede II](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=119330075).
 
 ### Siirtymäsäännökset ja pakollisuus
 
