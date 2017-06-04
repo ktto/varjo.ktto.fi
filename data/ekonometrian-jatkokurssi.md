@@ -1,6 +1,6 @@
-### Kurssin sisältö
+### Pakollisuus ja siirtymäsäännökset
 
-Tämä kurssi on syventäviä opintoja, ja on ollut **pakollinen** maisteriopiskelijoille.
+Kurssi kuuluu syventäviin opintoihin, ja on **pakollinen** maisteriohjelmissa.
 
 Kurssia vastaavat uudet kurssit ovat yleisen linjan opiskelijoille kurssit [Econometrics I](https://wiki.helsinki.fi/display/MPE/Econometrics+1) ja [II](https://wiki.helsinki.fi/display/MPE/Econometrics+2), tutkimussuunnan opiskelijoille kurssit [Advanced Econometrics I](https://wiki.helsinki.fi/display/MPE/Advanced+Econometrics+1)–IV. 
 
