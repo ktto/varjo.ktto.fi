@@ -1,3 +1,5 @@
+[Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118662017).
+
 ### Siirtymäsäännökset ja pakollisuus
 
 Kurssi on **pakollinen** vanhoissa kandiohjelmissa. Uusissa kandiohjelmissa se on vapaaehtoinen.
