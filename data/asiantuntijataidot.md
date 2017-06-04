@@ -6,7 +6,7 @@ Kurssi on **pakollinen** uudessa kandiohjelmassa. Kurssia **ei kannata** käydä
 
 * Jos suoritat uutta kandia (olet aloittanut syksyllä 2017 tai siirtynyt uuteen kandiohjelmaan) etkä ole suorittanut aiemmin TA2-kurssia, käy normaalisti tämä kurssi.
 * Jos suoritat uutta kandia ja olet aiemmin suorittanut vanhan kurssin *TA2 Suomen talouselämän ja maailmantalouden esittely*, voit korvata kurssin *TA2 Asiantuntijataidot* sillä.
-* Jos suoritat vanhaa kandia, *älä käy tätä kurssia*. Jos et ole käynyt aiemmin vanhaa kurssia *TA2 Suomen talouselämän ja maailmantalouden esittely*, voit korvata sen uudella kurssilla *TA5 Suomen talouselämän ja maailmantalouden esittely*.
+* Jos suoritat vanhaa kandia, *älä käy kurssia TA2 Asiantuntijataidot*. Jos et ole käynyt aiemmin vanhaa kurssia *TA2 Suomen talouselämän ja maailmantalouden esittely*, voit korvata sen käymällä kurssin *TA5 Suomen talouselämän ja maailmantalouden esittely*.
 
 ### Kirjallisuus ja/tai muu materiaali
 
