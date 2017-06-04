@@ -2,7 +2,9 @@
 
 Tämä kurssi on syventäviä opintoja, ja on ollut **pakollinen** maisteriopiskelijoille.
 
-Kurssia vastaavat uudet kurssit ovat yleisen linjan opiskelijoille kurssit [Econometrics I](https://wiki.helsinki.fi/display/MPE/Econometrics+1)([https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118167563](WebOodi-linkki)) ja [II]https://wiki.helsinki.fi/display/MPE/Econometrics+2), tutkimussuunnan opiskelijoille kurssit [Advanced Econometrics I](https://wiki.helsinki.fi/display/MPE/Advanced+Econometrics+1) [https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118984297](WebOodi-linkki)–IV. 
+Kurssia vastaavat uudet kurssit ovat yleisen linjan opiskelijoille kurssit [Econometrics I](https://wiki.helsinki.fi/display/MPE/Econometrics+1) ja [II]https://wiki.helsinki.fi/display/MPE/Econometrics+2), tutkimussuunnan opiskelijoille kurssit [Advanced Econometrics I](https://wiki.helsinki.fi/display/MPE/Advanced+Econometrics+1)–IV. 
+
+Ensimmäiset kokonaisuuksien kurssit WebOodissa: [Econometrics I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118167563]), [Advanced Econometrics I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118984297).
 
 ### Huomioita kurssista
 
