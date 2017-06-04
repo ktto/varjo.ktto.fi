@@ -1,3 +1,7 @@
+### Mikä?
+
+Ilmeisesti tämänniminen **maisterivaiheen valinnainen kurssi** on joskus järjestetty. Tällä hetkellä vastaavaa kurssia ei näyttäisi olevan opetussuunnitelmassa.
+
 ### Kirjallisuus ja/tai muu materiaali
 
 Luennoitsijan omat matskut ja pari artikkelia.
