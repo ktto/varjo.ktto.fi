@@ -1,3 +1,5 @@
+WebOodi-linkit: [Makrotaloustiede I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118158379), [Makrotaloustiede II](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=119330075
+
 ### Siirtymäsäännökset ja pakollisuus
 
 Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville.
