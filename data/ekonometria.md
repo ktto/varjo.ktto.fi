@@ -1,3 +1,5 @@
+WebOodi-linkit: [Ekonometria I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118845407), [Ekonometria II](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118845414).
+
 ### Siirtymäsäännökset ja pakollisuus
 
 Kurssi on **pakollinen** sekä uutta että vanhaa kandia suorittaville.
