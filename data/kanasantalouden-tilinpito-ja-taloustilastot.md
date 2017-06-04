@@ -1,6 +1,6 @@
 ### Yleistä
 
-Tiettävästi tällainen valinnainen kanditason TA5/KA6-kurssi on joskus ollut olemassa. Tällä hetkellä **ei ole suunnitelmia kurssin järjestämiseksi**.
+Tiettävästi tällainen valinnainen kanditason TA5/KA6-kurssi on joskus ollut olemassa. Tällä hetkellä (tieto kesältä 2017) **ei ole suunnitelmia kurssin järjestämiseksi**.
 
 ### Kirjallisuus ja/tai muu materiaali
 
