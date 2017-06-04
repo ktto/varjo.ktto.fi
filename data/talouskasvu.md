@@ -1,3 +1,9 @@
+[Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118845167).
+
+### Pakollisuus ja siirtymäsäännökset
+
+Kurssi on pakollinen kandikurssi.
+
 ### Kirjallisuus ja/tai muu materiaali
 Varsinainen kurssimateriaali on luennoijan luentokalvot. Kalvoissa on materiaalia, jota ei ole kirjassa, ja kirjassa on materiaalia, jota ei kysytä tentissä.
 
@@ -9,7 +15,7 @@ _Weil David N. (2012): Economic Growth (3rd ed. tai uudempi)_
 
 Kurssilla perehdytään pitkän aikavälin talouskasvun syihin. Kun makron kurssilla käsitellään lähinnä suhdanteita, tällä kurssilla katsotaan, miten talous kehittyy pitkällä aikavälillä.
 
-Kurssi seurailee kurssikirjan jaottelua, jossa pitkälti käsitellään yksi kerrallaan erilaisia mahdollisia selityksiä talouskasvulle (fyysinen pääoma, teknologia, "tehokkuus", väestönkasvu, koulutus, tulonjako, kulttuuri, maantiede, luonnonvarat, julkinen sektori, ...). 
+Kurssi seurailee kurssikirjan jaottelua, jossa pitkälti käsitellään yksi kerrallaan erilaisia mahdollisia selityksiä talouskasvulle (fyysinen pääoma, teknologia, "tehokkuus", väestönkasvu, koulutus, tulonjako, kulttuuri, maantiede, luonnonvarat, julkinen sektori, ...). Kurssin käsittelemien asioiden laajuuden vuoksi se ei aina tunnu muodostavan kovinkaan koherenttia kokonaisuutta.
 
 ### Todelliset esitiedot
 
