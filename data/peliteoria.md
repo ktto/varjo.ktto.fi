@@ -1,3 +1,5 @@
+[Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118845153).
+
 ### Pakollisuus
 
 Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville.
