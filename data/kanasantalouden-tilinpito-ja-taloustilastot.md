@@ -2,6 +2,8 @@
 
 Tiettävästi tällainen valinnainen kanditason TA5/KA6-kurssi on joskus ollut olemassa. Tällä hetkellä (tieto kesältä 2017) **ei ole suunnitelmia kurssin järjestämiseksi**.
 
+Jos kaipaat tällaista kurssia, siitä kannattaa olla yhteydessä esim. kandiohjelman johtajaan (Juha Tervala) ja/tai avoimen yliopiston opintosuunnittelijoihin.
+
 ### Kirjallisuus ja/tai muu materiaali
 
 Prujuista löytyy kaikki, harkat ei pakollisia mutta avaavat aihetta kaikkein parhaiten.
