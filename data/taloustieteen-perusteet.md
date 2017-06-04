@@ -1,3 +1,5 @@
+[Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118661398).
+
 ### Siirtymäsäännökset ja pakollisuus
 
 Kurssi on **pakollinen** sekä uutta että vanhaa kandia suorittaville.
