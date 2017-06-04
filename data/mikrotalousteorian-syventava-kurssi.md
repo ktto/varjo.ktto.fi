@@ -1,0 +1,5 @@
+### Siirtymäsäännökset ja pakollisuus
+
+Vastaava kurssi on **pakollinen** kaikille maisterivaiheen opiskelijoille. 
+
+Uudessa maisteriohjelmassa suoritetaan joko kurssit [Microeconomics I](https://wiki.helsinki.fi/display/MPE/Microeconomics+1)–[Microeconomics II](https://wiki.helsinki.fi/display/MPE/Microeconomics+2) (yleinen linja) tai kurssit [Advanced Microeconomics I](https://wiki.helsinki.fi/display/MPE/Advanced+Microeconomics+1), [II](https://wiki.helsinki.fi/display/MPE/Advanced+Microeconomics+2), [III](https://wiki.helsinki.fi/display/MPE/Advanced+Microeconomics+3) ja [IV](https://wiki.helsinki.fi/display/MPE/Advanced+Microeconomics+4) (tutkijalinja). WebOodi-linkit ensimmäisiin kursseihin: [Microeconomics I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118167500), [Advanced Microeconomics I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118983557).
