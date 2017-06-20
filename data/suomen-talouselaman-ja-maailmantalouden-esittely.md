@@ -1,3 +1,5 @@
+### ECOK-250 TA5 Suomen talouselämän ja maailmantalouden esittely, 5 op 
+
 [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118662017).
 
 ### Siirtymäsäännökset ja pakollisuus
