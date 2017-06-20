@@ -1,7 +1,7 @@
 ### MAT11002 Lineaarialgebra ja matriisilaskenta I, 5 op 
 
 * [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117375394)
-* [Syksyn 2016 kurssisivu](https://wiki.helsinki.fi/display/mathstatKurssit/Lineaarialgebra+ja+matriisilaskenta+I%2C+syksy+2016)
+* [Syksyn 2016 kurssisivu](https://wiki.helsinki.fi/display/mathstatKurssit/Lineaarialgebra+ja+matriisilaskenta+I%2C+syksy+2016) – kannattaa huomata, että vanhoilla kurssisivuilla on myös vanhojen kokeiden ratkaisuehdotuksia. Lisää vanhoja kurssisivuja löytyy hakemalla matikan laitoksen Wikistä, kesäkursseja myös [Lotta Oinosen](http://www.helsinki.fi/~lpjoinon/) ja [Jokke Häsän](https://www.cs.helsinki.fi/u/jhasa/kurssit.html) sivuilta.
 * [Matikan laitoksen tenttiarkisto](https://wiki.helsinki.fi/display/mathstatOpiskelu/Lineaarialgebra+ja+matriisilaskenta+I+arkisto)
 
 ### Siirtymäsäännökset ja pakollisuus
@@ -10,7 +10,7 @@ Kurssi on **pakollinen** kaikissa kandiohjelmissa. Sitä ei voi korvata muilla k
 
 ### Kirjallisuus ja/tai muu materiaali
 
-Luentomateriaali (prujut).
+Luentomateriaali (prujut). Jos prujut tuntuvat turhan yksinkertaisilta ja pintapuolisilta, kannattaa hankkia hyvä alan kirja (kurssisivuilta löytyy suosituksia). Myös [Honkasalon vanha kurssimateriaali](http://www.helsinki.fi/~lpjoinon/la2/materiaali/HonkasaloLA.pdf) voi olla hyödyllinen.
 
 ### Sisältö
 
