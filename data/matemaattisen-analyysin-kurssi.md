@@ -1,3 +1,10 @@
+### MAT11010 Matemaattinen analyysi I, 5 op ja MAT11011 Matemaattinen analyysi II, 5 op
+
+* WebOodi: [Analyysi I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117787931), [Analyysi II](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117787941)
+* [Tukikurssin pitäjän kotisivut](http://blogs.helsinki.fi/petrusmi/author/petrusmi/)
+* [Syksyn 2016 kurssin sivu](https://wiki.helsinki.fi/display/mathstatKurssit/Matemaattisen+analyysin+kurssi%2C+syksy+2016)
+* [Matikan laitoksen tenttiarkisto](http://wiki.helsinki.fi/display/mathstatOpiskelu/Matemaattisen+analyysin+kurssi+arkisto)
+
 ### Siirtymäsäännökset ja pakollisuus
 
 Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville.
@@ -45,7 +52,7 @@ Kurssikoe.
 
 ### Työläys
 
-Kurssi on perinteisesti ollut monien fuksien mielestä melko sokeeraava: ensimmäisistä matikan kursseista tämä on ollut se olennaisesti vaikeampi. 
+Kurssi on perinteisesti ollut monien fuksien mielestä melko sokeeraava: ensimmäisistä matikan kursseista (linis ja analyysi) tämä on ollut se olennaisesti vaikeampi. Lukioon verrattuna aiempia tuttuja käsitteitä tarkastellaan nyt hyvin abstraktilla tasolla ja uusin merkinnöin. Myös todistaminen on selkeästi isommassa roolissa kuin lukiossa.
 
 Kun alkujärkytyksestä selviää, kurssin aiheet eivät kuitenkaan ole ylivoimaisen hankalia. Materiaalin lukeminen voi olla hitaampaa kuin mihin on lukiossa tottunut, mutta se ei ole merkki muusta kuin siitä että nyt on siirrytty yliopistoon. 
 
@@ -53,4 +60,6 @@ Myöskään harjoitustehtäviin ei välttämättä ole yhtä valmista "kaavaa", 
 
 ### Muuta
 
-KTTO järjestää tälle kurssille syksyisin tukikurssin, jota vetää Petrus Mikkola. Tukikurssi kannattaa hyödyntää, jos olo on yhtään epävarma.
+KTTO järjestää tälle kurssille syksyisin tukikurssin, jota vetää Petrus Mikkola. Sinun kannattaa hyödyntää tukikurssi, jos olosi on yhtään epävarma.
+
+Myös valinnaisesta kurssista [Johdatus yliopistomatematiikkaan](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117375151) saattaa olla iloa: sen on tarkoitus nimenomaan olla silta lukion ja yliopisto-opiskelun välillä. Jos aikataulusi vain suinkin sallii, todennäköisesti kurssin suorittamiseen käytetty aika kyllä maksaa itsensä takaisin jo opintojen alussa, ja hyöty vain kasvaa sen jälkeen.
