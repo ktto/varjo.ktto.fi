@@ -1,6 +1,6 @@
 ### MAT21012 Differentiaaliyhtälöt I, 5 op
 
-[https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117377115 (WebOodi-linkki)]
+[WebOodi-linkki](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117377115 WebOodi-linkki)
 
 ### Siirtymäsäännökset ja pakollisuus
 
