@@ -1,12 +1,16 @@
+### ECOK-610 TA2 Asiantuntijataidot, 5 op 
+
 Kurssin [WebOodi-sivu](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118844400).
 
 ### Siirtymäsäännökset ja pakollisuus
 
-Kurssi on **pakollinen** uudessa kandiohjelmassa. Kurssia **ei kannata** käydä, jos suoritat vanhaa kandia. Tarkemmin:
+Kurssi on **pakollinen** uudessa kandiohjelmassa. Kurssia **ei kannata** käydä, jos suoritat vanhaa kandia. 
+
+Tarkemmin:
 
 * Jos suoritat uutta kandia (olet aloittanut syksyllä 2017 tai siirtynyt uuteen kandiohjelmaan) etkä ole suorittanut aiemmin TA2-kurssia, käy normaalisti tämä kurssi.
 * Jos suoritat uutta kandia ja olet aiemmin suorittanut vanhan kurssin *TA2 Suomen talouselämän ja maailmantalouden esittely*, voit korvata kurssin *TA2 Asiantuntijataidot* sillä.
-* Jos suoritat vanhaa kandia, *älä käy kurssia TA2 Asiantuntijataidot*. Jos et ole käynyt aiemmin vanhaa kurssia *TA2 Suomen talouselämän ja maailmantalouden esittely*, voit korvata sen käymällä kurssin *TA5 Suomen talouselämän ja maailmantalouden esittely*.
+* Jos suoritat vanhaa kandia, *älä käy kurssia TA2 Asiantuntijataidot*. Jos et ole käynyt aiemmin vanhaa kurssia *TA2 Suomen talouselämän ja maailmantalouden esittely*, voit korvata sen käymällä kurssin [TA5 Suomen talouselämän ja maailmantalouden esittely](https://varjo.ktto.fi/suomen-talouselaman-ja-maailmantalouden-esittely).
 
 ### Kirjallisuus ja/tai muu materiaali
 
