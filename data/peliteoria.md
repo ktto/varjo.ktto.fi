@@ -4,7 +4,7 @@
 
 ### Pakollisuus
 
-Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville.
+Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville. Kurssi järjestetään keväisin III periodissa, ja se suoritetaan suoritettavaksi toisena opiskeluvuotena.
 
 ### Kirjallisuus ja/tai muu materiaali
 
