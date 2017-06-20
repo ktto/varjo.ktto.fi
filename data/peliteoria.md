@@ -1,3 +1,5 @@
+### ECOK-212 TA3c Peliteoria, 5 op 
+
 [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118845153).
 
 ### Pakollisuus
