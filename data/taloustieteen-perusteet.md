@@ -41,10 +41,6 @@ Kurssi suoritetaan kurssikokeella. Kokeeseen osallistuakseen on tehtävä tietty
 
 ### Muuta
 
-Kurssi on ensimmäinen ja viimeinen yliopistolla käymäsi kurssi, joka tarkastelee taloustiedettä kokonaisuutena. Viimeistään tämän jälkeen olet itse vastuussa siitä, että taloustiede on omassa päässäsi muutakin kuin kokoelma erityisalojen tuloksia.
-
-Peruskurssilla esitellään yleensä äärimmilleen yksinkertaistettuja versioita taloustieteen malleista. Käytännössä sinulle esitellään "uskottavan kuuloisin" perustein jonkinlainen tarina, jota voisi kutsua myös saduksi. Tämän jälkeen piirrellään muutamia suoria ja lopuksi yritetään perustella, että tämä kertoo jotain kiinnostavaa taloudesta.
-
-Vaikuttaako tämä jotenkin epäilyttävältä? Hienoa: tämä on merkki siitä, ettet ole ihan kaheli. Mitä pidemmälle jatkat opintojasi, sitä vähemmän tarinat näyttävät saduilta, sitä vähemmän kuvaajat näyttävät siisteiltä suorilta, joita ei tarvitse perustella kovin monella sanalla, ja sitä monimuotoisempia myös tutkittavat ilmiöt ovat. Ennen kuin sinne asti päästään, on kuitenkin muodostettava jonkinlainen kokonaiskuva sekä ymmärrettävä yksinkertaiset periaatteet ja yksinkertaiset mallit hyvin.
+Kurssi on ensimmäinen ja viimeinen yliopistolla käymäsi kurssi, joka tarkastelee taloustiedettä kokonaisuutena. 
 
 Jos opiskelet tämän kurssin huolella (esimerkiksi lukemalla kirjaa enemmän kuin pelkkä kurssista läpi pääseminen edellyttäisi), kaikki taloustieteen kandikurssit (esimerkiksi Mikrotaloustiede I–II ja Makrotaloustiede I–II) ovat todennäköisesti kohtuullisen helppoja. Yleensä myöhemmillä kursseilla aloitetaan palaamalla peruskurssin asioihin.
