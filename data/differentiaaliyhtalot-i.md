@@ -12,7 +12,7 @@ Kurssi on **valinnainen** kaikissa kandiohjelmissa.
 
 ### Kirjallisuus ja/tai muu materiaali
 
-Kurssilla on käytössä luentomateriaali, jota edes kurssin kaikki opettajat ja ohjaajat eivät ole pitäneet erityisen onnistuneena. Jos materiaalia on vaikea seurata, kannattaa suosiolla hankkia kirja. Suomenkielisistä materiaaleista voi kokeilla esimerkiksi Aallon vastaavan opetuskokonaisuuden [monistetta](http://math.aalto.fi/~jmalinen/MyPSFilesInWeb/DiffEqPruju.pdf).
+Kurssilla on käytössä luentomateriaali, jota edes kurssin kaikki opettajat ja ohjaajat eivät ole pitäneet erityisen onnistuneena. Jos materiaalia on vaikea seurata, kannattaa suosiolla hankkia mikä tahansa alan englanninkielinen kirja (kurssisivuilta löytyy ehdotuksia). Suomenkielisistä materiaaleista voi kokeilla esimerkiksi Aallon vastaavan opetuskokonaisuuden [monistetta](http://math.aalto.fi/~jmalinen/MyPSFilesInWeb/DiffEqPruju.pdf).
 
 ### Sisältö
 
