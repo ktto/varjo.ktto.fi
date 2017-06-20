@@ -1,6 +1,7 @@
 ### MAT21012 Differentiaaliyhtälöt I, 5 op
 
 [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117377115 WebOodi-linkki)
+
 [Kevään 2017 kurssisivu](http://wiki.helsinki.fi/pages/viewpage.action?pageId=197658128)
 
 ### Siirtymäsäännökset ja pakollisuus
@@ -31,4 +32,4 @@ Kurssikoe, johon saa lisäpisteitä tehdyistä harjoitustehtävistä. Kokeessa e
 
 ### Työläys
 
-Kurssi on melko kevyt, erityisesti jos on opiskellut aiemmin diffisyhtälöitä Analyysin kursseilla.
+Kurssi on kohtuullisen kevyt, erityisesti jos on opiskellut aiemmin diffisyhtälöitä Analyysin kursseilla.
