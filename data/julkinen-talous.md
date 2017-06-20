@@ -4,4 +4,6 @@ Kurssin [WebOodi-sivu](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd
 
 ### Pakollisuus ja siirtymäsäännökset
 
-Kurssi on **valinnainen** osa kandin opintoja, yksi valinnaisista TA5-kursseista. Kurssi on tarkoitus järjestää lukuvuonna 2017–2018 periodissa IV (huolimatta sitä aiemmin pitäneen professori [Markus Jäntin irtisanoutumisesta](https://www.uusisuomi.fi/kotimaa/221362-professorilta-taystyrmays-lukukausimaksuille-yliopistoille-tulee-suuri-kiusaus-ottaa)).
+Kurssi on **valinnainen** osa kandin opintoja, yksi valinnaisista TA5-kursseista. 
+
+Kurssi on tarkoitus järjestää lukuvuonna 2017–2018 periodissa IV (huolimatta sitä aiemmin pitäneen professori [Markus Jäntin irtisanoutumisesta](https://www.uusisuomi.fi/kotimaa/221362-professorilta-taystyrmays-lukukausimaksuille-yliopistoille-tulee-suuri-kiusaus-ottaa)).
