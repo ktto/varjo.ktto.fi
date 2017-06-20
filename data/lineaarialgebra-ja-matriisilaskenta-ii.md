@@ -1,30 +1,35 @@
+### MAT21001 Lineaarialgebra ja matriisilaskenta II, 5 op 
+
+* [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117375754)
+* [Syksyn 2016 kurssisivu](https://wiki.helsinki.fi/display/mathstatKurssit/Lineaarialgebra+ja+matriisilaskenta+II%2C+syksy+2016) – kannattaa huomata, että vanhoilla kurssisivuilla on myös vanhojen kokeiden ratkaisuehdotuksia. Lisää vanhoja kurssisivuja löytyy hakemalla matikan laitoksen Wikistä, kesäkursseja myös [Lotta Oinosen](http://www.helsinki.fi/~lpjoinon/) ja [Jokke Häsän](https://www.cs.helsinki.fi/u/jhasa/kurssit.html) sivuilta.
+* [Matikan laitoksen tenttiarkisto](https://wiki.helsinki.fi/display/mathstatOpiskelu/Lineaarialgebra+ja+matriisilaskenta+II+arkisto)
+
+### Siirtymäsäännökset ja pakollisuus
+
+Kurssi on **valinnainen** kaikissa kandiohjelmissa.
+
 ### Kirjallisuus ja/tai muu materiaali
 
-Prujut.
+Luentomateriaali (prujut).
 
 ### Sisältö
 
-* Pistetulo ja sisätulo
-* Lineaarikuvaukset
-* Determinantti
-* Ominaisarvot
+Kurssilla laajennetaan vektoriavaruuden, aliavaruuden ja sisätulon käsitteitä abstraktimmiksi: nyt vektorit voivat olla muutakin kuin reaalilukujonoja, esimerkiksi funktioita. Kokonaan uusina asioina opitaan erityisesti lineaarikuvaukset ja niiden yhteys matriiseihin.
+
+Kurssi on erittäin hyödyllinen myöhempien opintojen kannalta. Jos haluat opiskella matematiikkaa tai tilastotiedettä yhtään pidemmälle, tämän kurssin tiedot on käytännössä pakko opiskella jotenkin.
 
 ### Todelliset esitiedot
 
-Pakollinen Linis I.
+Linis I. Kurssista Johdanto yliopistomatematiikkaan voi olla hyötyä, jos todistaminen on vierasta.
 
 ### Kurssin käytännöt
 
-Samat kuin Linis I:ssä, eli laskarit ja laskupaja, jossa saa viettää aikaa niin paljon kuin sielu sietää.
+Luentoja 4 tuntia viikossa sekä kerran viikossa Kumpulaan palautettavat laskuharjoitustehtävät. Harjoituksiin saa apua Kumpulassa ohjaajilta, ks. tarkemmin kurssisivulta.
 
 ### Suoritustavat
 
-Kurssikoe on helpoin ja paras tapa. Koska kurssi ei välttämättä mahdu fuksin lukkariin ensimmäisenä vuonna, toinen varteenotettava vaihtoehto on käydä tenttimässä kurssi kesällä yleistenttissä.
+Kurssikoe, johon saa lisäpisteitä harjoituksista.
 
 ### Työläys
 
-Linis II on työläämpi kuin ensimmäinen osa, mutta ei todellakaan mikään ylitsepääsemätön. Tosin varsinkin fuksivuoden toinen periodi on jo valmiiksi suht täynnä tekemistä.
-
-### Muuta
-
-Kurssi ei ole pakollinen osa kandidaatintutkintoa, mutta varsin hyödyllinen jatkoa ajatellen. Oikeastaan kaikki mielenkiintoinen on jätetty ensimmäisestä osasta pois ja pompahtavat esiin tällä kurssilla. Varsinkin determinantti on hyvä osata. __Jos matikka kiinnostaa, ota tämä kurssi__. Voi suorittaa myös myöhemmin, mikäli fuksivuotena ei kerkeä.
+Kurssi ei ole aivan yhtä helppo kuin Linis I, mutta edelleen selvästi kevyimmästä päästä matikan kursseja – osin siksi, että opetusta on tietoisesti kehitetty helposti omaksuttavaksi.
