@@ -1,4 +1,8 @@
+### ECOK-253 TA5 Mikrotaloustieteen erikoiskurssi 3, 5 op 
+
 Kurssin [WebOodi-sivu](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=119147037), [vuoden 2016 kurssisivu](https://courses.helsinki.fi/fi/70327/115723429).
+
+Opetettu aiemmin mm. tunnuksella TA5d Kaupunkitalous.
 
 ### Pakollisuus
 
