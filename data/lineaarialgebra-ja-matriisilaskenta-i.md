@@ -1,8 +1,8 @@
 ### MAT11002 Lineaarialgebra ja matriisilaskenta I, 5 op 
 
-[Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117375394)
-
-[Syksyn 2016 kurssisivu](https://wiki.helsinki.fi/display/mathstatKurssit/Lineaarialgebra+ja+matriisilaskenta+I%2C+syksy+2016)
+* [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117375394)
+* [Syksyn 2016 kurssisivu](https://wiki.helsinki.fi/display/mathstatKurssit/Lineaarialgebra+ja+matriisilaskenta+I%2C+syksy+2016)
+* [Matikan laitoksen tenttiarkisto](https://wiki.helsinki.fi/display/mathstatOpiskelu/Lineaarialgebra+ja+matriisilaskenta+I+arkisto)
 
 ### Siirtymäsäännökset ja pakollisuus
 
