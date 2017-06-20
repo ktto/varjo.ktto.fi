@@ -42,4 +42,4 @@ Kurssikoe on paras tapa laskaripisteiden hyödyntämisen takia. Tiedekuntatentis
 
 Kurssi ei ole kovinkaan työläs verrattuna siitä saataviin 10 opintopisteeseen. Kurssikokeessa olleet kysymykset ovat yleensä olleet vuodesta toiseen hyvin samanlaisia kuin aiemmat koe- ja harjoitustehtävät. Käymällä ne läpi ja tekemällä laskarit vasemmalla kädellä kurssista pääsee halutessaan läpi hyvin pienellä panostuksella.
 
-Kurssiin kannattaa kuitenkin panostaa enemmän kuin pelkkä läpipääsy edellyttää, koska se on yksi taloustieteen bread and butter -kursseista. Samoihin asioihin siis törmää hyvin todennäköisesti uudelleen myöhemmin. Pyrkimällä ymmärtämään kurssin asiat hyvin saa kurssiin kuitenkin helposti uppoamaan 6–10h itsenäistä työtä viikossa.
+Kurssiin kannattaa kuitenkin panostaa enemmän kuin pelkkä läpipääsy edellyttää, koska se on yksi taloustieteen bread and butter -kursseista. Samoihin asioihin siis törmää hyvin todennäköisesti uudelleen myöhemmin. 
