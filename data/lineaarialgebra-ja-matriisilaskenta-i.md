@@ -1,37 +1,41 @@
+### MAT11002 Lineaarialgebra ja matriisilaskenta I, 5 op 
+
+[Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117375394)
+
+[Syksyn 2016 kurssisivu](https://wiki.helsinki.fi/display/mathstatKurssit/Lineaarialgebra+ja+matriisilaskenta+I%2C+syksy+2016)
+
+### Siirtymäsäännökset ja pakollisuus
+
+Kurssi on **pakollinen** kaikissa kandiohjelmissa. Sitä ei voi korvata muilla kursseilla.
+
 ### Kirjallisuus ja/tai muu materiaali
 
-Prujut.
+Luentomateriaali (prujut).
 
 ### Sisältö
 
-* Yhtälöiden ratkaisemisesta
-* Matriisit ja matriisilaskutoimitukset
-* Lineaaristen yhtälöryhmien ratkaiseminen
-* Käänteismatriisi
-* Vektoriavaruudet
-* Aliavaruudet
-* Kanta
-* Koordinaatit
-* Kannanvaihto
+Lineaarialgebran ja matriisilaskennan alkeita: (reaali)matriisit, (reaaliset) vektoriavaruudet ja lineaaristen yhtälöryhmien ratkaiseminen Gauss-Jordanin menetelmällä. Kurssin keskeisin käsite on vapaus, jota tankataankin sitten aimo tavalla.
 
-Kurssilla opitaan lineaarialgebran ehdottomat perusteet. Kurssi kertaa aluksi lukiosta tuttua asiaa yhtälöryhmien ratkaisemisesta, mutta tärkein anti on (mahdollisesti) uutena asiana tulevat matriisit ja niiden laskutoimitukset. Iso osa on myös vektoriavaruudet ja vektorialiavaruudet, joita on jo lukiossa sivuttu sen kummemmin selittämättä. Näiden ymmärtäminen on tärkeää mikäli haluaa lukea matikkaa pidemmälle.
+Kurssilla rakennetaan työkalupakkia, jota tarvitaan mm. analyysissä, differentiaaliyhtälöissä, todennäköisyyslaskennassa, tilastotieteessä jatkuvasti. Kurssin merkitys korostuu kunnolla vasta myöhemmin opinnoissa, joten peruskäsitteet kannattaa opetella hyvin (jopa paremmin kuin arvosana 5 sinänsä vaatii).
+
+Huom. vaikka Gauss-Jordanin menetelmään käytetään kurssin alussa kohtuullisesti aikaa, et välttämättä tarvitse sitä yhdessäkään käytännön laskussa kurssin jälkeen. Se on lähinnä teoreettinen apuväline.
 
 ### Todelliset esitiedot
 
-Lukion matikka.
+Lukion matematiikka (lyhyt tai pitkä).
 
 ### Kurssin käytännöt
 
-Luennot 4h viikosssa plus kerran viikossa palautettavat laskarit, joita voi tehdä pajassa ohjaajien avustuksella niin kauan kuin haluaa.
+Luentoja 4 tuntia viikossa sekä kerran viikossa Kumpulaan palautettavat laskuharjoitustehtävät. Harjoituksiin saa apua Kumpulassa ohjaajilta, ks. tarkemmin kurssisivulta.
 
 ### Suoritustavat
 
-Kurssikoe.
+Kurssikoe, johon saa lisäpisteitä harjoituksista.
 
 ### Työläys
 
-Ei hirveän työläs, vuoden 2011 kurssikoe suhteellisen helppo. Välttämättömät tiedot kerää oikeastaan laskarit tekeällä.
+Kurssi on ylivoimaisesti helpoimmasta päästä matematiikan kursseja. Osalle se voi tuntua jopa hämmentävän helpolta; kurssia on tietoisesti suunniteltu niin, että se tarjoaisi uusille opiskelijoille pehmeän laskun matematiikan opiskeluun.
 
 ### Muuta
 
-__Pakollinen kurssi__. Esitietona seuraavan periodin Lineaarialgebra ja matriisilaskenta II:lle.
+Kurssia opettaa Johanna Rämö, joka on erikoistunut matematiikan opetuksen tutkimukseen. Rämön oma opetustyyli jakaa jonkin verran mielipiteitä. Oli henkilöstä mitä mieltä tahansa, kannattaa kuitenkin kuunnella, mitä hän sanoo opiskelusta ja opetuksesta, koska taustalla on yleensä kovaa tutkimusta.
