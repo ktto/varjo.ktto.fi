@@ -40,4 +40,4 @@ Kurssi ei ole erityisen työläs.
 
 ### Muuta
 
-Kurssin luennoija on erikoistunut käyttäytymistaloustieteeseen (behavioral economics) ja yleensä pitänyt yhden luennon erikseen käyttäytymistaloustieteen kysymyksistä.
+Kurssin luennoija Marja-Liisa Halko on erikoistunut käyttäytymistaloustieteeseen (behavioral economics) ja yleensä pitänyt yhden luennon erikseen käyttäytymistaloustieteen kysymyksistä.
