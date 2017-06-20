@@ -1,0 +1,23 @@
+KA6a INTERNATIONAL ECONOMICS
+Matti Sarvimäki, University of Helsinki
+Final Exam 27.10.2008
+
+Answer all questions in English or Finnish (or a mix of the two). Each question has an equal weight, but the subsections may carry different weights.
+
+1. 	Suppose someone argues that the Heckscher-Ohlin model is best-suited for explaining trade between developed and developing countries, while the Krugman (1979) model is	best-suited for explaining trade among developed countries. Do you agree? Why? [Note: you should explain the key assumptions and predictions of both models]
+
+
+2.	Suppose that a country wants to promote an industry that is facing foreign competition.
+
+		a.	Use partial equilibrium analysis to compare the effects of a tariff, a quota and a subsidy for a small country. That is, explain (using a graph) who gains, who loses and what is the most efficient instrument to achieve the aim of the policy.
+		
+		b.	How would the analysis change if the country would be large? In particular, use partial equilibrium analysis to discuss the impact of a tariff in a two-country world. How does supply and demand elasticies affect the net effect of imposing a tariff?
+
+
+3.	One of the big topics in the globalization debate concerns international migration. Use the tools and results discussed in the lectures to
+
+		a.	Explain why international trade and migration are argued to be substitutes
+		
+		b.	Explain (using a graph) the expected impact of low-skilled immigration on low-skilled native wages and employment. [Note: draw the graph assuming that the economy produces only one product using capital, high-skilled and low-skilled workers, unlimited amount of capital is available from the international market at fixed price and some low-skilled native workers choose not to work if wages are too low (i.e. their labor supply is not completely inelastic)] 
+
+		c.	A large body of empirical literature has failed to find these effects when comparing wage and employment changes in cities receiving different amount of immigration. Dicuss briefly other ways through which a local economy could absorb immigration.
