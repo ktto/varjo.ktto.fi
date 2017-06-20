@@ -1,6 +1,7 @@
-[Vuoden 2008 laskarit ja vastaukset](http://www.helsinki.fi/jarj/ktto/Opiskelu/Tentit/mikro08laskarit/)
+### ECOK-210 TA3a Mikrotaloustiede I, 5 op ja ECOK-211 TA3b Mikrotaloustiede II, 5 op 
 
-WebOodi-linkit: [Mikrotaloustiede I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118844507), [Mikrotaloustiede II](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118845146).
+* [Vuoden 2008 laskarit ja vastaukset](http://www.helsinki.fi/jarj/ktto/Opiskelu/Tentit/mikro08laskarit/)
+* WebOodi: [Mikrotaloustiede I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118844507), [Mikrotaloustiede II](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118845146).
 
 ### Siirtymäsäännökset ja pakollisuus
 
