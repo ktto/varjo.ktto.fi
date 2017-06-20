@@ -1,4 +1,4 @@
-### Kurssin tiedot
+### ECOK-259 TA5 Kansainvälisen talouden erikoiskurssi 1, 5 op 
 
 Tällä nimellä on opetettu joskus vuosituhannen alussa KA6a-kurssia.
 
