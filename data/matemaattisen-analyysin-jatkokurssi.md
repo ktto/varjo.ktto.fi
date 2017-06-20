@@ -1,6 +1,12 @@
+### MAT11012 Matemaattinen analyysi III, 5 op ja MAT11013 Matemaattinen analyysi IV, 5 op
+
+* WebOodi: [Analyysi III](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117787971), [Analyysi IV](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117787977)
+* [Syksyn 2016 kurssin sivu](https://wiki.helsinki.fi/display/mathstatKurssit/Matemaattisen+analyysin+kurssi%2C+syksy+2016)
+* [Matikan laitoksen tenttiarkisto](http://wiki.helsinki.fi/display/mathstatOpiskelu/Matemaattisen+analyysin+kurssi+arkisto)
+
 ### Siirtymäsäännökset ja pakollisuus
 
-Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville. (Vaihtoehtoisesti voit suorittaa 25 opintopisteen matematiikan pääaineopiskelijoille suunnatun kokonaisuuden.)
+Kurssit ovat **pakollisia** sekä vanhaa että uutta kandia suorittaville. (Vaihtoehtoisesti voit suorittaa 25 opintopisteen matematiikan pääaineopiskelijoille suunnatun kokonaisuuden.)
 
 Syksystä 2017 alkaen kurssi on jaettu kahteen 5 opintopisteen osaan, Matemaattinen analyysi III ja Matemaattinen analyysi IV.
 
@@ -12,7 +18,7 @@ Vanhojen ja uusien kurssien sisällöt **eivät** kuitenkaan vastaa yksi yhteen 
 
 ### Kirjallisuus ja/tai muu materiaali
 
-Prujut ja luentovideot, kuten ensimmäisessä osassa. Keväällä ei enää ole tarjolla tukikurssia, mutta kylläkin [tukiprujut](http://www.helsinki.fi/jarj/ktto/tukikurssi/analyysinjatkokurssi.pdf).
+Kurssimateriaali (prujut) ja luentovideot, kuten ensimmäisessä osassa. Keväällä ei enää ole tarjolla tukikurssia, mutta kylläkin [tukiprujut](http://www.helsinki.fi/jarj/ktto/tukikurssi/analyysinjatkokurssi.pdf).
 
 ### Sisältö (vanhan kurssirakenteen mukaan)
 
