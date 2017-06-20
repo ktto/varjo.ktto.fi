@@ -1,6 +1,7 @@
 ### ECOK-280 TA8 Taloustieteen kandidaattiseminaari, 4 op 
 
-[Kurssin WebOodi-sivu](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=119167579)
+* [Kurssin WebOodi-sivu](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=119167579)
+* [Syksyn 2016 kurssisivu](https://courses.helsinki.fi/fi/70335/114600039)
 
 ### Yleistä
 
