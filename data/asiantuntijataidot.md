@@ -2,6 +2,8 @@
 
 Kurssin [WebOodi-sivu](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118844400).
 
+Kurssia ei ole aiemmin järjestetty, joten tenttiarkistoakaan ei ole vielä kertynyt. Mahdollisesti kurssin [Suomen talouselämän ja maailmantalouden esittely](https://varjo.ktto.fi/suomen-talouselaman-ja-maailmantalouden-esittely) tenteistä saa osviittaa.
+
 ### Siirtymäsäännökset ja pakollisuus
 
 Kurssi on **pakollinen** uudessa kandiohjelmassa. Kurssia **ei kannata** käydä, jos suoritat vanhaa kandia. Tarkemmin:
