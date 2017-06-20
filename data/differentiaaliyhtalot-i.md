@@ -4,6 +4,8 @@
 
 [Kevään 2017 kurssisivu](http://wiki.helsinki.fi/pages/viewpage.action?pageId=197658128)
 
+Järjestetään nykyisin syksyisin.
+
 ### Siirtymäsäännökset ja pakollisuus
 
 Kurssi on **valinnainen** kaikissa kandiohjelmissa.
@@ -14,7 +16,7 @@ Kurssilla on käytössä luentomateriaali, jota edes kurssin kaikki opettajat ja
 
 ### Sisältö
 
-Kurssilla käydään läpi ensimmäisen ja toisen kertaluvun differentiaaliyhtälöitä melko käytännönläheisesti. Pääpaino on ratkaisumenetelmissä. Teoria on jätetty suosiolla toiseen osaan.
+Kurssilla käydään läpi ensimmäisen ja toisen kertaluvun differentiaaliyhtälöitä melko käytännönläheisesti. Pääpaino on ratkaisumenetelmissä. Varsinainen teoria on jätetty suosiolla jatkokurssille.
 
 Tämä kurssi sisältää osin samoja asioita, joita on käsitelty aiemmin [Taloustieteen matemaattisten menetelmien](https://varjo.ktto.fi/taloustieteen-matemaattiset-menetelmat) kurssilla, jota ei enää opeteta.
 
@@ -28,7 +30,7 @@ Yleensä järjestetty normaalina harjoituskurssina (luentoja ja laskuharjoitusti
 
 ### Suoritustavat
 
-Kurssikoe, johon saa lisäpisteitä tehdyistä harjoitustehtävistä. Kokeessa ei yleensä ole sallittu laskimia.
+Kurssikoe, johon saa lisäpisteitä tehdyistä harjoitustehtävistä. Kokeessa ei yleensä ole sallittu laskimia tai taulukoita.
 
 ### Työläys
 
