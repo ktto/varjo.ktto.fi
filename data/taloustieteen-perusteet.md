@@ -1,3 +1,5 @@
+### ECOK-S110 TA1 Taloustieteen perusteet, 5 op
+
 [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118661398).
 
 ### Siirtymäsäännökset ja pakollisuus
