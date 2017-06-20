@@ -1,3 +1,5 @@
+### ECOK-213 TA4a Makrotaloustiede I, 5 op ja ECOK-214 TA4b Makrotaloustiede 2, 5 op 
+
 WebOodi-linkit: [Makrotaloustiede I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118158379), [Makrotaloustiede II](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=119330075).
 
 ### Siirtymäsäännökset ja pakollisuus
