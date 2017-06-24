@@ -1,8 +1,16 @@
+### ECOM-G312 Macroeconomics 1, 5 op ja ECOM-G313 Macroeconomics 2, 5 op 
+
+* Kurssit WebOodissa: [1](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118978056) ja [2](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118978003)
+
 ### Siirtymäsäännökset ja pakollisuus
 
-Vastaava kurssi on **pakollinen** kaikille maisterivaiheen opiskelijoille. 
+Kurssit ovat **pakollisia** kaikille maisterivaiheen opiskelijoille. 
 
-Uudessa maisteriohjelmassa suoritetaan joko kurssit [Macroeconomics I](https://wiki.helsinki.fi/display/MPE/Macroeconomics+1)–[Macroeconomics II](https://wiki.helsinki.fi/display/MPE/Macroeconomics+2) (yleinen linja) tai kurssit [Advanced Macroeconomics I](https://wiki.helsinki.fi/display/MPE/Advanced+Macroeconomics+1), [II](https://wiki.helsinki.fi/display/MPE/Advanced+Macroeconomics+2), [III](https://wiki.helsinki.fi/display/MPE/Advanced+Macroeconomics+3) ja [IV](https://wiki.helsinki.fi/display/MPE/Advanced+Macroeconomics+4) (tutkijalinja). WebOodi-linkit ensimmäisiin kursseihin: [Macroeconomics I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118978056), [Advanced Macroeconomics I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118983573).
+Lähtökohtaisesti suoritetaan syventävät kurssit [Macroeconomics I](https://wiki.helsinki.fi/display/MPE/Macroeconomics+1)–[Macroeconomics II](https://wiki.helsinki.fi/display/MPE/Macroeconomics+2) (vanha maisteriohjelma tai uuden maisteriohjelman yleinen linja).
+
+Uuden maisteriohjelman tutkimuslinjalla (research track) kuitenkin suoritetaan laajemmat, ns. tohtoritason kurssit [Advanced Macroeconomics 1](https://wiki.helsinki.fi/display/MPE/Advanced+Macroeconomics+1), [2](https://wiki.helsinki.fi/display/MPE/Advanced+Macroeconomics+2), [3](https://wiki.helsinki.fi/display/MPE/Advanced+Macroeconomics+3) ja [4](https://wiki.helsinki.fi/display/MPE/Advanced+Macroeconomics+4). WebOodi-linkki ensimmäiseen kurssiin: [Advanced Macroeconomics 1](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118983573).
+
+Katso tarkemmin [uuden maisteriohjelman infopaketti](http://wiki.helsinki.fi/display/MPE/Home+of+MPE?preview=%2F206897506%2F218844673%2FInfo%20Session%2013%20June.pdf).
 
 ### Kirjallisuus ja/tai muu materiaali
 
