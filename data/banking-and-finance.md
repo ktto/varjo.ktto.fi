@@ -4,4 +4,4 @@
 
 ### Siirtymäsäännökset ja pakollisuus
 
-Kurssi on **valinnainen** osa maisterivaiheen opintoja, ja se käy yhdeksi erikoiskurssiksi (field courses) sekä maisteriohjelman yleisellä että erikoislinjalla (ks. [lista kursseista](https://wiki.helsinki.fi/pages/viewpage.action?pageId=206898484)).
+Kurssi on **valinnainen** osa maisterivaiheen opintoja, ja se käy yhdeksi erikoiskurssiksi (field courses) sekä maisteriohjelman yleisellä että erikoislinjalla (ks. [lista kursseista](https://wiki.helsinki.fi/pages/viewpage.action?pageId=206898484)). Se opetetaan Hankenissa.
