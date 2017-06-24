@@ -6,7 +6,7 @@
 
 **Huomaa:** kurssista "Tilastollisen päättelyn kurssi" on historian saatossa ollut useita eri versioita. Tämä sivu käsittelee uutta kurssia "Tilastollinen päättely II", joka sisällöltään ja laajuudeltaan vastaa vanhaa, 10 opintopisteen kurssia.
 
-Kurssi on **vapaaehtoinen** sekä uudessa että vanhoissa kandiohjelmassa. Kurssi "Tilastollinen päättely I" 
+Kurssi on **vapaaehtoinen** sekä uudessa että vanhoissa kandiohjelmassa.
 
 ### Kirjallisuus ja/tai muu materiaali
 
