@@ -1,8 +1,13 @@
+### MAT12004 Tilastollinen päättely I, 5 op
+
+* [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117379185)
+* [Kevään 2017 kurssisivu](http://wiki.helsinki.fi/pages/viewpage.action?pageId=197658453)
+
 ### Siirtymäsäännökset ja pakollisuus
 
 Kurssi on **pakollinen** sekä uutta että vanhaa kandia suorittaville.
 
-*Huomaa*: kurssia opetetaan nykyisin nimellä Tilastollinen päättely I (5 op).
+*Huomaa*: kurssia on opetettu aiemmin mm. nimellä Johdatus tilastolliseen päättelyyn (5 op). Lisäksi aiemmin on opetettu kurssia "Tilastollinen päättely" (ilman roomalaisia numeroita perässä), joka vastaa nykyistä jatkokurssia "Tilastollinen päättely II".
 
 ### Kirjallisuus ja/tai muu materiaali
 
@@ -32,4 +37,4 @@ Kurssikoe, johon saa lisäpisteitä harjoituksista.
 
 ### Työläys
 
-Kurssi ei ole aivan yhtä helppo kuin Todari I, eli kurssista ei pääse läpi lukion matikalla. Kohtuullisella panostuksella kurssista pääsee kuitenkin läpi hyvin arvosanoin. Laskareiden vääntämiseen ja vertaisarviointiin saa kulutettua niin paljon aikaa kuin itsestä tuntuu järkevältä.
+Kurssi ei ole aivan yhtä helppo kuin Todari I, eli kurssista ei pääse läpi lukion matikalla. Kohtuullisella panostuksella kurssista pääsee kuitenkin läpi hyvin arvosanoin. Laskareiden vääntämiseen ja vertaisarviointiin saa toki halutessaan kulumaan enemmänkin aikaa.
