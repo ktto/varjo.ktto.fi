@@ -1,8 +1,8 @@
 ### MAT21012 Differentiaaliyhtälöt I, 5 op
 
-[Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117377115 WebOodi-linkki)
-
-[Kevään 2017 kurssisivu](http://wiki.helsinki.fi/pages/viewpage.action?pageId=197658128)
+* [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117377115 WebOodi-linkki)
+* [Kevään 2017 kurssisivu](http://wiki.helsinki.fi/pages/viewpage.action?pageId=197658128)
+* [ML:n tenttiarkisto](http://wiki.helsinki.fi/pages/viewpage.action?pageId=105163102)
 
 Järjestetään nykyisin syksyisin.
 
