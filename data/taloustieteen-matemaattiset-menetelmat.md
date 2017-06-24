@@ -16,7 +16,7 @@ kokoamalla 10 opintopistettä opintoja seuraavista vaihtoehdoista (tiedot 3.6.20
 
 Luonnollisesti nämä kurssit eivät voi olla sellaisia kursseja, joita sisällytät muihin pakollisiin opintoihin (siis esimerkiksi Matemaattisen analyysin kurssit tai Lineaarialgebra ja matriisilaskenta I eivät käy).
 
-Matematiikan kandiohjelman kursseista erityisesti Differentiaaliyhtälöt I–II kattavat sisällöltään osan matemaattisten menetelmien kurssien aiheista. Myös omatoimisesta perehtymisestä kurssin kirjallisuuteen/vastaavaan materiaaliin (ks. alta) voi olla hyötyä myöhempien (maisterivaiheen) opintojen kannalta.
+Matematiikan kandiohjelman kursseista erityisesti [Differentiaaliyhtälöt I–II](https://varjo.ktto.fi/differentiaaliyhtalot-i) kattavat sisällöltään osan matemaattisten menetelmien kurssien aiheista. Myös omatoimisesta perehtymisestä kurssin kirjallisuuteen/vastaavaan materiaaliin (ks. alta) voi olla hyötyä myöhempien (maisterivaiheen) opintojen kannalta.
 
 Pieni osa kurssin aiheista on siirretty syksystä 2017 alkaen osaksi uusia, vanhat Matemaattisen analyysin kurssin ja Matemaattisen analyysin jatkokurssin korvaavia kursseja (Matemaattinen analyysi I–IV).
 
