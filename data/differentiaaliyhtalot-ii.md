@@ -1,8 +1,8 @@
 ### MAT21013 Differentiaaliyhtälöt II, 5 op
 
-[Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117377202 WebOodi-linkki)
-
-[Kevään 2017 kurssisivu](https://wiki.helsinki.fi/pages/viewpage.action?pageId=197658136)
+* [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117377202 WebOodi-linkki)
+* [Kevään 2017 kurssisivu](https://wiki.helsinki.fi/pages/viewpage.action?pageId=197658136)
+* [ML:n tenttiarkisto](http://wiki.helsinki.fi/pages/viewpage.action?pageId=105163103)
 
 Järjestetään nykyisin syksyisin.
 
