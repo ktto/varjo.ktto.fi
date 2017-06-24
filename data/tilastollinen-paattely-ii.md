@@ -1,6 +1,7 @@
 ### MAT22003 Tilastollinen päättely II, 10 op 
 
-* [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117379464), [kevään 2017 kurssin sivu](http://wiki.helsinki.fi/pages/viewpage.action?pageId=197657276)
+* [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117379464)
+* [Kevään 2017 kurssin sivu](http://wiki.helsinki.fi/pages/viewpage.action?pageId=197657276)
 
 ### Pakollisuus ja siirtymäsäännökset
 
@@ -25,6 +26,8 @@ Todari II esitietoineen on välttämätön. Kurssi on loppujen lopuksi hyvin pit
 ### Kurssin käytännöt
 
 Luennot ja viikottaiset laskuharjoitukset. Harjoituksiin voi saada apua Kumpulassa Exactum-rakennuksen kolmannen kerroksen käytävällä.
+
+Kokeisiin sai keväällä 2017 luntin mukaan. Lisäksi luennoija laati ison kasan hyviä kertausharjoituksia koetta varten, josta saa myös tuntumaa siihen, mitä kokeessa olisi hyvä osata.
 
 ### Suoritustavat
 
