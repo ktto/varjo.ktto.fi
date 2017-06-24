@@ -5,7 +5,7 @@
 
 ### Siirtymäsäännökset ja pakollisuus
 
-Kurssi on **valinnainen** osa maisterivaiheen opintoja (yksi mahdollisista taloustieteen erikoisalojen kursseista, field courses). (Ks. [lista erikoiskursseista](https://wiki.helsinki.fi/pages/viewpage.action?pageId=206898484).) 
+Kurssi on **valinnainen** osa maisterivaiheen opintoja (yksi mahdollisista taloustieteen erikoisalojen kursseista, field courses). (Ks. [lista erikoiskursseista](https://wiki.helsinki.fi/pages/viewpage.action?pageId=206898484).) Se järjestetään Aallossa.
 
 ### Muuta
 
