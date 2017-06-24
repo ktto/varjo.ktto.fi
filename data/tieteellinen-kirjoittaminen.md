@@ -18,7 +18,7 @@ Kurssilta ei todennäköisesti saa eväitä taloustieteellisen kirjoittamisen er
 
 Kurssin voi suorittaa milloin tahansa opintojen aikana. Käytännössä se on järkevää suorittaa viimeistään ennen kandin työtä. Kurssia järjestetään yleensä ainakin keväisin ja avoimessa yliopistossa kesäisin.
 
-Monilla kursseilla suoritukseen kuuluu esseen kirjoittaminen. Jos tieteellisen kirjoittamisen käytännöt tuntuvat vaikeilta, voi tästä kurssista olla jonkin verran hyötyä.
+Monilla muilla kursseilla joudut kirjoittamaan esseitä. Jos esseen kirjoittaminen tuntuu vaikealta, tästä kurssista *saattaa* olla jonkin verran hyötyä.
 
 ### Työläys
 
@@ -26,18 +26,10 @@ Kurssi ei ole erityisen vaikea. Se vaatii kuitenkin jonkin verran aikaa, koska l
 
 ### Suorittaminen
 
-Kurssi suoritetaan istumalla luennoilla ja kirjoittamalla muutaman sivun essee sekä mahdollisesti suorittamalla kuulustelu (tentti). Luennoilla voi olla yhdessä tehtäviä harjoituksia, mutta luennoijan on mahdotonta valvoa, teetkö niitä vai et.
+Kurssi suoritetaan istumalla luennoilla ja kirjoittamalla muutaman sivun essee sekä mahdollisesti suorittamalla kuulustelu (tentti). Luennoilla voi olla paikan päällä tehtäviä harjoituksia, mutta luennoijan on mahdotonta valvoa, teetkö niitä vai et.
 
-Jos et jaksa istua luennoilla, voit suorittaa kurssin kirjatenttinä. Välttämättä se ei ole yhtään sen helpompi vaihtoehto, koska sinun pitää silloin lukea kirjoista paljon uutta kieleen liittyvää käsitteistöä. Puuhan rajahyöty sen kannalta, että opit käytännössä kirjoittamaan paremmin, voi olla aika vaatimaton.
+Jos et jaksa istua luennoilla, voit suorittaa kurssin kirjatenttinä. Välttämättä se ei ole yhtään sen helpompi vaihtoehto, koska sinun pitää silloin lukea kirjoista paljon uutta kieleen liittyvää käsitteistöä. Todennäköisesti käsitteitä lukemalla et opi kirjoittamaan valtavan paljon paremmin.
 
 ### Muuta
 
-> [Paul Krugman](https://krugman.blogs.nytimes.com/2013/08/18/communicating-economics/ "Communicating Economics"): "Nobody has to read what you write". 
-
-Jos aiot työskennellä ekonomistina, on sangen todennäköistä, että joudut kirjoittamaan kaikenlaisia tekstejä. Lisäksi monet ihmiset pitävät ihan itsessään kivana ja tavoiteltavana sitä, että toiset heppulit haluavat lukea heidän ajatuksiaan.
-
-Onko tästä kurssista apua ajatusten pukemisessa sanoiksi? Jaa-a. Jos et aio tutkijaksi, *tieteellisen* kirjoittamisen erityissääntöjen omaksumisesta voi olla melko vähän hyötyä sen jälkeen, kun olet kandin ja gradun saanut kirjoitettua. Kannattaakin ehkä keskittyä kurssilla miettimään ja harjoittelemaan eniten sitä, miten saat tekstistä helposti luettavaa, houkuteltavaa ja ymmärrettävää. 
-
-Jos olet kiinnostunut asiatekstien kirjoittamisesta yleensä, kannattaa kokeilla Steven Pinkerin englanninkielistä teosta [The Sense of Style](http://stevenpinker.com/publications/sense-style-thinking-persons-guide-writing-21st-century).
-
-Jos haluat opetella hyvän työkalun (talous)tieteellisten artikkelien ja harjoitustöiden kirjoittamiseen, kannattaa harkita [LaTeX-kurssia](https://wiki.helsinki.fi/display/opetussuunnitelma/MAT20004+Latex-kurssi).
+Jos haluat opetella hyvän työkalun (talous)tieteellisten artikkelien ja harjoitustöiden kirjoittamiseen, kannattaa harkita [LaTeX-kurssia](https://wiki.helsinki.fi/display/opetussuunnitelma/MAT20004+Latex-kurssi). Opettelu vie oman aikansa, mutta säästää pidemmän päälle monelta päänsäryltä.
