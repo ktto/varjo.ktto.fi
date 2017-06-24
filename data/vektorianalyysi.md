@@ -5,14 +5,16 @@
 
 ### Siirtymäsäännökset ja pakollisuus
 
-Kurssit eivät ole sinänsä pakollisia missään taloustieteen kandi- tai maisteriohjelmissa. 
+Kurssit ovat **vapaaehtoisia** kaikissa taloustieteen kandi- tai maisteriohjelmissa. 
 
-Jos käyt Matemaattisen analyysin kurssien ("sivuaineopiskelijoiden kurssit") sijaan matematiikan perusopinnot (MAT110 eli ns. pääaineopiskelijoiden kurssit), tulet kuitenkin käytännössä tarvitsemaan opinnoissa ainakin seuraavia tietoja:
-* Useamman muuttujan differentiaali- ja integraalilaskenta (Vektorianalyysi I-II)
+Jos käyt Matemaattisen analyysin kurssien ("sivuaineopiskelijoiden kurssit") sijaan matematiikan perusopinnot (MAT110 eli ns. pääaineopiskelijoiden kurssit), tulet kuitenkin käytännössä tarvitsemaan myöhemmin opinnoissa ainakin seuraavia tietoja:
+* Useamman muuttujan differentiaali- ja integraalilaskenta (Vektorianalyysi I-II eli nämä kurssit)
 * Konveksit ja konkaavit funktiot (opiskeltava itse, ks. [lukusuosituksia](https://varjo.ktto.fi/taloustieteen-matemaattiset-menetelmat#kirjallisuus-ja-tai-muu-materiaali))
 * [Sarjat](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117375793)
 * Differentiaaliyhtälöt (ainakin [Differentiaaliyhtälöt I](https://varjo.ktto.fi/differentiaaliyhtalot-i))
 * Differenssiyhtälöt (opiskeltava itse, ks. [lukusuosituksia](https://varjo.ktto.fi/taloustieteen-matemaattiset-menetelmat#kirjallisuus-ja-tai-muu-materiaali))
+
+On sitten itsestäsi kiinni, hankitko näistä opinnoista myös suoritukset (ja jos, niin milloin).
 
 ### Kirjallisuus ja/tai muu materiaali
 
@@ -22,7 +24,7 @@ Lisälukemisena voi käyttää Analyysin kurssien monisteita ja mitä tahansa hy
 
 ### Sisältö
 
-Kyseinen kurssi on pääaineopiskelijoille suunnattu versio useamman muuttujan differentiaali- ja integraalilaskennasta.
+Kyseinen kurssi on matematiikan kandiohjelman opiskelijoille suunnattu versio useamman muuttujan differentiaali- ja integraalilaskennasta. Siinä on siis paljon päällekkäisyyttä kurssien Matemaattinen analyysi I-IV kanssa.
 
 Kurssilla
 * syvennetään Matemaattisen analyysin kursseilla (sivuainekursseilla) käsiteltyjä asioita useamman muuttujan differentiaali- ja integraalilaskennasta: esimerkiksi lauseiden todistuksia käydään perusteellisemmin läpi
