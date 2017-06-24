@@ -9,9 +9,3 @@ Jos suoritat vanhaa kandia etkä ole suorittanut tätä kurssia, voit korvata se
 ### Sisältö
 
 Kurssi oli käytännössä johdatus taloushistoriaan. Luennoilla käytiin läpi talouden vaiheita kivikaudesta toisen maailmansodan jälkeiseen aikaan.
-
-### Muuta
-
-Taloushistoria kuuluu ekonomistin yleissivistykseen: jos ei muuta, historiasta saa suhteellisuudentajua, kun huomaa, miten lujalla varmuudella taloustieteilijät ovat aikojen saatossa esittäneet jälkikäteen tarkasteltuna melko villejä väittämiä. 
-
-Jos et aio suorittaa mitään taloushistoriaa liippaavia opintoja (esim. YK-211 tai muita taloushistorian opintoja), on suositeltavaa lukea taloushistoriallista kirjallisuutta.
