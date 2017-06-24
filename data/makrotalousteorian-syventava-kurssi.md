@@ -6,7 +6,7 @@
 
 Kurssit ovat **pakollisia** kaikille maisterivaiheen opiskelijoille. 
 
-Lähtökohtaisesti suoritetaan syventävät kurssit [Macroeconomics I](https://wiki.helsinki.fi/display/MPE/Macroeconomics+1)–[Macroeconomics II](https://wiki.helsinki.fi/display/MPE/Macroeconomics+2) (vanha maisteriohjelma tai uuden maisteriohjelman yleinen linja).
+Lähtökohtaisesti suoritetaan syventävät kurssit [Macroeconomics 1](https://wiki.helsinki.fi/display/MPE/Macroeconomics+1)–[Macroeconomics 2](https://wiki.helsinki.fi/display/MPE/Macroeconomics+2) (vanha maisteriohjelma tai uuden maisteriohjelman yleinen linja).
 
 Uuden maisteriohjelman tutkimuslinjalla (research track) kuitenkin suoritetaan laajemmat, ns. tohtoritason kurssit [Advanced Macroeconomics 1](https://wiki.helsinki.fi/display/MPE/Advanced+Macroeconomics+1), [2](https://wiki.helsinki.fi/display/MPE/Advanced+Macroeconomics+2), [3](https://wiki.helsinki.fi/display/MPE/Advanced+Macroeconomics+3) ja [4](https://wiki.helsinki.fi/display/MPE/Advanced+Macroeconomics+4). WebOodi-linkki ensimmäiseen kurssiin: [Advanced Macroeconomics 1](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118983573).
 
