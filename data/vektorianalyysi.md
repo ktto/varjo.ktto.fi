@@ -2,6 +2,7 @@
 
 * WebOodi: [I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117375829), [II](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117377854)
 * Syksyn 2016 kurssisivut: [I](http://wiki.helsinki.fi/display/mathstatKurssit/Vektorianalyysi+I%2C+syksy+2016), [II](http://wiki.helsinki.fi/display/mathstatKurssit/Vektorianalyysi+II%2C+syksy+2016)
+* ML:n [tenttiarkisto](http://wiki.helsinki.fi/display/mathstatOpiskelu/Vektorianalyysi+arkisto)
 
 ### Siirtymäsäännökset ja pakollisuus
 
