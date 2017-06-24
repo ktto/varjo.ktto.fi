@@ -8,7 +8,7 @@ Järjestetään nykyisin syksyisin.
 
 ### Siirtymäsäännökset ja pakollisuus
 
-Kurssi on **valinnainen** kaikissa kandiohjelmissa.
+Kurssi on **valinnainen** kaikissa kandiohjelmissa. Kurssin käyminen on kuitenkin erityisen suositeltavaa, jos suoritat Matemaattisen analyysin kurssien ("sivuaineopiskelijoiden kurssit") sijaan matematiikan perusopinnot (MAT110 eli ns. pääaineopiskelijoiden kurssit).
 
 ### Kirjallisuus ja/tai muu materiaali
 
