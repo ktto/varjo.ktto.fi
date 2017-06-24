@@ -1,18 +1,33 @@
+### MAT22001--MAT22002 Todennäköisyyslaskenta IIa-IIb, 5+5 op 
+
+* WebOodi: [IIa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117379400), [IIb](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117379449)
+* [Syksyn 2016 kurssisivu](http://wiki.helsinki.fi/pages/viewpage.action?pageId=196948970)
+
+### Siirtymäsäännökset ja pakollisuus
+
+Kurssi on **pakollinen** kaikissa kandiohjelmissa. Syksystä 2017 alkaen kurssi on jaettu kahteen osaan. Siirtymäsäännökset ovat melko selkeät: vanha 10 op:n kurssi korvaa tarvittaessa uudet 2 x 5op:n kurssit ja päinvastoin.
+
 ### Kirjallisuus ja/tai muu materiaali
 
-Prujut sekä luentokalvot. Luentokalvot usein vain lyhennetty versio prujusta.
+Luentomateriaalit eli prujut sekä luentokalvot. Luentokalvot usein vain lyhennetty versio prujusta.
 
 ### Sisältö
 
-Muistatko vielä mitä todarin johdatuksessa kerrottiin? Tällä kurssilla käydään pikakaertauksena kaikki tutut aiheet ja syvennetään niiden tietoja sekä tutustutetaan opiskelija todennäköisyyslaskennan useamman muuttujan teoriaan. Diskreettejä ja ja jatkuvia jakaumia useammissa ulottuvuuksissa, ehdolliset jakaumat ja odotusarvot, kovariannsimatriisit. Lopuksi käsitellään myös tärkeimpiä raja-arvolauseita.
+Kurssi alkaa pikakertauksella todennäköisyyslaskennan ja kombinatoriikan perusteisiin. Melko pian edetään vähän syvemmälle satunnaismuuttujien, diskreetin ja jatkuvan jakauman sekä odotusarvon määritelmiin.
+
+Kokonaan uutta asiaa tulee paljon: useampiulotteisia jakaumia (satunnaismuuttujien sijaan siirrytään satunnaisvektoreihin ja -matriiseihin), niiden tunnuslukuja (esimerkiksi kovarianssimatriisi), ehdollisia odotusarvoja sekä iso joukko erilaisia epäyhtälöitä ja raja-arvolauseita.
 
 ### Todelliset esitiedot
 
-Johdatus todennäköisyyslaskentaan. Suurta hyötyä myös useamman muuttujan differentiaali- ja integraalilaskennasta (joka useimmilla kansislaisilla sisältyy Matemaattisen analyysin jatkokurssiin)! Kumpulan analyysin kurssit suorittaneelle suositellaan rinnalle käytäväksi Vektorianalyysin kurssia.
+Periaatteessa kurssilla ei ole kummoisiakaan esitietoja lukiomatikan lisäksi, koska kaikki tarvittavat asiat kyllä esitellään kurssilla. Käytännössä on erittäin suositeltavaa käydä ensin kurssit Lineaarialgebra ja matriisilaskenta I sekä Matemaattinen analyysi I-IV. Todarin ykköskurssi ei ole niinkään välttämätön, jos osaa hyvin lukion matematiikan todennäköisyyslaskennan, joten kurssin voi halutessaan yrittää suorittaa jo toisena opiskeluvuonna.
 
 ### Kurssin käytännöt
 
-Varsin perinteiset luennot + laskarit kerran viikossa. Yht. 12 laskarikertaa, laskareista saa hyvin lisäpisteitä kokeeseen.
+Kurssi järjestetään periodeissa I-II, ja sen suositeltu suoritusajankohta on 3. opiskeluvuoden syksyllä. 
+
+Kurssilla on varsin perinteiset luennot + laskarit kerran viikossa. Yht. 12 laskarikertaa, ja laskareista saa lisäpisteitä kokeeseen.
+
+Kurssilla on käytössä Presemo-keskustelualusta, ja monesta muusta kurssista poiketen siitä on usein ollut myös hyötyä laskareiden tekemisessä. Erityisesti luennoija eli Petteri seuraa Presemoa aktiivisesti.
 
 ### Suoritustavat
 
@@ -24,4 +39,4 @@ Varsin perinteiset luennot + laskarit kerran viikossa. Yht. 12 laskarikertaa, la
 
 ### Muuta
 
-Lunttilaput ovat kultaa, niihin kannattaa panostaa!
+Kurssin luennoija Petteri on poikkeuksellisen motivoitunut luennoija, jonka voi usein yhyttää myös Kumpulan kolmoskerroksen käytäviltä ja vetää hihasta. (Kannattaa tosin varautua siihen, että kysymykseen saattaa tulla huomattavan laaja ja monipolvinen vastaus.)
