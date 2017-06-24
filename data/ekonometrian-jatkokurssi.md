@@ -1,11 +1,19 @@
+### ECOM-G314 Econometrics 1, 5 op ja ECOM-G315 Econometrics 2, 5 op
+
+* Kurssit WebOodissa: [1](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118167563) ja [2](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118978105)
+
 ### Pakollisuus ja siirtymäsäännökset
 
-Kurssi kuuluu syventäviin opintoihin, ja on **pakollinen** maisteriohjelmissa.
+Kurssit kuuluvat syventäviin opintoihin, ja ovat **pakollisia** kaikissa maisteriohjelmissa.
 
-Kurssia vastaavat uudet kurssit ovat yleisen linjan opiskelijoille kurssit [Econometrics I](https://wiki.helsinki.fi/display/MPE/Econometrics+1) ja [II](https://wiki.helsinki.fi/display/MPE/Econometrics+2), tutkimussuunnan opiskelijoille kurssit [Advanced Econometrics I](https://wiki.helsinki.fi/display/MPE/Advanced+Econometrics+1)–IV. 
+Lähtökohtaisesti suoritetaan syventävät kurssit [Econometrics 1](https://wiki.helsinki.fi/display/MPE/Econometrics+1)–[Econometrics 2](https://wiki.helsinki.fi/display/MPE/Econometrics+2) (vanha maisteriohjelma tai uuden maisteriohjelman yleinen linja).
 
-Ensimmäiset kokonaisuuksien kurssit WebOodissa: [Econometrics I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118167563]), [Advanced Econometrics I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118984297).
+Uuden maisteriohjelman tutkimuslinjalla (research track) kuitenkin suoritetaan laajemmat, ns. tohtoritason kurssit [Advanced Econometrics I](https://wiki.helsinki.fi/display/MPE/Advanced+Econometrics+1)–IV. 
+
+Katso tarkemmin [uuden maisteriohjelman infopaketti](http://wiki.helsinki.fi/display/MPE/Home+of+MPE?preview=%2F206897506%2F218844673%2FInfo%20Session%2013%20June.pdf).
 
 ### Huomioita kurssista
 
-Jakaantunut nykyään kahteen osaan. Ensimmäisessä osassa käydään kanditason ekonometriaa läpi, mutta sukelletaan paljon syvemmälle. Paljon teknistä pyörittelyä, joka tulee hallita tentissä. Toinen osio keskittyy aikasarjoihin ja uutta asiaa tulee vauhdilla. Molemmat kurssit vaativat todella paljon töitä mikäli hyvän numeron haluaa.
+Ensimmäisessä osassa käydään kanditason ekonometriaa läpi, mutta sukelletaan paljon syvemmälle. Paljon teknistä pyörittelyä, joka tulee hallita tentissä. 
+
+Toinen osio keskittyy aikasarjoihin ja uutta asiaa tulee vauhdilla. Molemmat kurssit vaativat todella paljon töitä mikäli hyvän numeron haluaa.
