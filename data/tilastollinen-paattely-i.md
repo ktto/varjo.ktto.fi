@@ -2,6 +2,7 @@
 
 * [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117379185)
 * [Kevään 2017 kurssisivu](http://wiki.helsinki.fi/pages/viewpage.action?pageId=197658453)
+* [Kurssi Moodin varjo-opinto-oppaassa](https://wiki.helsinki.fi/pages/viewpage.action?pageId=135074974)
 
 ### Siirtymäsäännökset ja pakollisuus
 
