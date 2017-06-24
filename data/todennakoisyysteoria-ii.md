@@ -1,0 +1,1 @@
+Matikan syventävä kurssi, jolla nimensä mukaisesti rakennetaan todennäköisyysteorian aksiomaattista perustaa mittateorian avulla. **Vapaaehtoinen** kaikissa kandiohjelmissa.
