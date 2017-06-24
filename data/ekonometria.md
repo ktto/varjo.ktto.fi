@@ -1,4 +1,6 @@
-WebOodi-linkit: [Ekonometria I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118845407), [Ekonometria II](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118845414).
+### ECOK-216 TA7a Ekonometria I, 5 op ja ECOK-217 TA7b Ekonometria II, 5 op 
+
+* WebOodi-linkit: [Ekonometria I](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118845407), [Ekonometria II](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=118845414).
 
 ### Siirtymäsäännökset ja pakollisuus
 
@@ -24,7 +26,7 @@ haastavia.
 
 ### Kurssin käytännöt
 
-Huomaathan, että kurssit opetetaan periodeissa **I ja II**. (Aiemmin opetusperiodit olivat III ja IV.) Suositeltava suoritusajankohta on kolmas opiskeluvuosi.
+Huomaathan, että kurssit opetetaan nykyisin periodeissa **I ja II**. (Aiemmin opetusperiodit olivat III ja IV.) Suositeltava suoritusajankohta on kolmas opiskeluvuosi.
 
 Kummallakin kurssilla on yhteensä 18 tuntia luentoja ja 6–8 tuntia laskareita. Kurssia opettaa Jani Luoto.
 
