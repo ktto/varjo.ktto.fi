@@ -1,3 +1,8 @@
+### MAT12003 Todennäköisyyslaskenta I, 5 op
+
+* [Kurssi WebOodissa](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117376940)
+* [Kevään 2017 kurssisivu](http://wiki.helsinki.fi/pages/viewpage.action?pageId=197658383)
+
 ### Siirtymäsäännökset ja pakollisuus
 
 Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville.
@@ -6,13 +11,13 @@ Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville.
 
 _Pekka Tuominen: Todennäköisyyslaskenta I_, Limes ry.
 
-Kirja on huomattavasti laajempi kuin kurssi. Se saattaa myös tuntua aluksi vähän vaikealukuiselta. Kirjassa esimerkiksi kerrotaan sigma-algebrasta, Borelin joukoista ja Borelin funktioista. Koska todellisuudessa näiden asioiden käsittelemiseen ei ole tässä vaiheessa opintoja mitään järkeviä välineitä, näiden mainintojen jälkeen siirrytään sitten tyynesti puhumaan muista asioista.
+Kirja on huomattavasti laajempi kuin kurssi. Se saattaa myös tuntua aluksi vähän vaikealukuiselta. Kirjassa esimerkiksi kerrotaan sigma-algebrasta, Borelin joukoista ja Borelin funktioista. Niistä saattaa olla myös jokin maininta luennoilla. Käytännössä niiden käsittelemiseksi ei kuitenkaan ole työkaluja, joten hyvin luultavasti pystyt suorittamaan kaikki pakolliset kurssit niitä ymmärtämättä. (Jos aihe kiinnostaa, tutustu kursseihin Mitta ja integraali ja/tai Todennäköisyysteoria I.)
 
 Vaihtoehtoisena lukemisena voi mainiosti käyttää Todennäköisyyslaskenta II -kurssin opetusmonistetta ja vaikka lukion todennäköisyyslaskennan kirjoja.
 
 ### Sisältö
 
-Mm. klassinen todennäköisyys, satunnaismuuttuja, jakauman käsite ja yksinkertaiset perusjakaumat, odotusarvo, varianssi, ehdollinen todennäköisyys ja riippumattomuus, Bayesin kaava ja korrelaatio. Kirjasta käsitellään:
+Tärkeimpiä käsitteitä mm. klassinen todennäköisyys, satunnaismuuttuja, jakauman käsite ja yksinkertaiset perusjakaumat, odotusarvo, varianssi, ehdollinen todennäköisyys ja riippumattomuus, Bayesin kaava ja korrelaatio. Kirjasta käsitellään:
 * Luku 1 Todennäköisyys kokonaan (ainakin teoriassa)
 * Luku 2 Satunnaismuuttujat (ei kappaletta 2.5)
 * Luku 3 Odotusarvo ja muita jakauman tunnuksia (ei kappaleita 3.3 ja 3.6-3.9)
