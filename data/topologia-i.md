@@ -5,7 +5,7 @@
 
 ### Siirtymäsäännökset ja pakollisuus
 
-Kurssi on **valinnainen** kaikissa taloustieteen kandiohjelmissa.
+Kurssi on **valinnainen** kaikissa taloustieteen kandiohjelmissa. Syksystä 2016 alkaen se on jaettu kahteen osaan, IA ja IB.
 
 ### Kirjallisuus
 
