@@ -29,3 +29,4 @@ Kurssin pääsee läpi vähemmälläkin työllä. Kurssin aiheet tosin ovat sen 
 ### Muuta
 
 Kurssi on suunnattu vaihto-opiskelijoille, joten opetus on englanniksi. Luennoilla saa usein aikaiseksi mielenkiintoisia keskusteluja ulkomaisten opiskelijoiden kanssa.
+
