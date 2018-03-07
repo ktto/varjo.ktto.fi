@@ -186,7 +186,6 @@ export default {
 
 function read (path) {
   return fs.readFileAsync(`${DATA_DIR}/${path}`, 'utf8')
-    .catch(err => `Error reading ${path}: ${err}`)
 }
 
 function write (path, content) {

@@ -10,7 +10,7 @@ export default function http (method, url, data, sendJson = true, uploadHandler)
     req.responseType = 'json'
     req.onload = () => req.status === 200
       ? resolve(req.response)
-      : reject(new Error(`${req.status}: ${req.statusText}`))
+      : reject(new Error(`${req.status}: ${req.statusText} --- ${req.response.error}`))
     req.send(sendJson ? JSON.stringify(data) : data)
   })
 }
