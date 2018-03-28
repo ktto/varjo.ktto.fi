@@ -51,7 +51,7 @@
     "react-dom": "^15.3.2",
     "react-dropzone": "^3.7.3",
     "react-mini-router": "^2.0.0",
-    "redirect-https": "^1.1.1",
+    "redirect-https": "1.1.5",
     "uglifyjs": "^2.4.10"
   },
   "devDependencies": {
