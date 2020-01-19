@@ -1,4 +1,4 @@
-### MAT11012 Matemaattinen analyysi III, 5 op ja MAT11013 Matemaattinen analyysi IV, 5 op!
+### MAT11012 Matemaattinen analyysi III, 5 op ja MAT11013 Matemaattinen analyysi IV, 5 op
 
 * WebOodi: [Analyysi III](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117787971), [Analyysi IV](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117787977)
 * [Syksyn 2016 kurssin sivu](https://wiki.helsinki.fi/display/mathstatKurssit/Matemaattisen+analyysin+kurssi%2C+syksy+2016)
