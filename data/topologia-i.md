@@ -1,4 +1,4 @@
-### MAT21005-21006 Topologia IA-B, 5+5 op
+### MAT21005-21006 Topologia IA-B, 5+5  op
 
 * WebOodi: [IA](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117376344), [IB](https://weboodi.helsinki.fi/hy/opintjakstied.jsp?OpinKohd=117376400)
 * Syksyn 2016 kurssisivut: [IA](http://wiki.helsinki.fi/display/mathstatKurssit/Topologia+IA%2C+syksy+2016), [IB]( http://wiki.helsinki.fi/display/mathstatKurssit/Topologia+IB%2C+syksy+2016)
