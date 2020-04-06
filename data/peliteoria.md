@@ -10,7 +10,7 @@ Kurssi on **pakollinen** sekä vanhaa että uutta kandia suorittaville. Kurssi j
 
 Kurssista selviää erittäin hyvin pelkän luentomateriaalin (löytyy kurssin Moodle-sivulta) avulla.
 
-Ainakin syksyn 2017 luennoilla käytettiin paljon aikaa käytännön esimerkkien tekemiseen. Ne ovat todennäköisesti tärkein apuväline kurssin suorittamiseksi, ja luennoilla tehtyjä harjoituksia ei julkaista verkossa.
+Ainakin syksyn 2019 luennoilla käytettiin paljon aikaa käytännön esimerkkien tekemiseen. Ne ovat todennäköisesti tärkein apuväline kurssin suorittamiseksi, ja luennoilla tehtyjä harjoituksia ei julkaista verkossa.
 
 Opiskelun apuna käytetään kirjaa Osborne: An Introduction to Game Theory.
 
